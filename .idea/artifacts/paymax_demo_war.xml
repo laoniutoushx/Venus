@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="paymax-demo:war">
+    <output-path>$PROJECT_DIR$/paymax-demo/target</output-path>
+    <root id="archive" name="PaymaxDemo.war">
+      <element id="artifact" artifact-name="paymax-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

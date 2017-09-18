@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springsourcetest:war">
+    <output-path>$PROJECT_DIR$/springsourcetest/target</output-path>
+    <root id="archive" name="spring-source-test.war">
+      <element id="artifact" artifact-name="springsourcetest:war exploded" />
+    </root>
+  </artifact>
+</component>

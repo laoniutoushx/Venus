@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" filepath="$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SPA/SPA.iml" filepath="$PROJECT_DIR$/SPA/SPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Venus.iml" filepath="$PROJECT_DIR$/Venus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" filepath="$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" filepath="$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" filepath="$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" filepath="$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/native-pay/native-pay.iml" filepath="$PROJECT_DIR$/native-pay/native-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paymax-demo/paymax-demo.iml" filepath="$PROJECT_DIR$/paymax-demo/paymax-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paymax-server-sdk-java/paymax-server-sdk-java.iml" filepath="$PROJECT_DIR$/paymax-server-sdk-java/paymax-server-sdk-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springsourcetest/springsourcetest.iml" filepath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webSocketShow/webSocketShow.iml" filepath="$PROJECT_DIR$/webSocketShow/webSocketShow.iml" />
+    </modules>
+  </component>
+</project>

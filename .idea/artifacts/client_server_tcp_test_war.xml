@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="client-server-tcp-test:war">
+    <output-path>$PROJECT_DIR$/client-server-tcp-test/target</output-path>
+    <root id="archive" name="com.haruhi.client-server-tcp-test.war">
+      <element id="artifact" artifact-name="client-server-tcp-test:war exploded" />
+    </root>
+  </artifact>
+</component>
