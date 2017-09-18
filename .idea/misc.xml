@@ -60,6 +60,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/SPA/pom.xml" />
       </set>
     </option>
   </component>

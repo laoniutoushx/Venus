@@ -27,7 +27,6 @@
         <module name="client-server-test" />
         <module name="paymax-demo" />
         <module name="paymax-server-sdk-java" />
-        <module name="SPA" />
         <module name="springsourcetest" />
       </profile>
     </annotationProcessing>
