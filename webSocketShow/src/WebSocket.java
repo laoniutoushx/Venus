@@ -31,7 +31,7 @@ public class WebSocket implements Runnable {
         while (true) {
 
             try {
-                Socket socket = new Socket("10.10.90.16", 8888);
+                Socket socket = new Socket("10.10.90.17", 8888);
                 PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), "UTF-8"));
                 out.println(haruhi);
                 out.flush();
@@ -42,7 +42,7 @@ public class WebSocket implements Runnable {
                 e.printStackTrace();
             }
             try {
-                Thread.sleep(300);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
