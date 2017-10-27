@@ -3,11 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" filepath="$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Venus.iml" filepath="$PROJECT_DIR$/Venus.iml" />
       <module fileurl="file://$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" filepath="$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" filepath="$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" filepath="$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" filepath="$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" filepath="$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" filepath="$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/native-pay/native-pay.iml" filepath="$PROJECT_DIR$/native-pay/native-pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/paymax-demo/paymax-demo.iml" filepath="$PROJECT_DIR$/paymax-demo/paymax-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/paymax-server-sdk-java/paymax-server-sdk-java.iml" filepath="$PROJECT_DIR$/paymax-server-sdk-java/paymax-server-sdk-java.iml" />

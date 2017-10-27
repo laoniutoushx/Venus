@@ -25,6 +25,7 @@
         <processorPath useClasspath="true" />
         <module name="client-server-tcp-test" />
         <module name="client-server-test" />
+        <module name="minsheng- bank-demo" />
         <module name="paymax-demo" />
         <module name="paymax-server-sdk-java" />
         <module name="springsourcetest" />
@@ -33,6 +34,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="client-server-tcp-test" target="1.8" />
       <module name="Concurrency" target="1.5" />
+      <module name="minsheng- bank-demo" target="1.5" />
       <module name="paymax-demo" target="1.5" />
       <module name="paymax-server-sdk-java" target="1.8" />
       <module name="SPA" target="1.5" />

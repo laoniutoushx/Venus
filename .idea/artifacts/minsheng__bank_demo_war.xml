@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="minsheng- bank-demo:war">
+    <output-path>$PROJECT_DIR$/minsheng- bank-demo/target</output-path>
+    <root id="archive" name="minsheng- bank-demo.war">
+      <element id="artifact" artifact-name="minsheng- bank-demo:war exploded" />
+    </root>
+  </artifact>
+</component>
