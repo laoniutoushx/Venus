@@ -85,7 +85,7 @@ public class MinShengBankServlet extends HttpServlet {
         String tradeNO = payInfo.split("\\|\\|")[0].split("=")[1];
         System.out.println(new SimpleDateFormat("HH:mm:ss").format(new Date()));
         //req.getRequestDispatcher("https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2016082000297197&scope=auth_base&redirect_uri=http%3A%2F%2F192.168.2.120%3A8080%2FminSheng_Alipay_JSAPI.jsp").forward(req, resp);
-        resp.sendRedirect("https://openauth.alipaydev.com/oauth2/publicAppAuthorize.htm?app_id=2016082000297197&scope=auth_base&redirect_uri=http%3A%2F%2F192.168.2.120%3A8080%2FminSheng_Alipay_JSAPI.jsp&state="+tradeNO);
+        resp.sendRedirect("https://openauth.alipaydev.com/oauth2/publicAppAuthorize.htm?app_id=2016082000297197&scope=auth_base&redirect_uri=http%3A%2F%2F192.168.2.118%3A8080%2FminSheng_Alipay_JSAPI.jsp&state="+tradeNO);
         //resp.sendRedirect("https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2016082000297197&scope=auth_userinfo&redirect_uri=http%3A%2F%2F192.168.2.120%3A8080%2Fnotify");
     }
 }
