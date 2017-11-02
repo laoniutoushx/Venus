@@ -33,14 +33,11 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="client-server-tcp-test" target="1.8" />
-      <module name="Concurrency" target="1.5" />
-      <module name="minsheng- bank-demo" target="1.5" />
+      <module name="minsheng- bank-demo" target="1.8" />
       <module name="paymax-demo" target="1.5" />
       <module name="paymax-server-sdk-java" target="1.8" />
-      <module name="SPA" target="1.5" />
-      <module name="spring-test" target="1.5" />
-      <module name="springsourcetest" target="1.5" />
-      <module name="Venus" target="1.5" />
+      <module name="springsourcetest" target="1.8" />
+      <module name="Venus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

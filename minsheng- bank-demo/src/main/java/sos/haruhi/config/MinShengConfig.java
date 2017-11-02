@@ -26,11 +26,14 @@ import org.apache.http.impl.client.HttpClients;
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URLEncoder;
 import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
+
+import static java.net.URLEncoder.encode;
 
 /**
  * Description sos.haruhi.config in Venus
@@ -38,11 +41,17 @@ import java.util.Properties;
  */
 public class MinShengConfig {
 
-    final public static String platformId = "A00012017050000000545";
-    final public static String merchantNo = "M29002017100000030270";
-    final public static String userId = "2088102172266904";
+    final public static String testPlatformId = "A00012017050000000545";    // 测试平台号
+    final public static String testMerchantNo = "M29002017100000030270";    // 民生测试商户号 （北科维托测试账户）
     final public static String testURL = "http://wxpay.cmbc.com.cn:1080/mobilePlatform/appserver/lcbpPay.do";
     final public static String onLineURL = "https://epay.cmbc.com.cn/appweb/appserver/lcbpPay.do";
+
+    //final public static String testHost = "http://www.laoniutoushx.top:51595/";
+    final public static String testHost = "http://192.168.2.111:8080/";
+    final public static String test_Alipay_Anth_Redirect_Url = testHost + "minSheng_Alipay_AuthCode.jsp";
+    final public static String test_Alipay_Business_Url = testHost + "QRCode_Alipay_MinSheng";
+    final public static String test_Alipay_Notify_Url = testHost + "notify";
+    final public static String test_Alipay_Auth_Url = "https://openauth.alipaydev.com/oauth2/publicAppAuthorize.htm?app_id=2016082000297197&scope=auth_base&redirect_uri=";
 
     private static final String propsPath = "/config.properties";
     private static Properties props = new Properties();
@@ -245,8 +254,8 @@ public class MinShengConfig {
 //        HttpHost proxy = new HttpHost(proxyIp, proxyPort, protocol);
         // 1.2 参数2：创建配置参数，其中设置代理[根据需要配置1]
         RequestConfig config = RequestConfig.custom()//.setProxy(proxy)
-                .setSocketTimeout(2000).setConnectTimeout(2000)
-                .setConnectionRequestTimeout(2000)
+                .setSocketTimeout(10000).setConnectTimeout(10000)
+                .setConnectionRequestTimeout(10000)
                 .setStaleConnectionCheckEnabled(true).build();
         // 1.3 参数3：请求目标uri
         URI uri = null;
@@ -268,7 +277,7 @@ public class MinShengConfig {
         // 设置报文头
         // 2.3 封装请求参数，设置配置信息
         request.setHeader("businessContext", json);
-        request.setHeader("merchantNo", "");
+        request.setHeader("testMerchantNo", "");
         request.setHeader("merchantSeq", "");
         request.setHeader("reserve1", "");
         request.setHeader("reserve2", "");
@@ -313,10 +322,8 @@ public class MinShengConfig {
         resultStr = resultStr.replace("\r", "");
         resultStr = resultStr.replace("\t", "");
         reader.close();
-        if (response != null) {
-            response.close();
-            client.close();
-        }
+        response.close();
+        client.close();
         return resultStr;
     }
 
