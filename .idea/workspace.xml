@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="minsheng- bank-demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayCheckFileDownloadServlet.java" line="42" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7cddd1ff-667b-4118-aded-b0871bc6a6af" name="Default" comment="" />
     <ignored path="Venus.iws" />
@@ -41,10 +49,20 @@
       <file leaf-file-name="MinShengBankPayServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinShengBankPayServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="192">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinSheng2AlipayCheckFileDownloadServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayCheckFileDownloadServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,81 +71,9 @@
       <file leaf-file-name="MinSheng2AlipayQRCodeDoPayServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayQRCodeDoPayServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="117" column="19" selection-start-line="35" selection-start-column="8" selection-end-line="117" selection-end-column="19" />
+            <state relative-caret-position="218">
+              <caret line="107" column="55" selection-start-line="106" selection-start-column="8" selection-end-line="107" selection-end-column="55" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinShengConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/config/MinShengConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="44" column="70" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinShengBankNotifyServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinShengBankNotifyServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minSheng_Alipay_AuthCode.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/minSheng_Alipay_AuthCode.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="44" column="30" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minSheng_Wxpay_AuthCode.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/minSheng_Wxpay_AuthCode.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxPayAuthCodeServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/WxPayAuthCodeServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +85,8 @@
       <list>
         <option value="HTML File" />
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -161,17 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/security/rsa/RSAKeyFactory.class" />
-        <option value="$PROJECT_DIR$/SPA/pom.xml" />
-        <option value="$PROJECT_DIR$/lakala-bount-pay-demo/web/pay.jsp" />
-        <option value="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/config/LakalPayConfig.java" />
-        <option value="$PROJECT_DIR$/alipay-demo-haruhi/web/wappay/pay.jsp" />
-        <option value="$PROJECT_DIR$/alipay-demo-haruhi/src/com/alipay/config/AlipayConfig.java" />
-        <option value="$PROJECT_DIR$/Crypto&amp;Decrypt/src/sos/haruhi/crypto/Base64Crypto.java" />
-        <option value="$PROJECT_DIR$/Crypto&amp;Decrypt/src/sos/haruhi/crypto/MD5.java" />
-        <option value="$PROJECT_DIR$/SPA/src/main/webapp/home.html" />
-        <option value="$PROJECT_DIR$/SPA/src/main/webapp/404.html" />
-        <option value="$PROJECT_DIR$/native-pay/src/config.properties" />
         <option value="$PROJECT_DIR$/native-pay/src/com/swiftpass/action/TestPayServlet.java" />
         <option value="$PROJECT_DIR$/spring-test/pom.xml" />
         <option value="$PROJECT_DIR$/spring-test/src/main/java/sos/haruhi/test/BeginAgain.java" />
@@ -211,7 +146,18 @@
         <option value="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/minSheng_Alipay_AuthCode.jsp" />
         <option value="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/AlipayAuthCodeServlet.java" />
         <option value="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/AlipayQRCodeDoPayServlet.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/test/TestClz.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/GetOutClass.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/Content.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/Contents.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/Destination.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/InnerClzAndUpCase.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/test/TestInnerClassAndUpCase.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/another/InnerClzAndUpCaseSub.java" />
+        <option value="$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/AnonymousInnerClz.java" />
+        <option value="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2WxpayQRCodeDoPayServlet.java" />
         <option value="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/config/MinShengConfig.java" />
+        <option value="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayCheckFileDownloadServlet.java" />
       </list>
     </option>
   </component>
@@ -242,8 +188,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -296,6 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,7 +271,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="minsheng- bank-demo" />
+              <option name="myItemId" value="MinSheng-Bank-javaDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,82 +286,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="minsheng- bank-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Venus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Venus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minsheng- bank-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Venus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Venus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minsheng- bank-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,13 +382,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MinSheng-Bank-javaDemo" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -529,6 +398,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/lib" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -565,9 +435,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.MinShengBank">
-    <configuration default="false" name="WebSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WebSocket" />
+    <configuration default="false" name="GetOutClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sos.haruhi.clz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.clz.GetOutClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -576,18 +451,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="webSocketShow" />
+      <module name="InnerClass" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="SequentialNAV (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestClz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.crypto.*" />
+          <option name="PATTERN" value="sos.haruhi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.crypto.SequentialNAV" />
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.test.TestClz" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -596,38 +471,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Crypto&amp;Decrypt" />
+      <module name="InnerClass" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="HaruhiMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestInnerClassAndUpCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="sos.haruhi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="util.HaruhiMap" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DesignPattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MinShengBankPayServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sos.haruhi.servlet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.servlet.MinShengBankPayServlet" />
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.test.TestInnerClassAndUpCase" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -636,18 +491,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="minsheng- bank-demo" />
+      <module name="InnerClass" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MinShengConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="InnerClzAndUpCaseSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.config.*" />
+          <option name="PATTERN" value="sos.haruhi.another.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.config.MinShengConfig" />
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.another.InnerClzAndUpCaseSub" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -656,7 +511,27 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="minsheng- bank-demo" />
+      <module name="InnerClass" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AnonymousInnerClz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sos.haruhi.clz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.clz.AnonymousInnerClz" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InnerClass" />
       <envs />
       <method />
     </configuration>
@@ -2705,19 +2580,19 @@
       <item index="3" class="java.lang.String" itemvalue="Tomcat Server.alipay-demo" />
       <item index="4" class="java.lang.String" itemvalue="Tomcat Server.Paymax-Demo" />
       <item index="5" class="java.lang.String" itemvalue="Tomcat Server.lakala-bound-pay" />
-      <item index="6" class="java.lang.String" itemvalue="Application.WebSocket" />
-      <item index="7" class="java.lang.String" itemvalue="Application.SequentialNAV (1)" />
-      <item index="8" class="java.lang.String" itemvalue="Application.HaruhiMap" />
-      <item index="9" class="java.lang.String" itemvalue="Application.MinShengBankPayServlet" />
-      <item index="10" class="java.lang.String" itemvalue="Application.MinShengConfig" />
+      <item index="6" class="java.lang.String" itemvalue="Application.GetOutClass" />
+      <item index="7" class="java.lang.String" itemvalue="Application.TestClz" />
+      <item index="8" class="java.lang.String" itemvalue="Application.TestInnerClassAndUpCase" />
+      <item index="9" class="java.lang.String" itemvalue="Application.InnerClzAndUpCaseSub" />
+      <item index="10" class="java.lang.String" itemvalue="Application.AnonymousInnerClz" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MinShengConfig" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinShengBankPayServlet" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HaruhiMap" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WebSocket" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SequentialNAV (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AnonymousInnerClz" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InnerClzAndUpCaseSub" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestInnerClassAndUpCase" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GetOutClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestClz" />
       </list>
     </recent_temporary>
   </component>
@@ -2791,11 +2666,15 @@
       <workItem from="1509585487288" duration="2156000" />
       <workItem from="1509592892604" duration="2482000" />
       <workItem from="1509602563059" duration="2571000" />
+      <workItem from="1509669426390" duration="772000" />
+      <workItem from="1509670340819" duration="2008000" />
+      <workItem from="1509780000571" duration="601000" />
+      <workItem from="1509861907487" duration="18440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331509000" />
+    <option name="totallyTimeSpent" value="353330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2807,7 +2686,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="0" width="1378" height="754" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2819,13 +2698,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27216175" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26211452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2897,6 +2776,12 @@
           <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayCheckFileDownloadServlet.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -2906,7 +2791,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="95" />
+      <option name="time" value="98" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2915,69 +2800,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/com/sun/javafx/collections/MapListenerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5556">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="455" column="15" selection-start-line="455" selection-start-column="15" selection-end-line="455" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="1109" column="0" selection-start-line="1109" selection-start-column="0" selection-end-line="1109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="366" column="34" selection-start-line="366" selection-start-column="34" selection-end-line="366" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="719" column="0" selection-start-line="719" selection-start-column="0" selection-end-line="719" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="1466" column="33" selection-start-line="1466" selection-start-column="33" selection-end-line="1466" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2541">
-          <caret line="323" column="23" selection-start-line="323" selection-start-column="23" selection-end-line="323" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/Observe/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesignPattern/src/util/HaruhiMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -3036,7 +2858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/src/test/SignEncryptDncryptSignChk.java" />
     <entry file="file://$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/src/test/config.properties" />
     <entry file="file://$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/src/test/Config.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
@@ -3085,7 +2906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3109,16 +2929,6 @@
         <state relative-caret-position="588">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/WxPayAuthCodeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3182,7 +2992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3209,21 +3018,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinShengBankPayServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/lib/SADK-CMBC-3.1.0.8.jar!/cfca/sm2rsa/common/Mechanism.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3235,27 +3033,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayQRCodeDoPayServlet.java">
+    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinShengBankNotifyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="117" column="19" selection-start-line="35" selection-start-column="8" selection-end-line="117" selection-end-column="19" />
+        <state relative-caret-position="357">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinShengBankNotifyServlet.java">
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/sos/haruhi/test/TestClz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#314#315#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/sos/haruhi/another/InnerClzAndUpCaseSub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#339#340#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#471#472#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/sos/haruhi/test/TestInnerClassAndUpCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/InnerClzAndUpCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/GetOutClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#234#235#0" expanded="false" />
+            <element signature="e#281#282#0" expanded="false" />
+            <element signature="e#323#324#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/Destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/Contents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/sos/haruhi/clz/AnonymousInnerClz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/src/test/SignEncryptDncryptSignChk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2832">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2WxpayQRCodeDoPayServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/config/MinShengConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="44" column="70" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="70" />
+        <state relative-caret-position="399">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinShengBankPayServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayQRCodeDoPayServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="107" column="55" selection-start-line="106" selection-start-column="8" selection-end-line="107" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayCheckFileDownloadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3278,9 +3210,9 @@
           <artifact-editor>
             <show-content>
               <type id="artifact" />
-              <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
               <type id="library" />
+              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
           <last-edited>native-pay:Web exploded</last-edited>
@@ -3332,11 +3264,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>minsheng- bank-demo</last-edited>
+          <last-edited>MinSheng-Bank-javaDemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.21222606" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -43,11 +43,13 @@ public class MinShengConfig {
 
     final public static String testPlatformId = "A00012017050000000545";    // 测试平台号
     final public static String testMerchantNo = "M29002017100000030270";    // 民生测试商户号 （北科维托测试账户）
-    final public static String testURL = "http://wxpay.cmbc.com.cn:1080/mobilePlatform/appserver/lcbpPay.do";
-    final public static String onLineURL = "https://epay.cmbc.com.cn/appweb/appserver/lcbpPay.do";
+    final public static String test_Dopay_URL = "http://wxpay.cmbc.com.cn:1080/mobilePlatform/appserver/lcbpPay.do";
+    final public static String test_Download_URL = "http://wxpay.cmbc.com.cn:1080/mobilePlatform/fileDownload.do";
+    final public static String onLine_Dopay_URL = "https://epay.cmbc.com.cn/appweb/appserver/lcbpPay.do";
+    final public static String onLine_Download_URL = "https://epay.cmbc.com.cn/appweb/fileDownload.do";
 
-    //final public static String testHost = "http://www.laoniutoushx.top:51595/";
-    final public static String testHost = "http://192.168.2.111:8080/";
+    final public static String testHost = "http://www.laoniutoushx.top:51595/";
+    //final public static String testHost = "http://192.168.2.115:8080/";
     final public static String test_Alipay_Anth_Redirect_Url = testHost + "minSheng_Alipay_AuthCode.jsp";
     final public static String test_Alipay_Business_Url = testHost + "QRCode_Alipay_MinSheng";
     final public static String test_Alipay_Notify_Url = testHost + "notify";

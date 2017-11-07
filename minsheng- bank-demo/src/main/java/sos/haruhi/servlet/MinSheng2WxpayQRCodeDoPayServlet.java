@@ -25,7 +25,7 @@ import java.util.Date;
  * Created by SuzumiyaHaruhi on 2017/10/30.
  */
 @WebServlet(urlPatterns = "/QRCode_Wxpay_MinSheng")
-public class WxPayAuthCodeServlet extends HttpServlet {
+public class MinSheng2WxpayQRCodeDoPayServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doPost(req, resp);
@@ -53,8 +53,8 @@ public class WxPayAuthCodeServlet extends HttpServlet {
         }
         System.out.println("统一下单：");
         JSONObject obj = new JSONObject();
-        obj.put("testPlatformId", MinShengConfig.testPlatformId);
-        obj.put("testMerchantNo", MinShengConfig.testMerchantNo);
+        obj.put("platformId", MinShengConfig.testPlatformId);
+        obj.put("merchantNo", MinShengConfig.testMerchantNo);
         obj.put("selectTradeType", "H5_ZFBJSAPI");      // 支付类型
         obj.put("amount", "1");     // 交易金额，以分为单位
         obj.put("userId", user_id);     //2088102173172617");      // 支付宝沙箱用户
@@ -85,7 +85,7 @@ public class WxPayAuthCodeServlet extends HttpServlet {
         System.out.println("请求报文：");
         String returnContext = null;
         try {
-            returnContext = MinShengConfig.sendPost(MinShengConfig.testURL, encryptContext);
+            returnContext = MinShengConfig.sendPost(MinShengConfig.test_Dopay_URL, encryptContext);
         }catch(Exception e){
             e.printStackTrace();
         }finally {

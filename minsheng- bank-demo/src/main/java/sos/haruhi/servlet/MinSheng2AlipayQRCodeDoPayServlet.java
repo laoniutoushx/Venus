@@ -85,7 +85,7 @@ public class MinSheng2AlipayQRCodeDoPayServlet extends HttpServlet {
         System.out.println("请求报文：");
         String returnContext = null;
         try {
-            returnContext = MinShengConfig.sendPost(MinShengConfig.testURL, encryptContext);
+            returnContext = MinShengConfig.sendPost(MinShengConfig.test_Dopay_URL, encryptContext);
         }catch(Exception e){
             e.printStackTrace();
         }finally {
