@@ -23,12 +23,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="client-server-tcp-test" />
         <module name="client-server-test" />
-        <module name="minsheng- bank-demo" />
-        <module name="paymax-demo" />
-        <module name="paymax-server-sdk-java" />
-        <module name="springsourcetest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
