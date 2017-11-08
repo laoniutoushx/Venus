@@ -4,7 +4,9 @@ import Observe.Listener;
 import com.sun.javafx.collections.MapListenerHelper;
 import com.sun.javafx.collections.MappingChange;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -54,5 +56,17 @@ public class HaruhiMap<K, V> {
         a ^= b;
         a ^= b;
         System.out.println(a + " : " + b);
+
+        List<? super Apple> list = new ArrayList<>();
+        list.add(new Apple());
+
     }
+
+    public <T>T say(T t){
+        System.out.println(t);
+        return t;
+    }
+
+
+
 }
