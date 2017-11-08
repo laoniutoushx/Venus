@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" filepath="$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinSheng-Bank-javaDemo/MinSheng-Bank-javaDemo.iml" filepath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/MinSheng-Bank-javaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Venus.iml" filepath="$PROJECT_DIR$/Venus.iml" />
       <module fileurl="file://$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" filepath="$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" filepath="$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" />
