@@ -2,7 +2,10 @@ package sos.haruhi.servlet;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import org.apache.commons.lang3.StringUtils;
 import sos.haruhi.config.MinShengConfig;
+import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
 
 import javax.servlet.Servlet;
 import javax.servlet.ServletException;
@@ -11,7 +14,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
 import java.util.Base64;
+import java.util.List;
 
 /**
  * Description sos.haruhi.servlet in Venus
@@ -49,10 +56,50 @@ public class MinSheng2AlipayCheckFileDownloadServlet extends HttpServlet {
         StringBuilder segmentContent = new StringBuilder();
         for(int i = 0; i < segmentCount;){
             body = download(String.valueOf(i++));
-            byte[] bytes = Base64.getDecoder().decode((String) body.get("segmentContent"));
-            segmentContent.append(new String(bytes));
+            byte[] bytes = new sun.misc.BASE64Decoder().decodeBuffer(
+                    (String) body.get("segmentContent"));
+            segmentContent.append(new String(bytes, "utf-8"));   // 文件原文
         }
+        String md5 = MinShengConfig.encoderByMd5(segmentContent.toString());
+        if(StringUtils.equals(fileMd5, md5)){
 
+        }else{
+            throw new RuntimeException("对账文件 md5 校验出错，请联系管理员");
+        }
+        String str = "A00002017010000000368|M29002017020000013282|证迹测试|" +
+                "AAAAAAAA|K20170200011663|DD2017110713573619454|" +
+                "32500201702280939388208325000001|4000442001201702281611643424|325709153015|" +
+                "微信 JS 支付|20170228|093938|6226223380006109|CFT|0.01|0.00|0.00|0.00|成功|\n" +
+                "A00002017010000000368|M29002017020000013282|证迹测试|" +
+                "AAAAAAAA|K20170200011663|6000020170228093840398327|" +
+                "32500201702280939388208325000001|4000442001201702281611643424|325709153015|" +
+                "微信 JS 支付|20170228|093938|6226223380006109|CFT|0.01|0.00|0.00|0.00|成功|\n"+
+                "A00002017010000000368|M29002017020000013282|证迹测试|" +
+                "AAAAAAAA|K20170200011663|6000020170228093840398327|" +
+                "32500201702280939388208325000001|4000442001201702281611643424|325709153015|" +
+                "微信 JS 支付|20170228|093938|6226223380006109|CFT|0.01|0.00|0.00|0.00|成功|\n"+
+                "A00002017010000000368|M29002017020000013282|证迹测试|" +
+                "AAAAAAAA|K20170200011663|6000020170228093840398327|" +
+                "32500201702280939388208325000001|4000442001201702281611643424|325709153015|" +
+                "微信 JS 支付|20170228|093938|6226223380006109|CFT|0.01|0.00|0.00|0.00|成功|\n";
+        String[] strs = str.split("\n");
+        List<String[]> list = new ArrayList<>();
+        for(String item:strs){
+            if(StringUtils.isNotBlank(item)){
+                String[] temp = new String[20];
+                temp[0] = "";
+                for(int i = 0,  j = 0; i < item.length(); i++){
+                    Character ch = item.charAt(i);
+                    if(StringUtils.equals(String.valueOf(ch), "|")){
+                        temp[++j] = "";
+                    }else{
+                        temp[j] += String.valueOf(ch);
+                    }
+                }
+                list.add(temp);
+            }
+        }
+        System.out.println(list);
     }
 
     public JSONObject download(String segmentIndex){
@@ -107,5 +154,4 @@ public class MinSheng2AlipayCheckFileDownloadServlet extends HttpServlet {
         JSONObject dncryptJSON = JSON.parseObject(dncryptContext);
         return JSON.parseObject((String) dncryptJSON.get("body"));
     }
-
 }
