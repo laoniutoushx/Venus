@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="UnionPayJar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Union-pay-ACPSample_B2C-demo/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/Union-pay-ACPSample_B2C-demo/web/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

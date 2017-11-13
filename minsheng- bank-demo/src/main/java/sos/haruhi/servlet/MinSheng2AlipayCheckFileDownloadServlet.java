@@ -3,9 +3,8 @@ package sos.haruhi.servlet;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.net.ftp.FTPClient;
 import sos.haruhi.config.MinShengConfig;
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
 
 import javax.servlet.Servlet;
 import javax.servlet.ServletException;
@@ -13,11 +12,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
-import java.util.Base64;
 import java.util.List;
 
 /**
@@ -54,36 +52,39 @@ public class MinSheng2AlipayCheckFileDownloadServlet extends HttpServlet {
         String fileMd5 = (String) body.get("fileMd5");
         int segmentCount = Integer.valueOf((String) body.get("segmentCount"));
         StringBuilder segmentContent = new StringBuilder();
+        File file = new File("S:\\download.txt");
+        List<byte[]> byteList = new ArrayList<byte[]>();
+        int length = 0;
         for(int i = 0; i < segmentCount;){
-            body = download(String.valueOf(i++));
+            body = download(String.valueOf(++i));
             byte[] bytes = new sun.misc.BASE64Decoder().decodeBuffer(
                     (String) body.get("segmentContent"));
-            segmentContent.append(new String(bytes, "utf-8"));   // 文件原文
+            length += bytes.length;
+            byteList.add(bytes);
+            segmentContent.append(new String(bytes, "gbk"));   // 文件原文
         }
-        String md5 = MinShengConfig.encoderByMd5(segmentContent.toString());
+        byte[] result = new byte[length];
+        length = 0;
+        for(byte[] item:byteList){
+            System.arraycopy(item, 0, result, length, item.length);
+            length += item.length;
+        }
+        FileOutputStream fos = new FileOutputStream(file);
+        for(byte[] item:byteList){
+            fos.write(item);
+        }
+        fos.flush();
+        fos.close();
+
+        String md5 = MinShengConfig.encoderByMd5(result);
         if(StringUtils.equals(fileMd5, md5)){
 
         }else{
-            throw new RuntimeException("对账文件 md5 校验出错，请联系管理员");
+//            throw new RuntimeException("对账文件 md5 校验出错，请联系管理员");
         }
-        String str = "A00002017010000000368|M29002017020000013282|证迹测试|" +
-                "AAAAAAAA|K20170200011663|DD2017110713573619454|" +
-                "32500201702280939388208325000001|4000442001201702281611643424|325709153015|" +
-                "微信 JS 支付|20170228|093938|6226223380006109|CFT|0.01|0.00|0.00|0.00|成功|\n" +
-                "A00002017010000000368|M29002017020000013282|证迹测试|" +
-                "AAAAAAAA|K20170200011663|6000020170228093840398327|" +
-                "32500201702280939388208325000001|4000442001201702281611643424|325709153015|" +
-                "微信 JS 支付|20170228|093938|6226223380006109|CFT|0.01|0.00|0.00|0.00|成功|\n"+
-                "A00002017010000000368|M29002017020000013282|证迹测试|" +
-                "AAAAAAAA|K20170200011663|6000020170228093840398327|" +
-                "32500201702280939388208325000001|4000442001201702281611643424|325709153015|" +
-                "微信 JS 支付|20170228|093938|6226223380006109|CFT|0.01|0.00|0.00|0.00|成功|\n"+
-                "A00002017010000000368|M29002017020000013282|证迹测试|" +
-                "AAAAAAAA|K20170200011663|6000020170228093840398327|" +
-                "32500201702280939388208325000001|4000442001201702281611643424|325709153015|" +
-                "微信 JS 支付|20170228|093938|6226223380006109|CFT|0.01|0.00|0.00|0.00|成功|\n";
-        String[] strs = str.split("\n");
-        List<String[]> list = new ArrayList<>();
+
+        String[] strs = segmentContent.toString().split("\n");
+        List<String[]> list = new ArrayList<String[]>();
         for(String item:strs){
             if(StringUtils.isNotBlank(item)){
                 String[] temp = new String[20];
@@ -99,13 +100,19 @@ public class MinSheng2AlipayCheckFileDownloadServlet extends HttpServlet {
                 list.add(temp);
             }
         }
+        System.out.println(System.getProperty("user.dir"));
+        FTPClient ftp = new FTPClient();
+//        String sss = segmentContent.toString();
+//        InputStream is = new DataInputStream();
+//        ftp.storeFile("", is);
+
         System.out.println(list);
     }
 
     public JSONObject download(String segmentIndex){
         JSONObject obj = new JSONObject();
         obj.put("platformId", MinShengConfig.testPlatformId);   // 接入平台号
-        obj.put("slcTransDate", "20171104");    // 交易明细单日期
+        obj.put("slcTransDate", "20171109");    // 交易明细单日期
         obj.put("segmentIndex", segmentIndex);      // 块文件索引
         obj.put("fileType", "ZFB");     //  文件类型
         obj.put("segmentSize", "1024");       // 块大小
@@ -140,7 +147,6 @@ public class MinSheng2AlipayCheckFileDownloadServlet extends HttpServlet {
         }
         JSONObject returnJSON = JSON.parseObject(returnContext);
 
-
         String dncryptContext = MinShengConfig.dncrypt((String) returnJSON.get("businessContext"));
         System.out.println("--------------------------------------");
         System.out.println("解密后：");
@@ -150,7 +156,6 @@ public class MinSheng2AlipayCheckFileDownloadServlet extends HttpServlet {
         System.out.println("--------------------------------------");
         System.out.println("验证签名结果：");
         System.out.println(signChkResult);
-
         JSONObject dncryptJSON = JSON.parseObject(dncryptContext);
         return JSON.parseObject((String) dncryptJSON.get("body"));
     }
