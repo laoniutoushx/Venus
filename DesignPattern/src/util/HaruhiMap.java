@@ -51,8 +51,8 @@ public class HaruhiMap<K, V> {
         a ^= b;
         System.out.println(a + " : " + b);
 
-        List<? super Apple> list = new ArrayList<>();
-        list.add(new Apple());
+        //List<? super Apple> list = new ArrayList<>();
+        //list.add(new Apple());
 
     }
 

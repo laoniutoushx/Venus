@@ -11,4 +11,14 @@ public class Publisher{
     public void sent(Event e){
 
     }
+
+    public static void main(String[] args) {
+        int i = 2;
+        try {
+            Thread.currentThread().sleep(i*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(i<<1);
+    }
 }
