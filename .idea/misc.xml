@@ -50,12 +50,14 @@
     <file type="web" url="file://$PROJECT_DIR$/SPA" />
     <file type="web" url="file://$PROJECT_DIR$/spring-test" />
     <file type="web" url="file://$PROJECT_DIR$/springsourcetest" />
+    <file type="web" url="file://$PROJECT_DIR$/union-pay-H5-netpay-demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/paymax-server-sdk-java-master/pom.xml" />
+        <option value="$PROJECT_DIR$/union-pay-H5-netpay-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -13,8 +13,10 @@
       <module fileurl="file://$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" filepath="$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" filepath="$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" filepath="$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" filepath="$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/native-pay/native-pay.iml" filepath="$PROJECT_DIR$/native-pay/native-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/union-pay-H5-netpay-demo/netpay-demo.iml" filepath="$PROJECT_DIR$/union-pay-H5-netpay-demo/netpay-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/paymax-demo/paymax-demo.iml" filepath="$PROJECT_DIR$/paymax-demo/paymax-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/paymax-server-sdk-java/paymax-server-sdk-java.iml" filepath="$PROJECT_DIR$/paymax-server-sdk-java/paymax-server-sdk-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/springsourcetest/springsourcetest.iml" filepath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" />

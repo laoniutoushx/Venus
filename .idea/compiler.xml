@@ -25,6 +25,7 @@
         <processorPath useClasspath="true" />
         <module name="client-server-test" />
         <module name="minsheng- bank-demo" />
+        <module name="netpay-demo" />
         <module name="paymax-demo" />
         <module name="springsourcetest" />
       </profile>
@@ -32,6 +33,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="client-server-tcp-test" target="1.8" />
       <module name="minsheng- bank-demo" target="1.5" />
+      <module name="netpay-demo" target="1.8" />
       <module name="paymax-demo" target="1.5" />
       <module name="paymax-server-sdk-java" target="1.8" />
       <module name="springsourcetest" target="1.5" />

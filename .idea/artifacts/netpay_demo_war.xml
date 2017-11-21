@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="netpay-demo:war">
+    <output-path>$PROJECT_DIR$/union-pay-H5-netpay-demo/target</output-path>
+    <root id="archive" name="netpay-demo.war">
+      <element id="artifact" artifact-name="netpay-demo:war exploded" />
+    </root>
+  </artifact>
+</component>
