@@ -3,11 +3,14 @@ package com.chinaums.netpay.demo.util;
 /**
  * Created by faliny on 2017/8/25.
  */
+
 import net.sf.json.JSONObject;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;
+import org.apache.commons.lang3.tuple.ImmutablePair;
+import org.apache.commons.lang3.tuple.Pair;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
@@ -58,6 +61,15 @@ public class Util {
         String date = DateFormatUtils.format(new Date(), "yyyyMMddHHmmssSSS");
         String rand = RandomStringUtils.randomNumeric(7);
         return msgId + date + rand;
+    }
+
+    public static void main(String[] args) {
+//        System.out.println(RandomStringUtils.randomNumeric(70));
+//        System.out.println(RandomStringUtils.randomAlphabetic(70));
+//        System.out.println(RandomStringUtils.randomAlphanumeric(70));
+//        System.out.println(RandomStringUtils.randomAscii(70));
+        System.out.println(DateFormatUtils.format(new Date(), "yyyyMMdd HHmmss"));
+
     }
 
     private static String buildUrlParametersStr(Map<String, String> paramMap) {

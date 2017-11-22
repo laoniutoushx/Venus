@@ -30,8 +30,8 @@ public class h5PayDemo {
     final private static String msgSrc = "test";
     final private static String mid = "898310060514010";
     final private static String instMid = "H5DEFAULT";
-    final private static String notifyUrl = "http://172.27.15.5:8080/demo/notifyUrl.do";
-    final private static String returnUrl = "http://172.27.15.5:8080/demo/returnUrl.do";
+    final private static String notifyUrl = "http://30877a7.nat123.cc:51643/demo/notifyUrl.do";
+    final private static String returnUrl = "http://30877a7.nat123.cc:51643/demo/returnUrl.do";
 
     /**
      * 接收并处理H5支付请求
