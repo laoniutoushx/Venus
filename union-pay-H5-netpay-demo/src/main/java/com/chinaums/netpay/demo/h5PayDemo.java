@@ -5,6 +5,7 @@ package com.chinaums.netpay.demo;
  */
 
 import com.chinaums.netpay.demo.domain.Goods;
+import com.chinaums.netpay.demo.util.HttpClientUtil;
 import com.chinaums.netpay.demo.util.Util;
 import net.sf.json.JSONObject;
 import org.apache.commons.lang.time.DateFormatUtils;
@@ -30,8 +31,9 @@ public class h5PayDemo {
     final private static String msgSrc = "test";
     final private static String mid = "898310060514010";
     final private static String instMid = "H5DEFAULT";
-    final private static String notifyUrl = "http://30877a7.nat123.cc:51643/demo/notifyUrl.do";
-    final private static String returnUrl = "http://30877a7.nat123.cc:51643/demo/returnUrl.do";
+    final private static String notifyUrl = "http://170890c8.nat123.cc:52651/demo/notifyUrl.do";
+    final private static String returnUrl = "http://170890c8.nat123.cc:52651/demo/returnUrl.do";
+    final private static String queryUrl = "https://mobl-test.chinaums.com/netpay-route-server/api/";
 
     /**
      * 接收并处理H5支付请求
@@ -107,4 +109,33 @@ public class h5PayDemo {
         // 验签
         boolean checkRet = Util.checkSign(md5Key, params);
     }
+
+    /**
+     * 回跳地址
+     *
+     * @param request
+     * @param response
+     * @throws Exception
+     */
+    @RequestMapping(value = "/query.do")
+    public void query(HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+        JSONObject json = new JSONObject();
+        json.put("msgId", msgId);
+        json.put("msgType", "WXPay.h5Pay");//query");
+        json.put("requestTimestamp", DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss"));
+        json.put("msgSrc", msgSrc);
+        json.put("mid", mid);
+        json.put("tid", "00000001");
+        json.put("merOrderId", "4000201711291026350861589777");
+        json.put("instMid", instMid);
+        json.put("targetOrderId", "175530315182201711296264870606");
+
+        Map<String, String> params = Util.makeParams(json, md5Key);
+
+        System.out.println(params);
+        String result = new HttpClientUtil().doPost(queryUrl, params, "UTF-8");
+        System.out.println(result);
+    }
+
 }

@@ -46,6 +46,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.3.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.5.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.8" />
         </element>
       </element>
       <element id="directory" name="META-INF">
