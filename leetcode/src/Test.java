@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -7,6 +8,8 @@ public class Test {
     public static void main(String[] args) {
         String result = "name=haruhi&age=12&index=33&class=sanyi&istrue=t";
         System.out.println(parseResult(result));
+        BigDecimal d = new BigDecimal("333.33333");
+        System.out.println(d.intValue());
     }
 
     /**

@@ -38,9 +38,6 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
-  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/alipay-demo" />
     <file type="web" url="file://$PROJECT_DIR$/client-server-tcp-test" />
@@ -50,7 +47,7 @@
     <file type="web" url="file://$PROJECT_DIR$/SPA" />
     <file type="web" url="file://$PROJECT_DIR$/spring-test" />
     <file type="web" url="file://$PROJECT_DIR$/springsourcetest" />
-    <file type="web" url="file://$PROJECT_DIR$/union-pay-H5-netpay-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/wechat-H5-netpay-demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -67,7 +64,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
