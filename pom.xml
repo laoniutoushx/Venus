@@ -19,6 +19,7 @@
         <module>springsourcetest</module>
         <module>Concurrency</module>
         <module>minsheng- bank-demo</module>
+        <module>javamail</module>
     </modules>
 
 </project>

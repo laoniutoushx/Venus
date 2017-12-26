@@ -2,28 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Eclipse" />
-    <resourceExtensions />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
-    </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="client-server-test" />
+        <module name="javamail" />
         <module name="minsheng- bank-demo" />
         <module name="netpay-demo" />
         <module name="paymax-demo" />
@@ -32,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="client-server-tcp-test" target="1.8" />
+      <module name="javamail" target="1.5" />
       <module name="minsheng- bank-demo" target="1.5" />
       <module name="netpay-demo" target="1.8" />
       <module name="paymax-demo" target="1.5" />
