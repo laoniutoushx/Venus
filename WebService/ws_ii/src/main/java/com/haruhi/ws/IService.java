@@ -60,4 +60,22 @@ public interface IService {
         @WebParam(name = "arg1", targetNamespace = "")
         int arg1);
 
+    /**
+     * 
+     * @param password
+     * @param username
+     * @return
+     *     returns com.haruhi.ws.User
+     */
+    @WebMethod
+    @WebResult(name = "loginResult", targetNamespace = "")
+    @RequestWrapper(localName = "login", targetNamespace = "http://ws.haruhi.com/", className = "com.haruhi.ws.Login")
+    @ResponseWrapper(localName = "loginResponse", targetNamespace = "http://ws.haruhi.com/", className = "com.haruhi.ws.LoginResponse")
+    @Action(input = "http://ws.haruhi.com/IService/loginRequest", output = "http://ws.haruhi.com/IService/loginResponse")
+    public User login(
+        @WebParam(name = "username", targetNamespace = "")
+        String username,
+        @WebParam(name = "password", targetNamespace = "")
+        String password);
+
 }

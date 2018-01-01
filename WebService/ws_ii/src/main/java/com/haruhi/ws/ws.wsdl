@@ -16,6 +16,12 @@
 <message name="minResponse">
 <part name="parameters" element="tns:minResponse"></part>
 </message>
+<message name="login">
+<part name="parameters" element="tns:login"></part>
+</message>
+<message name="loginResponse">
+<part name="parameters" element="tns:loginResponse"></part>
+</message>
 <portType name="IService">
 <operation name="add">
 <input wsam:Action="http://ws.haruhi.com/IService/addRequest" message="tns:add"></input>
@@ -24,6 +30,10 @@
 <operation name="min">
 <input wsam:Action="http://ws.haruhi.com/IService/minRequest" message="tns:min"></input>
 <output wsam:Action="http://ws.haruhi.com/IService/minResponse" message="tns:minResponse"></output>
+</operation>
+<operation name="login">
+<input wsam:Action="http://ws.haruhi.com/IService/loginRequest" message="tns:login"></input>
+<output wsam:Action="http://ws.haruhi.com/IService/loginResponse" message="tns:loginResponse"></output>
 </operation>
 </portType>
 <binding name="ServiceImplPortBinding" type="tns:IService">
@@ -38,6 +48,15 @@
 </output>
 </operation>
 <operation name="min">
+<soap:operation soapAction=""></soap:operation>
+<input>
+<soap:body use="literal"></soap:body>
+</input>
+<output>
+<soap:body use="literal"></soap:body>
+</output>
+</operation>
+<operation name="login">
 <soap:operation soapAction=""></soap:operation>
 <input>
 <soap:body use="literal"></soap:body>

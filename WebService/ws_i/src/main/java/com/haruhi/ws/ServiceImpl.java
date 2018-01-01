@@ -25,4 +25,11 @@ public class ServiceImpl implements IService {
         System.out.println("a - b = " + (a - b));
         return a - b;
     }
+
+    public User login(String username, String password) {
+        User user = new User();
+        user.setUsername(username);
+        user.setPassword(password);
+        return user;
+    }
 }

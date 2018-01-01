@@ -12,6 +12,7 @@ public class AppTest {
     public static void main(String[] args) {
         ServiceImplService s = new ServiceImplService();
         IService service = s.getServiceImplPort();
-        System.out.println(service.min(22, 88));
+        User user = service.login("haruhi", "6656200");
+        System.out.println(user);
     }
 }

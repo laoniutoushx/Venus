@@ -18,4 +18,6 @@ public interface IService {
     @WebMethod(operationName = "add")
     @WebResult(name = "addResult")int add(@WebParam(name = "a")int a,@WebParam(name = "b")int b);
     int min(int a, int b);
+    @WebMethod(operationName = "login")
+    @WebResult(name = "loginResult")User login(@WebParam(name = "username")String username, @WebParam(name = "password")String password);
 }

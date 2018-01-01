@@ -25,8 +25,10 @@ import javax.xml.namespace.QName;
 public class ObjectFactory {
 
     private final static QName _AddResponse_QNAME = new QName("http://ws.haruhi.com/", "addResponse");
+    private final static QName _LoginResponse_QNAME = new QName("http://ws.haruhi.com/", "loginResponse");
     private final static QName _Min_QNAME = new QName("http://ws.haruhi.com/", "min");
     private final static QName _Add_QNAME = new QName("http://ws.haruhi.com/", "add");
+    private final static QName _Login_QNAME = new QName("http://ws.haruhi.com/", "login");
     private final static QName _MinResponse_QNAME = new QName("http://ws.haruhi.com/", "minResponse");
 
     /**
@@ -42,6 +44,14 @@ public class ObjectFactory {
      */
     public Add createAdd() {
         return new Add();
+    }
+
+    /**
+     * Create an instance of {@link LoginResponse }
+     * 
+     */
+    public LoginResponse createLoginResponse() {
+        return new LoginResponse();
     }
 
     /**
@@ -69,12 +79,37 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link Login }
+     * 
+     */
+    public Login createLogin() {
+        return new Login();
+    }
+
+    /**
+     * Create an instance of {@link User }
+     * 
+     */
+    public User createUser() {
+        return new User();
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link AddResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://ws.haruhi.com/", name = "addResponse")
     public JAXBElement<AddResponse> createAddResponse(AddResponse value) {
         return new JAXBElement<AddResponse>(_AddResponse_QNAME, AddResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link LoginResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.haruhi.com/", name = "loginResponse")
+    public JAXBElement<LoginResponse> createLoginResponse(LoginResponse value) {
+        return new JAXBElement<LoginResponse>(_LoginResponse_QNAME, LoginResponse.class, null, value);
     }
 
     /**
@@ -93,6 +128,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://ws.haruhi.com/", name = "add")
     public JAXBElement<Add> createAdd(Add value) {
         return new JAXBElement<Add>(_Add_QNAME, Add.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Login }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.haruhi.com/", name = "login")
+    public JAXBElement<Login> createLogin(Login value) {
+        return new JAXBElement<Login>(_Login_QNAME, Login.class, null, value);
     }
 
     /**
