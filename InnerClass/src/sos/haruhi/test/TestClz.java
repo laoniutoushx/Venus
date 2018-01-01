@@ -1,7 +1,7 @@
 package sos.haruhi.test;
 
 /**
- * Description sos.haruhi.test in Venus
+ * Description sos.haruhi.ws in Venus
  * Created by SuzumiyaHaruhi on 2017/11/5.
  */
 public class TestClz {

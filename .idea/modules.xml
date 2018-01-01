@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/MinSheng-Bank-javaDemo/MinSheng-Bank-javaDemo.iml" filepath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/MinSheng-Bank-javaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Venus.iml" filepath="$PROJECT_DIR$/Venus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/WebService.iml" filepath="$PROJECT_DIR$/WebService/WebService.iml" />
       <module fileurl="file://$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" filepath="$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" filepath="$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" filepath="$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" />
@@ -23,6 +24,8 @@
       <module fileurl="file://$PROJECT_DIR$/springsourcetest/springsourcetest.iml" filepath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/webSocketShow/webSocketShow.iml" filepath="$PROJECT_DIR$/webSocketShow/webSocketShow.iml" />
       <module fileurl="file://$PROJECT_DIR$/wechat-H5-netpay-demo/wechat-H5-netpay-demo.iml" filepath="$PROJECT_DIR$/wechat-H5-netpay-demo/wechat-H5-netpay-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/ws_i/ws_i.iml" filepath="$PROJECT_DIR$/WebService/ws_i/ws_i.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/ws_ii/ws_ii.iml" filepath="$PROJECT_DIR$/WebService/ws_ii/ws_ii.iml" />
     </modules>
   </component>
 </project>

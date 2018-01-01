@@ -20,6 +20,7 @@
         <module>Concurrency</module>
         <module>minsheng- bank-demo</module>
         <module>javamail</module>
+        <module>WebService</module>
     </modules>
 
 </project>

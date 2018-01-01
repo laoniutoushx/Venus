@@ -15,7 +15,7 @@ public class Server {
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(PORT);
-            System.out.println("client-server-tcp-test listening on port " + PORT);
+            System.out.println("client-server-tcp-ws listening on port " + PORT);
             Socket socket = serverSocket.accept();
             BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             String temp = null;

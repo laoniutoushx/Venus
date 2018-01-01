@@ -13,6 +13,8 @@
         <module name="netpay-demo" />
         <module name="paymax-demo" />
         <module name="springsourcetest" />
+        <module name="ws_i" />
+        <module name="ws_ii" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -24,6 +26,9 @@
       <module name="paymax-server-sdk-java" target="1.8" />
       <module name="springsourcetest" target="1.5" />
       <module name="Venus" target="1.5" />
+      <module name="WebService" target="1.5" />
+      <module name="ws_i" target="1.5" />
+      <module name="ws_ii" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

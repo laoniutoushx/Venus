@@ -1,8 +1,5 @@
 package com.haruhi.mail;
 
-import javax.mail.Session;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.util.Date;
@@ -25,13 +22,13 @@ public class SendMail {
         props.setProperty("mail.smtp.host", "smtp.sina.com");   // 发件人的邮箱的 SMTP 服务器地址
         props.setProperty("mail.smtp.auth", "true");            // 需要请求认证
 
-        Session session= Session.getInstance(props);        // 根据参数配置，创建会话对象（为了发送邮件准备的）
+       /* Session session= Session.getInstance(props);        // 根据参数配置，创建会话对象（为了发送邮件准备的）
         MimeMessage message = new MimeMessage(session);     // 创建邮件对象
 
-        /*
+        *//*
          * 也可以根据已有的eml邮件文件创建 MimeMessage 对象
          * MimeMessage message = new MimeMessage(session, new FileInputStream("MyEmail.eml"));
-         */
+         *//*
 
         // 2. From: 发件人
         //    其中 InternetAddress 的三个参数分别为: 邮箱, 显示的昵称(只用于显示, 没有特别的要求), 昵称的字符集编码
@@ -57,11 +54,11 @@ public class SendMail {
         message.setSentDate(new Date());
 
         // 7. 保存前面的设置
-        message.saveChanges();
+        message.saveChanges();*/
 
         // 8. 将该邮件保存到本地
         OutputStream out = new FileOutputStream("MyEmail.eml");
-        message.writeTo(out);
+        //message.writeTo(out);
         out.flush();
         out.close();
     }

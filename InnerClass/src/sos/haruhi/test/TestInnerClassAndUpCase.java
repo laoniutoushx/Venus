@@ -5,7 +5,7 @@ import sos.haruhi.clz.Destination;
 import sos.haruhi.clz.InnerClzAndUpCase;
 
 /**
- * Description sos.haruhi.test in Venus
+ * Description sos.haruhi.ws in Venus
  * Created by SuzumiyaHaruhi on 2017/11/5.
  */
 public class TestInnerClassAndUpCase {

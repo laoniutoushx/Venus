@@ -22,7 +22,7 @@ public class BeginAgain implements IHaruhi {
     public static void main(String[] args) {
 //        BeanFactory beanFactory = new ClassPathXmlApplicationContext("spring-context.xml");
 //        HelloWorld helloWorld = (HelloWorld) beanFactory.getBean("hello");
-        System.out.println(getHelloWorld().getName());
+        //System.out.println(getHelloWorld().getName());
         Thread.currentThread().getContextClassLoader();
     }
 
