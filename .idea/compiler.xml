@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="client-server-test" />
+        <module name="ftp" />
+        <module name="http" />
         <module name="javamail" />
         <module name="minsheng- bank-demo" />
         <module name="netpay-demo" />
@@ -19,6 +21,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="client-server-tcp-test" target="1.8" />
+      <module name="ftp" target="1.5" />
+      <module name="http" target="1.5" />
       <module name="javamail" target="1.5" />
       <module name="minsheng- bank-demo" target="1.5" />
       <module name="netpay-demo" target="1.8" />

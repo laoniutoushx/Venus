@@ -21,6 +21,8 @@
         <module>minsheng- bank-demo</module>
         <module>javamail</module>
         <module>WebService</module>
+        <module>ftp</module>
+        <module>http</module>
     </modules>
 
 </project>
