@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<books  xmlns="http://www.example.org/02"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.example.org/02 http://www.example.org/02/haruhi.xsd">
+
+    <book id="1">
+        <title>Think in Java</title>
+        <content>thinking in java language!!!</content>
+        <authors>
+            <author>Bruce.Li</author>
+        </authors>
+    </book>
+    <book id="2">
+        <title>javascript design pattern and in action</title>
+        <content>the disappear of suzumiyaharuhi</content>
+        <author>玉伯</author>
+    </book>
+
+</books>

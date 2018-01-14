@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE classroom SYSTEM "classroom.dtd">
+<classroom id="cl1">
+    <claName>一班</claName>
+    <grade>三年级</grade>
+    <students>
+        <student>
+            <id>s1</id>
+            <stuName>凉宫</stuName>
+            <password>000</password>
+            <age>16</age>
+        </student>
+    </students>
+</classroom>

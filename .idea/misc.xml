@@ -62,6 +62,7 @@
       <set>
         <option value="$PROJECT_DIR$/Concurrency/pom.xml" />
         <option value="$PROJECT_DIR$/SPA/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/pom.xml" />
       </set>
     </option>
   </component>

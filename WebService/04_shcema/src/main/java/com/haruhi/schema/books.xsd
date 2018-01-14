@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.org/02"
+        xmlns:tns="http://www.example.org/02"
+        elementFormDefault="qualified">
+
+    <element name="books">
+        <complexType>
+            <sequence maxOccurs="unbounded"> <!-- 有序排列  最大数量无限制 -->
+                <element name="book">
+                    <complexType>   <!-- 复杂对象类型 -->
+
+
+
+                        <sequence maxOccurs="unbounded">
+                            <element name="title" type="string" />
+                            <element name="content" type="string" />
+                            <choice>
+                                <element name="author" type="string" />
+                                <element name="authors">
+                                    <complexType>
+                                        <sequence>
+                                            <element name="author" type="string" />
+                                        </sequence>
+                                    </complexType>
+                                </element>
+                            </choice>
+                        </sequence>
+                        <!-- 定义元素属性要在 sequence 之后 -->
+                        <attribute name="id" type="int" use="required" />
+
+
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

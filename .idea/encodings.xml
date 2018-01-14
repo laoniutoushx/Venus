@@ -2,8 +2,11 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/WebService" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/WebService/ws_i" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/WebService/ws_ii" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebService/01_ws" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebService/02_ws" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebService/03_xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebService/04_shcema" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebService/05_java_xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/http" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

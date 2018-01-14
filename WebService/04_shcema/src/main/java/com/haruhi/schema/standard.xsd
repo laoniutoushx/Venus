@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.org/04"
+        xmlns:tns="http://www.example.org/04"
+        elementFormDefault="qualified">
+    
+    <element name="person" type="tns:personType" />
+
+    <complexType name="personType">
+        <sequence>
+            <element name="name" type="string" />
+            <element name="age" type="tns:ageType" />
+            <element name="sex" type="tns:sexType" />
+            <element name="email" type="tns:emailType" />
+        </sequence>
+    </complexType>
+
+    <simpleType name="ageType">
+        <restriction base="int">
+            <minInclusive value="1" />
+            <maxInclusive value="120" />
+        </restriction>
+    </simpleType>
+
+    <simpleType name="sexType">
+        <restriction base="string">
+            <enumeration value="男" />
+            <enumeration value="女" />
+        </restriction>
+    </simpleType>
+
+    <simpleType name="emailType">
+        <restriction base="string">
+            <pattern value="[\w|.]+@\w+.\w+" />
+            <minLength value="6" />
+            <maxLength value="255" />
+        </restriction>
+    </simpleType>
+
+</schema>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person xmlns="http://www.example.org/04"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.example.org/04 http://www.example.org/04/haruhi.xsd">
+
+    <name>张飞</name>
+    <age>10</age>
+    <sex>女</sex>
+    <email>578585118@163.com</email>
+
+</person>

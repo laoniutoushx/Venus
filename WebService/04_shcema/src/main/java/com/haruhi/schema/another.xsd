@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.org/03"
+        xmlns:tns="http://www.example.org/03"
+        elementFormDefault="qualified">
+
+    <element name="books" type="tns:booksType" />
+    <complexType name="booksType">
+        <sequence>
+            <element ref="tns:book" />  <!-- 引用book元素 -->
+        </sequence>
+    </complexType>
+
+    <element name="book" type="tns:bookType" />
+    <complexType name="bookType">
+        <sequence>
+            <element name="title" type="string" />
+            <element name="content" type="string" />
+        </sequence>
+        <attribute name="id" type="int" use="required" />
+    </complexType>
+
+</schema>

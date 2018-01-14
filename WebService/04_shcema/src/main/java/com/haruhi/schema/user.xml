@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<user xmlns="http://www.example.org/01"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.example.org/01 http://www.example.org/01/haruhi.xsd">
+    <!--schema   xmlns 默认命名空间-->
+    <!--schema   xmlns:xsi 默认会引入命名空间-->
+    <!--schema   xsi:schemaLocation 命名空间名称-->
+    <id>1024</id>
+    <username>秦始皇</username>
+    <born>2016-02-18</born>
+</user>

@@ -13,12 +13,17 @@
     <name>WebService</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>ws_i</module>
-        <module>ws_ii</module>
+        <module>01_ws</module>
+        <module>02_ws</module>
+        <module>03_xml</module>
+        <module>04_shcema</module>
+        <module>05_java_xml</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>

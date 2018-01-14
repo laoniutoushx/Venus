@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persons SYSTEM "persons.dtd">
+<persons>
+    <person id="p1">
+        <sex>3</sex>
+        <name>张飞</name>
+        <age>33</age>
+        <messages>
+            <message>
+                <title>长坂坡</title>
+                <content>测试信息</content>
+            </message>
+            <message>
+                <title>长坂坡</title>
+                <content>测试信息</content>
+            </message>
+        </messages>
+    </person>
+    <person id="p2">
+        <sex>3</sex>
+        <name>张飞</name>
+        <age>33</age>
+        <messages>
+            <message>
+                <title>长坂坡</title>
+                <content>测试信息</content>
+            </message>
+            <message>
+                <title>长坂坡</title>
+                <content>测试信息</content>
+            </message>
+        </messages>
+    </person>
+</persons>

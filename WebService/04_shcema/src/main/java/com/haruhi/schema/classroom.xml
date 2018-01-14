@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:classroom xmlns:tns="http://www.example.org/classroom"
+			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xsi:schemaLocation="http://www.example.org/classroom
+			   file:///S:/Venus/WebService/shcema/src/main/java/com/haruhi/schema/classroom.xsd">
+	<tns:grade>2009</tns:grade>
+	<tns:name/>
+	<tns:student>
+		<tns:name/>
+		<tns:sex>女</tns:sex>
+	</tns:student>
+</tns:classroom>
