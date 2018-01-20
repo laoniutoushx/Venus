@@ -38,9 +38,13 @@
       <module name="javamail" target="1.5" />
       <module name="minsheng- bank-demo" target="1.5" />
       <module name="paymax-demo" target="1.5" />
+      <module name="shcema" target="1.8" />
       <module name="springsourcetest" target="1.5" />
       <module name="Venus" target="1.5" />
+      <module name="ws_i" target="1.8" />
+      <module name="ws_ii" target="1.8" />
       <module name="XML" target="1.8" />
+      <module name="xml" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WebService/01_ws/ws_ii.iml" filepath="$PROJECT_DIR$/WebService/01_ws/ws_ii.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WebService/02_ws/ws_i.iml" filepath="$PROJECT_DIR$/WebService/02_ws/ws_i.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WebService/03_xml/xml.iml" filepath="$PROJECT_DIR$/WebService/03_xml/xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WebService/04_shcema/shcema.iml" filepath="$PROJECT_DIR$/WebService/04_shcema/shcema.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/05_java_xml/05_java_xml.iml" filepath="$PROJECT_DIR$/WebService/05_java_xml/05_java_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" filepath="$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
@@ -27,8 +23,12 @@
       <module fileurl="file://$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" filepath="$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/native-pay/native-pay.iml" filepath="$PROJECT_DIR$/native-pay/native-pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/paymax-demo/paymax-demo.iml" filepath="$PROJECT_DIR$/paymax-demo/paymax-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/04_shcema/shcema.iml" filepath="$PROJECT_DIR$/WebService/04_shcema/shcema.iml" />
       <module fileurl="file://$PROJECT_DIR$/springsourcetest/springsourcetest.iml" filepath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/webSocketShow/webSocketShow.iml" filepath="$PROJECT_DIR$/webSocketShow/webSocketShow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/02_ws/ws_i.iml" filepath="$PROJECT_DIR$/WebService/02_ws/ws_i.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/01_ws/ws_ii.iml" filepath="$PROJECT_DIR$/WebService/01_ws/ws_ii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/03_xml/xml.iml" filepath="$PROJECT_DIR$/WebService/03_xml/xml.iml" />
     </modules>
   </component>
 </project>
