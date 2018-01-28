@@ -18,6 +18,8 @@
         <module>03_xml</module>
         <module>04_shcema</module>
         <module>05_java_xml</module>
+        <module>06_soap</module>
+        <module>07_soap_client</module>
     </modules>
 
     <properties>

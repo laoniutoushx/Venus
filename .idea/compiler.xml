@@ -12,6 +12,8 @@
         <module name="03_xml" />
         <module name="04_shcema" />
         <module name="05_java_xml" />
+        <module name="06_soap" />
+        <module name="07_soap_client" />
         <module name="client-server-test" />
         <module name="ftp" />
         <module name="http" />
@@ -32,6 +34,8 @@
       <module name="03_xml" target="1.8" />
       <module name="04_shcema" target="1.8" />
       <module name="05_java_xml" target="1.8" />
+      <module name="06_soap" target="1.8" />
+      <module name="07_soap_client" target="1.8" />
       <module name="client-server-tcp-test" target="1.8" />
       <module name="ftp" target="1.5" />
       <module name="http" target="1.5" />
