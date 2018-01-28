@@ -20,6 +20,7 @@
         <module>05_java_xml</module>
         <module>06_soap</module>
         <module>07_soap_client</module>
+        <module>08_wsdl</module>
     </modules>
 
     <properties>
