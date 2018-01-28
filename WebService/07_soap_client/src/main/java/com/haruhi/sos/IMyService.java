@@ -51,7 +51,7 @@ public interface IMyService {
      *     returns java.util.List<com.haruhi.sos.User>
      */
     @WebMethod
-    @WebResult(name = "user", targetNamespace = "")
+    @WebResult(name = "service", targetNamespace = "")
     @RequestWrapper(localName = "list", targetNamespace = "http://haruhi.com/", className = "com.haruhi.sos.List")
     @ResponseWrapper(localName = "listResponse", targetNamespace = "http://haruhi.com/", className = "com.haruhi.sos.ListResponse")
     @Action(input = "http://haruhi.com/IMyService/listRequest", output = "http://haruhi.com/IMyService/listResponse")
@@ -66,7 +66,7 @@ public interface IMyService {
     @ResponseWrapper(localName = "addUserResponse", targetNamespace = "http://haruhi.com/", className = "com.haruhi.sos.AddUserResponse")
     @Action(input = "http://haruhi.com/IMyService/addUserRequest", output = "http://haruhi.com/IMyService/addUserResponse")
     public void addUser(
-        @WebParam(name = "user", targetNamespace = "", mode = WebParam.Mode.INOUT)
+        @WebParam(name = "service", targetNamespace = "", mode = WebParam.Mode.INOUT)
         Holder<User> user);
 
     /**
@@ -77,7 +77,7 @@ public interface IMyService {
      *     returns com.haruhi.sos.User
      */
     @WebMethod
-    @WebResult(name = "user", targetNamespace = "")
+    @WebResult(name = "service", targetNamespace = "")
     @RequestWrapper(localName = "login", targetNamespace = "http://haruhi.com/", className = "com.haruhi.sos.Login")
     @ResponseWrapper(localName = "loginResponse", targetNamespace = "http://haruhi.com/", className = "com.haruhi.sos.LoginResponse")
     @Action(input = "http://haruhi.com/IMyService/loginRequest", output = "http://haruhi.com/IMyService/loginResponse")

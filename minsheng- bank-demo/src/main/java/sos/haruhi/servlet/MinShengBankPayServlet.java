@@ -30,7 +30,7 @@ public class MinShengBankPayServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String userAgent = req.getHeader("user-agent");
+        String userAgent = req.getHeader("service-agent");
         System.out.println(req.getParameter("hahah"));
         if(StringUtils.indexOf(userAgent, "AlipayClient") > -1){
             System.out.println("支付宝授地址："+new SimpleDateFormat("HH:mm:ss").format(new Date()));

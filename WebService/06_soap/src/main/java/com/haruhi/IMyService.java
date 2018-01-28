@@ -12,16 +12,16 @@ public interface IMyService {
     @WebResult(name = "addResult") int add(@WebParam(name = "a") int a, @WebParam(name="b") int b);
 
     @WebMethod(operationName = "addUser")
-    @WebResult(name = "user") User addUser(@WebParam(name = "user") User user);
+    @WebResult(name = "service") User addUser(@WebParam(name = "service") User user);
 
     @WebMethod(operationName = "login")
-    @WebResult(name = "user") User login(
+    @WebResult(name = "service") User login(
             @WebParam(name = "username") String username,
             @WebParam(name = "password") String password) throws UserException;
 
     @WebMethod(operationName = "list")
-    @WebResult(name = "user") List<User> list();
+    @WebResult(name = "service") List<User> list();
 
     @WebMethod(operationName = "lists")
-    @WebResult(name = "user") List<User> lists(@WebParam(header = true, name = "authInfo") String authInfo);
+    @WebResult(name = "service") List<User> lists(@WebParam(header = true, name = "authInfo") String authInfo);
 }

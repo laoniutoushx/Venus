@@ -9,16 +9,16 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>listResponse complex typeµÄ Java Àà¡£
+ * <p>listResponse complex typeï¿½ï¿½ Java ï¿½à¡£
  * 
- * <p>ÒÔÏÂÄ£Ê½Æ¬¶ÎÖ¸¶¨°üº¬ÔÚ´ËÀàÖÐµÄÔ¤ÆÚÄÚÈÝ¡£
+ * <p>ï¿½ï¿½ï¿½ï¿½Ä£Ê½Æ¬ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½Ý¡ï¿½
  * 
  * <pre>
  * &lt;complexType name="listResponse">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="user" type="{http://haruhi.com/}user" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="service" type="{http://haruhi.com/}service" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,13 +36,13 @@ public class ListResponse {
     protected List<User> user;
 
     /**
-     * Gets the value of the user property.
+     * Gets the value of the service property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the user property.
+     * This is why there is not a <CODE>set</CODE> method for the service property.
      * 
      * <p>
      * For example, to add a new item, do as follows:

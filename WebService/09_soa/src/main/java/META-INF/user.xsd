@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://sos.haruhi.ws/test/"
+        xmlns:tns="http://sos.haruhi.ws/test/"
+        elementFormDefault="qualified">
+
+    <!--手工编写 schema 文件-->
+
+    <xsd:element name="add" type="tns:add"/>
+    <xsd:element name="addResponse" type="tns:addResponse"/>
+    <xsd:element name="del" type="tns:del"/>
+    <xsd:element name="delResponse" type="tns:delResponse"/>
+    <xsd:element name="list" type="tns:list"/>
+    <xsd:element name="listResponse" type="tns:listResponse"/>
+    <xsd:element name="login" type="tns:login"/>
+    <xsd:element name="loginResponse" type="tns:loginResponse"/>
+
+    <xsd:complexType name="add">
+        <xsd:sequence>
+            <xsd:element name="user" type="tns:user"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="user">
+        <xsd:sequence>
+            <xsd:element name="username" type="xsd:string"/>
+            <xsd:element name="password" type="xsd:string"/>
+            <xsd:element name="nickname" type="xsd:string"/>
+
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="addResponse">
+        <xsd:sequence></xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="del">
+        <xsd:sequence>
+            <xsd:element name="username" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="delResponse">
+        <xsd:sequence></xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="list">
+        <xsd:sequence></xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="listResponse">
+        <xsd:sequence minOccurs="1" maxOccurs="unbounded">
+            <xsd:element name="user" type="tns:user"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="login">
+        <xsd:sequence>
+            <xsd:element name="username" type="xsd:string"/>
+            <xsd:element name="password" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="loginResponse">
+        <xsd:sequence>
+            <xsd:element name="user" type="tns:user"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>

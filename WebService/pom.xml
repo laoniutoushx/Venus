@@ -21,6 +21,8 @@
         <module>06_soap</module>
         <module>07_soap_client</module>
         <module>08_wsdl</module>
+        <module>09_soa</module>
+        <module>09_soa_client</module>
     </modules>
 
     <properties>
@@ -33,7 +35,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.11</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="09_soa:war exploded">
+    <output-path>$PROJECT_DIR$/WebService/09_soa/target/09_soa</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="09_soa" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/WebService/09_soa/target/09_soa/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="09_soa/web/Web" />
+    </root>
+  </artifact>
+</component>

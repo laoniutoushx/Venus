@@ -126,7 +126,7 @@ public class TestSoap {
         Dispatch<Source> dispatch = service.createDispatch(
                 new QName(namespace, "MyServiceImplPort"), Source.class, Service.Mode.PAYLOAD);
 
-        // 创建 user 用户对象  对应的 xml
+        // 创建 service 用户对象  对应的 xml
         User user = new User(4, "ww", "王五", "wangwu");
 
         JAXBContext ctx = JAXBContext.newInstance(User.class);
@@ -211,7 +211,7 @@ public class TestSoap {
 
         // 将响应的消息转化为 dom 对象
         Document document = response.getSOAPPart().getEnvelope().getBody().extractContentAsDocument();
-        NodeList nl = document.getElementsByTagName("user");
+        NodeList nl = document.getElementsByTagName("service");
 
         JAXBContext ctx = JAXBContext.newInstance(User.class);
         for(int i = 0; i < nl.getLength(); i++){

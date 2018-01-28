@@ -33,7 +33,7 @@ public class ObjectFactory {
     private final static QName _AddUserResponse_QNAME = new QName("http://haruhi.com/", "addUserResponse");
     private final static QName _List_QNAME = new QName("http://haruhi.com/", "list");
     private final static QName _Login_QNAME = new QName("http://haruhi.com/", "login");
-    private final static QName _User_QNAME = new QName("http://haruhi.com/", "user");
+    private final static QName _User_QNAME = new QName("http://haruhi.com/", "service");
     private final static QName _AuthInfo_QNAME = new QName("http://haruhi.com/", "authInfo");
     private final static QName _ListResponse_QNAME = new QName("http://haruhi.com/", "listResponse");
 
@@ -217,7 +217,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link User }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://haruhi.com/", name = "user")
+    @XmlElementDecl(namespace = "http://haruhi.com/", name = "service")
     public JAXBElement<User> createUser(User value) {
         return new JAXBElement<User>(_User_QNAME, User.class, null, value);
     }

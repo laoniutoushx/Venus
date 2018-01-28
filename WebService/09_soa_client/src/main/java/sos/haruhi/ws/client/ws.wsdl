@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e. --><wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://sos.haruhi.ws/test/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="UserService" targetNamespace="http://sos.haruhi.ws/test/">
+    <!-- TYPE -->
+    <!-- 定义schema，通过tns引用该schema中的元素 -->
+    <wsdl:types>
+
+        <!-- schema import 引入 -->
+        <!--<xsd:schema>
+            &lt;!&ndash;<xsd:import namespace="http://sos.haruhi.ws/test/" schemaLocation="service.xsd"/>&ndash;&gt;
+
+        </xsd:schema>-->
+        <!-- schema include 引入 -->
+        <xsd:schema targetNamespace="http://sos.haruhi.ws/test/">
+            <!--<xsd:include schemaLocation="user.xsd"/>-->
+            <xsd:element name="add" type="tns:add"></xsd:element>
+            <xsd:element name="addResponse" type="tns:addResponse"></xsd:element>
+            <xsd:element name="del" type="tns:del"></xsd:element>
+            <xsd:element name="delResponse" type="tns:delResponse"></xsd:element>
+            <xsd:element name="list" type="tns:list"></xsd:element>
+            <xsd:element name="listResponse" type="tns:listResponse"></xsd:element>
+            <xsd:element name="login" type="tns:login"></xsd:element>
+            <xsd:element name="loginResponse" type="tns:loginResponse"></xsd:element>
+
+            <xsd:complexType name="add">
+                <xsd:sequence>
+                    <xsd:element name="user" type="tns:user"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="user">
+                <xsd:sequence>
+                    <xsd:element name="username" type="xsd:string"></xsd:element>
+                    <xsd:element name="password" type="xsd:string"></xsd:element>
+                    <xsd:element name="nickname" type="xsd:string"></xsd:element>
+
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="addResponse">
+            </xsd:complexType>
+
+            <xsd:complexType name="del">
+                <xsd:sequence>
+                    <xsd:element name="username" type="xsd:string"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="delResponse">
+            </xsd:complexType>
+
+            <xsd:complexType name="list">
+            </xsd:complexType>
+
+            <xsd:complexType name="listResponse">
+                <xsd:sequence maxOccurs="unbounded">
+                    <xsd:element name="user" type="tns:user"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="login">
+                <xsd:sequence>
+                    <xsd:element name="username" type="xsd:string"></xsd:element>
+                    <xsd:element name="password" type="xsd:string"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="loginResponse">
+                <xsd:sequence>
+                    <xsd:element name="user" type="tns:user"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:schema>
+
+        <!--手工编写 schema 文件-->
+
+
+    </wsdl:types>
+
+
+    <!-- MESSAGE -->
+    <wsdl:message name="add">
+        <wsdl:part element="tns:add" name="parameters"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="addResponse">
+        <wsdl:part element="tns:addResponse" name="parameters"></wsdl:part>
+    </wsdl:message>
+    <!-- 为license创建新的message -->
+    <!--<wsdl:message name="license">
+        <wsdl:part name="license" element="tns:license"></wsdl:part>
+    </wsdl:message>-->
+
+    <wsdl:message name="del">
+        <wsdl:part element="tns:del" name="parameters"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="delResponse">
+        <wsdl:part element="tns:delResponse" name="parameters"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="list">
+        <wsdl:part element="tns:list" name="parameters"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="listResponse">
+        <wsdl:part element="tns:listResponse" name="parameters"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="login">
+        <wsdl:part element="tns:login" name="parameters"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="loginResponse">
+        <wsdl:part element="tns:loginResponse" name="parameters"></wsdl:part>
+    </wsdl:message>
+
+    <!-- PORTTYPE 指定接口和方法 -->
+    <wsdl:portType name="IUserService">
+        <wsdl:operation name="add">
+            <wsdl:input message="tns:add"></wsdl:input>
+            <wsdl:output message="tns:addResponse"></wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="del">
+            <wsdl:input message="tns:del"></wsdl:input>
+            <wsdl:output message="tns:delResponse"></wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="list">
+            <wsdl:input message="tns:list"></wsdl:input>
+            <wsdl:output message="tns:listResponse"></wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="login">
+            <wsdl:input message="tns:login"></wsdl:input>
+            <wsdl:output message="tns:loginResponse"></wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <!-- BINDING 指定编码方式 -->
+    <wsdl:binding name="UserServiceSOAPBinding" type="tns:IUserService">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"></soap:binding>
+        <wsdl:operation name="add">
+            <wsdl:input>
+                <!-- add方法的header中加入license消息 -->
+                <!--<soap:header use="literal" part="license" message="tns:license"></soap:header>-->
+                <soap:body use="literal"></soap:body>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"></soap:body>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="del">
+            <wsdl:input>
+                <soap:body use="literal"></soap:body>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"></soap:body>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="list">
+            <wsdl:input>
+                <soap:body use="literal"></soap:body>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"></soap:body>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="login">
+            <wsdl:input>
+                <soap:body use="literal"></soap:body>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"></soap:body>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <!--
+       SERVICE服务
+       注意：service name必须与wsdl definition中的name一致
+     -->
+    <wsdl:service name="UserService">
+        <wsdl:port binding="tns:UserServiceSOAPBinding" name="UserServicePort">
+            <!-- 指定服务发布的地址 -->
+            <soap:address location="http://localhost:8888/ws"></soap:address>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>
