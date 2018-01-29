@@ -100,7 +100,7 @@ public class MinSheng2AlipayCheckFileDownloadServlet extends HttpServlet {
                 list.add(temp);
             }
         }
-        System.out.println(System.getProperty("user.dir"));
+        System.out.println(System.getProperty("service.dir"));
         FTPClient ftp = new FTPClient();
 //        String sss = segmentContent.toString();
 //        InputStream is = new DataInputStream();

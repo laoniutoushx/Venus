@@ -7,12 +7,12 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>user complex type的 Java 类。
+ * <p>service complex type锟斤拷 Java 锟洁。
  * 
- * <p>以下模式片段指定包含在此类中的预期内容。
+ * <p>锟斤拷锟斤拷模式片锟斤拷指锟斤拷锟斤拷锟斤拷锟节达拷锟斤拷锟叫碉拷预锟斤拷锟斤拷锟捷★拷
  * 
  * <pre>
- * &lt;complexType name="user">
+ * &lt;complexType name="service">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -40,7 +40,7 @@ public class User {
     protected String username;
 
     /**
-     * 获取age属性的值。
+     * 锟斤拷取age锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public int getAge() {
@@ -48,7 +48,7 @@ public class User {
     }
 
     /**
-     * 设置age属性的值。
+     * 锟斤拷锟斤拷age锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public void setAge(int value) {
@@ -56,7 +56,7 @@ public class User {
     }
 
     /**
-     * 获取password属性的值。
+     * 锟斤拷取password锟斤拷锟皆碉拷值锟斤拷
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class User {
     }
 
     /**
-     * 设置password属性的值。
+     * 锟斤拷锟斤拷password锟斤拷锟皆碉拷值锟斤拷
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class User {
     }
 
     /**
-     * 获取username属性的值。
+     * 锟斤拷取username锟斤拷锟皆碉拷值锟斤拷
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class User {
     }
 
     /**
-     * 设置username属性的值。
+     * 锟斤拷锟斤拷username锟斤拷锟皆碉拷值锟斤拷
      * 
      * @param value
      *     allowed object is

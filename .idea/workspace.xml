@@ -32,6 +32,11 @@
     <ignored path="$PROJECT_DIR$/WebService/02_ws/target/" />
     <ignored path="$PROJECT_DIR$/WebService/03_xml/target/" />
     <ignored path="$PROJECT_DIR$/WebService/01_ws/target/" />
+    <ignored path="$PROJECT_DIR$/WebService/06_soap/target/" />
+    <ignored path="$PROJECT_DIR$/WebService/07_soap_client/target/" />
+    <ignored path="$PROJECT_DIR$/WebService/08_wsdl/target/" />
+    <ignored path="$PROJECT_DIR$/WebService/09_soa/target/" />
+    <ignored path="$PROJECT_DIR$/WebService/09_soa_client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,28 +55,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hello/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+=======
+      <file leaf-file-name="MyServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/MyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="ServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebService/09_soa_client/src/test/java/ServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#247#261#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="HTTP Request" />
+        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -88,6 +160,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/WebService/ws_ii/src/main/java/Venus/App.java" />
         <option value="$PROJECT_DIR$/WebService/ws_ii/src/test/java/com/haruhi/ws/App.java" />
         <option value="$PROJECT_DIR$/WebService/ws_i/src/main/java/com/haruhi/ws/User.java" />
@@ -130,15 +203,63 @@
         <option value="$PROJECT_DIR$/WebService/shcema/src/main/java/com/haruhi/schema/classroom.xsd" />
         <option value="$PROJECT_DIR$/WebService/shcema/src/main/java/com/haruhi/schema/classroom.xml" />
         <option value="$PROJECT_DIR$/WebService/05_java_xml/src/main/java/com/haruhi/Classroom.java" />
+=======
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
         <option value="$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/TestJaxb.java" />
         <option value="$PROJECT_DIR$/WebService/05_java_xml/src/main/java/com/haruhi/Student.java" />
         <option value="$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/Test01.java" />
         <option value="$PROJECT_DIR$/WebService/05_java_xml/src/test/java/books.xml" />
-        <option value="$PROJECT_DIR$/WebService/pom.xml" />
         <option value="$PROJECT_DIR$/WebService/05_java_xml/src/main/java/com/haruhi/stax/Stax.java" />
         <option value="$PROJECT_DIR$/WebService/05_java_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/stax/books.xml" />
+        <option value="$PROJECT_DIR$/WebService/05_java_xml/target/test-classes/com/haruhi/stax/books.xml" />
         <option value="$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/stax/TestStax.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Hello/src/Test.java" />
+=======
+        <option value="$PROJECT_DIR$/WebService/06_soap/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/nagato/User.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/test/java/com/nagato/User.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/User.java" />
+        <option value="$PROJECT_DIR$/WebService/07_soap_client/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/07_soap_client/src/main/java/com/haruhi/sos/TestSoapClient.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/UserException.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/IMyService.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/test/java/com/haruhi/TestSoap.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/MyServer.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/target/classes/handler-chain.xml" />
+        <option value="$PROJECT_DIR$/WebService/07_soap_client/src/main/java/sos/haruhi/test/TestSoapClient.java" />
+        <option value="$PROJECT_DIR$/WebService/07_soap_client/src/main/java/sos/haruhi/test/TestSoapHandler.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/sos/haruhi/soap/handler/HeadHandler.java" />
+        <option value="$PROJECT_DIR$/WebService/07_soap_client/src/main/java/com/haruhi/sos/MyServiceImplService.java" />
+        <option value="$PROJECT_DIR$/WebService/07_soap_client/src/main/java/sos/haruhi/test/HeadHandler.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/handler-chain.xml" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/MyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/WebService/06_soap/src/main/java/sos/haruhi/soap/handler/LicenseHandler.java" />
+        <option value="$PROJECT_DIR$/WebService/08_wsdl/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/08_wsdl/src/main/java/org/example/my/IMyservice.java" />
+        <option value="$PROJECT_DIR$/WebService/08_wsdl/src/main/java/my.wsdl" />
+        <option value="$PROJECT_DIR$/WebService/08_wsdl/src/main/java/org/example/my/MyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/WebService/08_wsdl/src/main/java/org/example/my/MyServer.java" />
+        <option value="$PROJECT_DIR$/WebService/08_wsdl/src/test/java/org/example/my/client/Test.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/webapp/WEB-INF/META-INF/user.xsd" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/webapp/WEB-INF/META-INF/user.wsdl" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/IUserService.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/service/User.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/MyServer.java" />
+        <option value="$PROJECT_DIR$/WebService/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/09_soa_client/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/09_soa_client/src/main/java/sos/haruhi/ws/test/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa_client/src/main/java/sos/haruhi/ws/client/User.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/target/classes/META-INF/user.wsdl" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/java/META-INF/user.wsdl" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa_client/src/test/java/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/pojo/User.java" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
       </list>
     </option>
   </component>
@@ -180,7 +301,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -193,10 +314,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+=======
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,18 +332,248 @@
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Hello" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="08_wsdl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="08_wsdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="08_wsdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="08_wsdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="08_wsdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="08_wsdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="08_wsdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="08_wsdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="WebService" type="462c0819:PsiDirectoryNode" />
+              <item name="09_soa_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +586,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -240,23 +595,32 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="S:\Venus\WebService\05_java_xml\target\test-classes\com\haruhi\stax" />
-      <recent name="S:\Venus\WebService\05_java_xml\target\test-classes" />
-      <recent name="S:\Venus\WebService\05_java_xml\src" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="JAXB" />
-      <recent name="com.haruhi.ws" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\Venus\WebService\08_wsdl\target\classes\META-INF" />
+      <recent name="S:\Venus\WebService\08_wsdl\src\main\java\META-INF\wsdl" />
+      <recent name="S:\Venus\WebService\07_soap_client\src\main\java" />
+      <recent name="S:\Venus\WebService\05_java_xml\target\test-classes\com\haruhi\stax" />
       <recent name="S:\Venus\WebService\05_java_xml\target\test-classes" />
-      <recent name="S:\Venus\WebService\05_java_xml\src\main\java\com\haruhi\stax" />
-      <recent name="S:\Venus\WebService\05_java_xml\src\main\java" />
-      <recent name="S:\Venus\WebService\05_java_xml\src\test\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.haruhi" />
+      <recent name="com.nagato" />
+      <recent name="JAXB" />
+      <recent name="com.haruhi.ws" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="sos.haruhi.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Venus\WebService\09_soa\src\main\java\sos\haruhi\ws\pojo" />
+      <recent name="S:\Venus\WebService\09_soa\src\main\java\sos\haruhi\ws\service" />
+      <recent name="S:\Venus\WebService\09_soa\target\classes" />
+      <recent name="S:\Venus\WebService\09_soa\src\main\java" />
+      <recent name="S:\Venus\WebService\09_soa\src\main\java\sos\haruhi\ws" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,6 +635,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Test">
     <configuration name="JAXB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -286,6 +651,92 @@
       <option name="MAIN_CLASS_NAME" value="com.haruhi.JAXB" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+=======
+  <component name="RunManager" selected="JUnit.ServiceTest.testList">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="MyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sos.haruhi.ws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.ws.MyServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="09_soa" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="ServiceTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="09_soa_client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -297,6 +748,7 @@
       <envs />
       <patterns />
     </configuration>
+<<<<<<< HEAD
     <configuration name="JAXB.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -305,11 +757,16 @@
         </pattern>
       </extension>
       <module name="05_java_xml" />
+=======
+    <configuration name="ServiceTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="09_soa_client" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.haruhi" />
-      <option name="MAIN_CLASS_NAME" value="com.haruhi.JAXB" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServiceTest" />
+      <option name="METHOD_NAME" value="testList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -322,19 +779,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Stax.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.testHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.haruhi.stax.*" />
+          <option name="PATTERN" value="org.example.my.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="05_java_xml" />
+      <module name="08_wsdl" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.haruhi.stax" />
-      <option name="MAIN_CLASS_NAME" value="com.haruhi.stax.Stax" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="org.example.my.client" />
+      <option name="MAIN_CLASS_NAME" value="org.example.my.client.Test" />
+      <option name="METHOD_NAME" value="testHeader" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -347,7 +804,36 @@
       <envs />
       <patterns />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="Test.testNoHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.example.my.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="08_wsdl" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.example.my.client" />
+      <option name="MAIN_CLASS_NAME" value="org.example.my.client.Test" />
+      <option name="METHOD_NAME" value="testNoHeader" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="VM_PARAMETERS" />
@@ -892,6 +1378,7 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.WechatPay" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.com.haruhi in 05_java_xml" />
+<<<<<<< HEAD
       <item index="2" class="java.lang.String" itemvalue="JUnit.JAXB" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.JAXB.test02" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.TestStax.test01" />
@@ -905,11 +1392,29 @@
         <item index="2" class="java.lang.String" itemvalue="JUnit.Stax.test01" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.JAXB.test02" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.JAXB" />
+=======
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test.testNoHeader" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test.testHeader" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyServer (2)" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ServiceTest.testList" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ServiceTest.testAdd" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ServiceTest.testList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ServiceTest.testAdd" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MyServer (2)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Test.testHeader" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Test.testNoHeader" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -951,50 +1456,66 @@
       <workItem from="1515931279137" duration="4197000" />
       <workItem from="1516415822645" duration="8000" />
       <workItem from="1516415903100" duration="341000" />
+<<<<<<< HEAD
       <workItem from="1516416258744" duration="1997000" />
       <workItem from="1516847894508" duration="2585000" />
+=======
+      <workItem from="1516416258744" duration="8588000" />
+      <workItem from="1516452425557" duration="7005000" />
+      <workItem from="1516504121343" duration="14112000" />
+      <workItem from="1516525090030" duration="1311000" />
+      <workItem from="1516526435958" duration="1956000" />
+      <workItem from="1517118755322" duration="7367000" />
+      <workItem from="1517140962050" duration="4661000" />
+      <workItem from="1517147158350" duration="2500000" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Stax_test01 - 2018.01.14 at 22h 44m 38s.xml">
-      <configuration name="Stax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testAdd - 2018.01.28 at 22h 17m 12s.xml">
+      <configuration name="ServiceTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Stax_test01 - 2018.01.14 at 22h 52m 37s.xml">
-      <configuration name="Stax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testAdd - 2018.01.28 at 22h 30m 21s.xml">
+      <configuration name="ServiceTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Stax_test01 - 2018.01.14 at 22h 52m 42s.xml">
-      <configuration name="Stax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testAdd - 2018.01.28 at 22h 39m 12s.xml">
+      <configuration name="ServiceTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Stax_test01 - 2018.01.14 at 22h 53m 05s.xml">
-      <configuration name="Stax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testList - 2018.01.28 at 22h 12m 34s.xml">
+      <configuration name="ServiceTest.testList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStax_test01 - 2018.01.14 at 22h 35m 51s.xml">
-      <configuration name="TestStax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testList - 2018.01.28 at 22h 14m 04s.xml">
+      <configuration name="ServiceTest.testList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStax_test01 - 2018.01.14 at 22h 55m 31s.xml">
-      <configuration name="TestStax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testList - 2018.01.28 at 22h 14m 42s.xml">
+      <configuration name="ServiceTest.testList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStax_test01 - 2018.01.14 at 22h 56m 06s.xml">
-      <configuration name="TestStax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testList - 2018.01.28 at 22h 14m 53s.xml">
+      <configuration name="ServiceTest.testList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStax_test01 - 2018.01.14 at 23h 03m 58s.xml">
-      <configuration name="TestStax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testList - 2018.01.28 at 22h 15m 05s.xml">
+      <configuration name="ServiceTest.testList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStax_test01 - 2018.01.14 at 23h 04m 17s.xml">
-      <configuration name="TestStax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testList - 2018.01.28 at 22h 30m 28s.xml">
+      <configuration name="ServiceTest.testList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStax_test01 - 2018.01.14 at 23h 04m 29s.xml">
-      <configuration name="TestStax.test01" configurationId="JUnit" />
+    <history-entry file="ServiceTest_testList - 2018.01.28 at 22h 39m 18s.xml">
+      <configuration name="ServiceTest.testList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="162072000" />
+=======
+    <option name="totallyTimeSpent" value="204990000" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1011,22 +1532,48 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18008785" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31842965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32606325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32606325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="soapUI Navigator" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41927084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1068,7 +1615,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="28" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1077,310 +1624,390 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/http/src/main/java/HttpUtils.java">
+=======
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="185">
+          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/pom.xml">
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/pom.xml">
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="644">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/02_ws/src/main/java/com/haruhi/ws/User.java">
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/com/haruhi/sos/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="980">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/01_ws/src/main/java/com/haruhi/another/Server.java" />
-    <entry file="file://$PROJECT_DIR$/WebService/02_ws/src/main/java/com/haruhi/ws/IService.java">
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/com/haruhi/sos/ListsResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="471">
+          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/02_ws/src/main/java/com/haruhi/ws/ServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/com/haruhi/sos/IMyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="490">
+          <caret line="100" column="24" lean-forward="false" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/01_ws/src/main/java/com/haruhi/another/IMathService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/02_ws/src/test/java/com/haruhi/ws/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/02_ws/src/main/java/com/haruhi/ws/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/01_ws/src/test/java/com/haruhi/ws/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/01_ws/src/main/java/com/haruhi/com/haruhi/other/MathServiceImplService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/01_ws/src/main/java/com/haruhi/another/RemoteClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/01_ws/src/main/java/com/haruhi/another/LocalClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/xml/src/main/java/Sulm.http" />
-    <entry file="file://$PROJECT_DIR$/WebService/03_xml/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/xml/src/main/java/com/haruhi/xml/s.fxml" />
-    <entry file="file://$PROJECT_DIR$/WebService/03_xml/src/main/java/com/haruhi/xml/classroom.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/03_xml/src/main/java/com/haruhi/xml/classroom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/01_ws/src/main/java/com/haruhi/another/MathServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/01_ws/src/main/java/com/haruhi/another/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/03_xml/src/main/java/com/haruhi/xml/persons.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/03_xml/src/main/java/com/haruhi/xml/persons.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/pom.xml">
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/target/classes/com/haruhi/MyServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springsourcetest/src/main/resources/spring-context.xml">
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/target/classes/com/haruhi/handler-chain.xml" />
+    <entry file="file://$PROJECT_DIR$/native-pay/src/com/swiftpass/action/TestPayResultSerlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="130" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="130" />
+        <state relative-caret-position="194">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/user.xml">
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/src/test/java/com/haruhi/TestSoap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="3" selection-end-column="89" />
+        <state relative-caret-position="556">
+          <caret line="238" column="25" lean-forward="true" selection-start-line="238" selection-start-column="25" selection-end-line="238" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/books.xml">
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/com/haruhi/sos/TestSoapClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="92" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="3" selection-end-column="92" />
+        <state relative-caret-position="364">
+          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/sos/haruhi/test/TestSoapClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/target/classes/handler-chain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/handler-chain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/IMyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/UserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/com/haruhi/sos/MyServiceImplService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1204">
+          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/sos/haruhi/test/TestSoapHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/src/main/java/handler-chain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/target/classes/handler-chain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/07_soap_client/src/main/java/sos/haruhi/test/HeadHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/src/main/java/com/haruhi/MyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/06_soap/src/main/java/sos/haruhi/soap/handler/LicenseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/08_wsdl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/08_wsdl/src/main/java/org/example/my/IMyservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/08_wsdl/src/main/java/org/example/my/MyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/08_wsdl/target/classes/META-INF/wsdl/my.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/08_wsdl/src/main/java/org/example/my/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/another.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/books.xsd">
+    <entry file="file://$PROJECT_DIR$/WebService/08_wsdl/src/main/java/META-INF/wsdl/my.wsdl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="56">
+          <caret line="2" column="56" lean-forward="true" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/user.xsd">
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/webapp/WEB-INF/META-INF/user.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/standard.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/student.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/classroom.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/standard.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/04_shcema/src/main/java/com/haruhi/schema/classroom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/main/java/Venus/App.java" />
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/TestJaxb.java" />
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/main/java/com/haruhi/Classroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#308#309#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#394#395#0" expanded="false" />
-            <element signature="e#425#426#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#492#493#0" expanded="false" />
-            <element signature="e#524#525#0" expanded="false" />
-            <element signature="e#553#554#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/main/java/com/haruhi/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#568#569#0" expanded="false" />
-            <element signature="e#595#596#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-            <element signature="e#667#668#0" expanded="false" />
-            <element signature="e#694#695#0" expanded="false" />
-            <element signature="e#720#721#0" expanded="false" />
-            <element signature="e#755#756#0" expanded="false" />
-            <element signature="e#785#786#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#951#952#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/main/java/com/haruhi/stax/TestStax.java" />
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/stax.java" />
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/books.xml" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/net/URL.java" />
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/main/java/com/haruhi/stax/Stax.java" />
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/main/java/books.xml" />
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/target/test-classes/com/haruhi/stax/books.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/main/java/com/haruhi/stax/books.xml" />
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="56">
+          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/JAXB.java">
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/webapp/WEB-INF/META-INF/user.wsdl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="376">
+          <caret line="116" column="77" lean-forward="false" selection-start-line="116" selection-start-column="62" selection-end-line="116" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocketShow/src/WebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/target/classes/META-INF/user.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="67" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        <state relative-caret-position="565">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="40" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa_client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa_client/src/main/java/sos/haruhi/ws/test/ServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa_client/src/main/java/sos/haruhi/ws/client/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa_client/src/main/java/sos/haruhi/ws/client/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="70" column="24" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+          <folding>
+            <element signature="e#1204#1205#0" expanded="false" />
+            <element signature="e#1265#1266#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa_client/src/main/java/sos/haruhi/ws/client/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1205">
+          <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/08_wsdl/src/test/java/org/example/my/client/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/META-INF/user.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/target/classes/META-INF/user.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/META-INF/user.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="184" column="19" lean-forward="false" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/JAXB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#261#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/WebService/05_java_xml/src/test/java/com/haruhi/stax/TestStax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1398,6 +2025,21 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa/src/main/java/sos/haruhi/ws/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebService/09_soa_client/src/test/java/ServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+>>>>>>> e305b5c388fa6fbd797d868af2e99aaef0be4591
         </state>
       </provider>
     </entry>

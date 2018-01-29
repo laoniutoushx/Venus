@@ -21,6 +21,6 @@ public class ByteCopy {
             length += item.length;
         }
         System.out.println(re.toString());
-        System.out.println(System.getProperty("user.dir"));
+        System.out.println(System.getProperty("service.dir"));
     }
 }
