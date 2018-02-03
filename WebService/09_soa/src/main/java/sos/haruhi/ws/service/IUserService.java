@@ -1,6 +1,7 @@
 
 package sos.haruhi.ws.service;
 
+import sos.haruhi.ws.dao.UserException;
 import sos.haruhi.ws.pojo.User;
 
 import java.util.List;
@@ -26,13 +27,16 @@ public interface IUserService {
     /**
      * 
      * @param user
+     * @throws UserException
      */
     @WebMethod
     @RequestWrapper(localName = "add", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.Add")
     @ResponseWrapper(localName = "addResponse", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.AddResponse")
     public void add(
-            @WebParam(name = "user", targetNamespace = "")
-                    User user);
+            @WebParam(name = "user", targetNamespace = "http://sos.haruhi.ws/test/")
+                    User user)
+        throws UserException
+    ;
 
     /**
      * 
@@ -42,7 +46,7 @@ public interface IUserService {
     @RequestWrapper(localName = "del", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.Del")
     @ResponseWrapper(localName = "delResponse", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.DelResponse")
     public void del(
-            @WebParam(name = "username", targetNamespace = "")
+            @WebParam(name = "username", targetNamespace = "http://sos.haruhi.ws/test/")
                     String username);
 
     /**
@@ -51,7 +55,7 @@ public interface IUserService {
      *     returns java.util.List<ws.haruhi.sos.test.User>
      */
     @WebMethod
-    @WebResult(name = "user", targetNamespace = "")
+    @WebResult(name = "user", targetNamespace = "http://sos.haruhi.ws/test/")
     @RequestWrapper(localName = "list", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.List")
     @ResponseWrapper(localName = "listResponse", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.ListResponse")
     public List<User> list();
@@ -62,15 +66,18 @@ public interface IUserService {
      * @param username
      * @return
      *     returns ws.haruhi.sos.test.User
+     * @throws UserException
      */
     @WebMethod
-    @WebResult(name = "user", targetNamespace = "")
+    @WebResult(name = "user", targetNamespace = "http://sos.haruhi.ws/test/")
     @RequestWrapper(localName = "login", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.Login")
     @ResponseWrapper(localName = "loginResponse", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.LoginResponse")
     public User login(
-            @WebParam(name = "username", targetNamespace = "")
+            @WebParam(name = "username", targetNamespace = "http://sos.haruhi.ws/test/")
                     String username,
-            @WebParam(name = "password", targetNamespace = "")
-                    String password);
+            @WebParam(name = "password", targetNamespace = "http://sos.haruhi.ws/test/")
+                    String password)
+        throws UserException
+    ;
 
 }

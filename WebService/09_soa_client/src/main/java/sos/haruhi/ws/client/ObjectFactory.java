@@ -32,6 +32,7 @@ public class ObjectFactory {
     private final static QName _List_QNAME = new QName("http://sos.haruhi.ws/test/", "list");
     private final static QName _Login_QNAME = new QName("http://sos.haruhi.ws/test/", "login");
     private final static QName _Del_QNAME = new QName("http://sos.haruhi.ws/test/", "del");
+    private final static QName _UserException_QNAME = new QName("http://sos.haruhi.ws/test/", "UserException");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: sos.haruhi.ws.client
@@ -78,6 +79,14 @@ public class ObjectFactory {
      */
     public Del createDel() {
         return new Del();
+    }
+
+    /**
+     * Create an instance of {@link UserException }
+     * 
+     */
+    public UserException createUserException() {
+        return new UserException();
     }
 
     /**
@@ -182,6 +191,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://sos.haruhi.ws/test/", name = "del")
     public JAXBElement<Del> createDel(Del value) {
         return new JAXBElement<Del>(_Del_QNAME, Del.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link UserException }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://sos.haruhi.ws/test/", name = "UserException")
+    public JAXBElement<UserException> createUserException(UserException value) {
+        return new JAXBElement<UserException>(_UserException_QNAME, UserException.class, null, value);
     }
 
 }

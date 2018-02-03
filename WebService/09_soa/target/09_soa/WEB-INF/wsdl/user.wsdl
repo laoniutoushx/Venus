@@ -10,12 +10,18 @@
 
         <!-- schema import 引入 -->
         <!--<xsd:schema>
-            <xsd:import namespace="http://sos.haruhi.ws/test/" schemaLocation="service.xsd"/>
+            &lt;!&ndash;<xsd:import namespace="http://sos.haruhi.ws/test/" schemaLocation="service.xsd"/>&ndash;&gt;
+
         </xsd:schema>-->
         <!-- schema include 引入 -->
         <xsd:schema targetNamespace="http://sos.haruhi.ws/test/">
             <xsd:include schemaLocation="user.xsd"/>
         </xsd:schema>
+
+
+
+
+
     </wsdl:types>
 
 
@@ -50,11 +56,17 @@
         <wsdl:part element="tns:loginResponse" name="parameters"/>
     </wsdl:message>
 
+    <!--为异常设置 Prottype 和 Binding-->
+    <wsdl:message name="UserException">
+        <wsdl:part element="tns:UserException" name="fault"/>
+    </wsdl:message>
+
     <!-- PORTTYPE 指定接口和方法 -->
     <wsdl:portType name="IUserService">
         <wsdl:operation name="add">
             <wsdl:input message="tns:add"/>
             <wsdl:output message="tns:addResponse"/>
+            <wsdl:fault name="UserException" message="tns:UserException"/>
         </wsdl:operation>
         <wsdl:operation name="del">
             <wsdl:input message="tns:del"/>
@@ -67,6 +79,7 @@
         <wsdl:operation name="login">
             <wsdl:input message="tns:login"/>
             <wsdl:output message="tns:loginResponse"/>
+            <wsdl:fault name="UserException" message="tns:UserException"/>
         </wsdl:operation>
     </wsdl:portType>
 
@@ -82,6 +95,9 @@
             <wsdl:output>
                 <soap:body use="literal"/>
             </wsdl:output>
+            <wsdl:fault name="UserException" >
+                <soap:fault name="UserException" use="literal"/>
+            </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="del">
             <wsdl:input>
@@ -106,6 +122,9 @@
             <wsdl:output>
                 <soap:body use="literal"/>
             </wsdl:output>
+            <wsdl:fault name="UserException" >
+                <soap:fault name="UserException" use="literal"/>
+            </wsdl:fault>
         </wsdl:operation>
     </wsdl:binding>
 
@@ -116,7 +135,7 @@
     <wsdl:service name="UserService">
         <wsdl:port binding="tns:UserServiceSOAPBinding" name="UserServicePort">
             <!-- 指定服务发布的地址 -->
-            <soap:address location="http://localhost:8888/ws"/>
+            <soap:address location="http://localhost:8080/ws"/>
         </wsdl:port>
     </wsdl:service>
 

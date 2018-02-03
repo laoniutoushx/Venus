@@ -14,6 +14,10 @@
     <xsd:element name="listResponse" type="tns:listResponse"/>
     <xsd:element name="login" type="tns:login"/>
     <xsd:element name="loginResponse" type="tns:loginResponse"/>
+    <!-- 异常类 -->
+    <xsd:element name="UserException" type="tns:UserException"/>
+
+    <!--手工编写 schema 文件-->
 
     <xsd:complexType name="add">
         <xsd:sequence>
@@ -31,7 +35,6 @@
     </xsd:complexType>
 
     <xsd:complexType name="addResponse">
-        <xsd:sequence></xsd:sequence>
     </xsd:complexType>
 
     <xsd:complexType name="del">
@@ -41,15 +44,13 @@
     </xsd:complexType>
 
     <xsd:complexType name="delResponse">
-        <xsd:sequence></xsd:sequence>
     </xsd:complexType>
 
     <xsd:complexType name="list">
-        <xsd:sequence></xsd:sequence>
     </xsd:complexType>
 
     <xsd:complexType name="listResponse">
-        <xsd:sequence minOccurs="1" maxOccurs="unbounded">
+        <xsd:sequence maxOccurs="unbounded">
             <xsd:element name="user" type="tns:user"/>
         </xsd:sequence>
     </xsd:complexType>
@@ -64,6 +65,13 @@
     <xsd:complexType name="loginResponse">
         <xsd:sequence>
             <xsd:element name="user" type="tns:user"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!--关于异常的封装-->
+    <xsd:complexType name="UserException">
+        <xsd:sequence>
+            <xsd:element name="message" type="xsd:string"/>
         </xsd:sequence>
     </xsd:complexType>
 

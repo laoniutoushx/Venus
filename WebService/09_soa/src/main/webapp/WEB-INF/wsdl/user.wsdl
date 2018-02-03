@@ -15,67 +15,11 @@
         </xsd:schema>-->
         <!-- schema include 引入 -->
         <xsd:schema targetNamespace="http://sos.haruhi.ws/test/">
-            <!--<xsd:include schemaLocation="user.xsd"/>-->
-            <xsd:element name="add" type="tns:add"/>
-            <xsd:element name="addResponse" type="tns:addResponse"/>
-            <xsd:element name="del" type="tns:del"/>
-            <xsd:element name="delResponse" type="tns:delResponse"/>
-            <xsd:element name="list" type="tns:list"/>
-            <xsd:element name="listResponse" type="tns:listResponse"/>
-            <xsd:element name="login" type="tns:login"/>
-            <xsd:element name="loginResponse" type="tns:loginResponse"/>
-
-            <xsd:complexType name="add">
-                <xsd:sequence>
-                    <xsd:element name="user" type="tns:user"/>
-                </xsd:sequence>
-            </xsd:complexType>
-
-            <xsd:complexType name="user">
-                <xsd:sequence>
-                    <xsd:element name="username" type="xsd:string"/>
-                    <xsd:element name="password" type="xsd:string"/>
-                    <xsd:element name="nickname" type="xsd:string"/>
-
-                </xsd:sequence>
-            </xsd:complexType>
-
-            <xsd:complexType name="addResponse">
-            </xsd:complexType>
-
-            <xsd:complexType name="del">
-                <xsd:sequence>
-                    <xsd:element name="username" type="xsd:string"/>
-                </xsd:sequence>
-            </xsd:complexType>
-
-            <xsd:complexType name="delResponse">
-            </xsd:complexType>
-
-            <xsd:complexType name="list">
-            </xsd:complexType>
-
-            <xsd:complexType name="listResponse">
-                <xsd:sequence maxOccurs="unbounded">
-                    <xsd:element name="user" type="tns:user"/>
-                </xsd:sequence>
-            </xsd:complexType>
-
-            <xsd:complexType name="login">
-                <xsd:sequence>
-                    <xsd:element name="username" type="xsd:string"/>
-                    <xsd:element name="password" type="xsd:string"/>
-                </xsd:sequence>
-            </xsd:complexType>
-
-            <xsd:complexType name="loginResponse">
-                <xsd:sequence>
-                    <xsd:element name="user" type="tns:user"/>
-                </xsd:sequence>
-            </xsd:complexType>
+            <xsd:include schemaLocation="user.xsd"/>
         </xsd:schema>
 
-        <!--手工编写 schema 文件-->
+
+
 
 
     </wsdl:types>
@@ -112,11 +56,17 @@
         <wsdl:part element="tns:loginResponse" name="parameters"/>
     </wsdl:message>
 
+    <!--为异常设置 Prottype 和 Binding-->
+    <wsdl:message name="UserException">
+        <wsdl:part element="tns:UserException" name="fault"/>
+    </wsdl:message>
+
     <!-- PORTTYPE 指定接口和方法 -->
     <wsdl:portType name="IUserService">
         <wsdl:operation name="add">
             <wsdl:input message="tns:add"/>
             <wsdl:output message="tns:addResponse"/>
+            <wsdl:fault name="UserException" message="tns:UserException"/>
         </wsdl:operation>
         <wsdl:operation name="del">
             <wsdl:input message="tns:del"/>
@@ -129,6 +79,7 @@
         <wsdl:operation name="login">
             <wsdl:input message="tns:login"/>
             <wsdl:output message="tns:loginResponse"/>
+            <wsdl:fault name="UserException" message="tns:UserException"/>
         </wsdl:operation>
     </wsdl:portType>
 
@@ -144,6 +95,9 @@
             <wsdl:output>
                 <soap:body use="literal"/>
             </wsdl:output>
+            <wsdl:fault name="UserException" >
+                <soap:fault name="UserException" use="literal"/>
+            </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="del">
             <wsdl:input>
@@ -168,6 +122,9 @@
             <wsdl:output>
                 <soap:body use="literal"/>
             </wsdl:output>
+            <wsdl:fault name="UserException" >
+                <soap:fault name="UserException" use="literal"/>
+            </wsdl:fault>
         </wsdl:operation>
     </wsdl:binding>
 
@@ -178,7 +135,7 @@
     <wsdl:service name="UserService">
         <wsdl:port binding="tns:UserServiceSOAPBinding" name="UserServicePort">
             <!-- 指定服务发布的地址 -->
-            <soap:address location="http://localhost:8888/ws"/>
+            <soap:address location="http://localhost:8080/ws"/>
         </wsdl:port>
     </wsdl:service>
 

@@ -26,7 +26,10 @@ public class UserDao {
         users.put("admin", u);
     }
 
-    public void add(User user){
+    public void add(User user) throws UserException {
+        if(users.containsKey(user.getUsername())){
+            throw new UserException("用户已经存在");
+        }
         users.put(user.getUsername(), user);
     }
     public void del(String username){
@@ -35,7 +38,13 @@ public class UserDao {
     public List<User> list(){
         return new ArrayList<>(users.values());
     }
-    public User login(String username, String password){
+    public User login(String username, String password) throws UserException {
+        if(!users.containsKey(username)){
+            throw new UserException("用户不存在");
+        }
+        if(!password.equals(users.get(username))){
+            throw new UserException("用户密码不正确");
+        }
         User u = users.get(username);
         return u;
     }

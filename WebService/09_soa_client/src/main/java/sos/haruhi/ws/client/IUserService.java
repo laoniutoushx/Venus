@@ -27,13 +27,16 @@ public interface IUserService {
     /**
      * 
      * @param user
+     * @throws UserException_Exception
      */
     @WebMethod
     @RequestWrapper(localName = "add", targetNamespace = "http://sos.haruhi.ws/test/", className = "sos.haruhi.ws.client.Add")
     @ResponseWrapper(localName = "addResponse", targetNamespace = "http://sos.haruhi.ws/test/", className = "sos.haruhi.ws.client.AddResponse")
     public void add(
         @WebParam(name = "user", targetNamespace = "")
-        User user);
+        User user)
+        throws UserException_Exception
+    ;
 
     /**
      * 
@@ -63,6 +66,7 @@ public interface IUserService {
      * @param username
      * @return
      *     returns sos.haruhi.ws.client.User
+     * @throws UserException_Exception
      */
     @WebMethod
     @WebResult(name = "user", targetNamespace = "")
@@ -72,6 +76,8 @@ public interface IUserService {
         @WebParam(name = "username", targetNamespace = "")
         String username,
         @WebParam(name = "password", targetNamespace = "")
-        String password);
+        String password)
+        throws UserException_Exception
+    ;
 
 }

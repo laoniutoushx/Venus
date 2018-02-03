@@ -1,20 +1,21 @@
 package sos.haruhi.ws.service;
 
 import sos.haruhi.ws.dao.UserDao;
+import sos.haruhi.ws.dao.UserException;
 import sos.haruhi.ws.pojo.User;
 
 import javax.jws.WebService;
 import java.util.List;
 
 @WebService(endpointInterface = "sos.haruhi.ws.service.IUserService",
-            wsdlLocation = "META-INF/user.wsdl",
+            wsdlLocation = "WEB-INF/user.wsdl",
             targetNamespace = "http://sos.haruhi.ws/test/",
             serviceName = "UserService",
             portName = "UserServicePort")
 public class UserServiceImpl implements IUserService {
     private UserDao userDao = UserDao.newInstance();
     @Override
-    public void add(User user) {
+    public void add(User user) throws UserException {
         userDao.add(user);
     }
 
@@ -29,7 +30,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public User login(String username, String password) {
+    public User login(String username, String password) throws UserException {
         return userDao.login(username, password);
     }
 }

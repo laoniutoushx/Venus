@@ -19,6 +19,10 @@
             <xsd:element name="listResponse" type="tns:listResponse"></xsd:element>
             <xsd:element name="login" type="tns:login"></xsd:element>
             <xsd:element name="loginResponse" type="tns:loginResponse"></xsd:element>
+            <!-- 异常类 -->
+            <xsd:element name="UserException" type="tns:UserException"></xsd:element>
+
+            <!--手工编写 schema 文件-->
 
             <xsd:complexType name="add">
                 <xsd:sequence>
@@ -68,9 +72,18 @@
                     <xsd:element name="user" type="tns:user"></xsd:element>
                 </xsd:sequence>
             </xsd:complexType>
+
+            <!--关于异常的封装-->
+            <xsd:complexType name="UserException">
+                <xsd:sequence>
+                    <xsd:element name="message" type="xsd:string"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+
         </xsd:schema>
 
-        <!--手工编写 schema 文件-->
+
+
 
 
     </wsdl:types>
@@ -107,11 +120,17 @@
         <wsdl:part element="tns:loginResponse" name="parameters"></wsdl:part>
     </wsdl:message>
 
+    <!--为异常设置 Prottype 和 Binding-->
+    <wsdl:message name="UserException">
+        <wsdl:part element="tns:UserException" name="fault"></wsdl:part>
+    </wsdl:message>
+
     <!-- PORTTYPE 指定接口和方法 -->
     <wsdl:portType name="IUserService">
         <wsdl:operation name="add">
             <wsdl:input message="tns:add"></wsdl:input>
             <wsdl:output message="tns:addResponse"></wsdl:output>
+            <wsdl:fault name="UserException" message="tns:UserException"></wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="del">
             <wsdl:input message="tns:del"></wsdl:input>
@@ -124,6 +143,7 @@
         <wsdl:operation name="login">
             <wsdl:input message="tns:login"></wsdl:input>
             <wsdl:output message="tns:loginResponse"></wsdl:output>
+            <wsdl:fault name="UserException" message="tns:UserException"></wsdl:fault>
         </wsdl:operation>
     </wsdl:portType>
 
@@ -139,6 +159,9 @@
             <wsdl:output>
                 <soap:body use="literal"></soap:body>
             </wsdl:output>
+            <wsdl:fault name="UserException">
+                <soap:fault name="UserException" use="literal"></soap:fault>
+            </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="del">
             <wsdl:input>
@@ -163,6 +186,9 @@
             <wsdl:output>
                 <soap:body use="literal"></soap:body>
             </wsdl:output>
+            <wsdl:fault name="UserException">
+                <soap:fault name="UserException" use="literal"></soap:fault>
+            </wsdl:fault>
         </wsdl:operation>
     </wsdl:binding>
 

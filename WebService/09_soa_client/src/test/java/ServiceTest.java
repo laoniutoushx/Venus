@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 import sos.haruhi.ws.client.IUserService;
 import sos.haruhi.ws.client.User;
+import sos.haruhi.ws.client.UserException_Exception;
 import sos.haruhi.ws.client.UserService;
 
 import javax.xml.namespace.QName;
@@ -15,7 +16,7 @@ public class ServiceTest {
 
     @Before
     public void init() throws MalformedURLException {
-        URL url = new URL("http://localhost:9999/ws?wsdl");
+        URL url = new URL("http://localhost:8888/ws?wsdl");
         QName qName = new QName("http://sos.haruhi.ws/test/", "UserService");
         us = new UserService(url, qName);
         port = us.getUserServicePort();
@@ -35,6 +36,19 @@ public class ServiceTest {
         u.setUsername("zhangsan");
         u.setPassword("123");
         u.setNickname( "张三");
-        port.add(u);
+        try {
+            port.add(u);
+        } catch (UserException_Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testLogin(){
+        try {
+            port.login("zhangsan", "1234");
+        } catch (UserException_Exception e) {
+            e.printStackTrace();
+        }
     }
 }
