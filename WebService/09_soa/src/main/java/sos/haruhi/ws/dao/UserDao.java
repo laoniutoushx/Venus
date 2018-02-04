@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class UserDao {
 
-    final private static Map<String, User> users = new HashMap<String, User>();
+    public static final Map<String, User> users = new HashMap<String, User>();
     private static UserDao userDao = null;
     public static UserDao newInstance(){
         if(userDao == null){
@@ -42,7 +42,7 @@ public class UserDao {
         if(!users.containsKey(username)){
             throw new UserException("用户不存在");
         }
-        if(!password.equals(users.get(username))){
+        if(!password.equals(users.get(username).getPassword())){
             throw new UserException("用户密码不正确");
         }
         User u = users.get(username);

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="09_soa_web:war">
+    <output-path>$PROJECT_DIR$/WebService/09_soa_web/target</output-path>
+    <root id="archive" name="09_soa_web.war">
+      <element id="artifact" artifact-name="09_soa_web:war exploded" />
+    </root>
+  </artifact>
+</component>

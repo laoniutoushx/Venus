@@ -16,6 +16,8 @@
         <!-- schema include 引入 -->
         <xsd:schema targetNamespace="http://sos.haruhi.ws/test/">
             <!--<xsd:include schemaLocation="user.xsd"/>-->
+            <!--手工编写 schema 文件-->
+
             <xsd:element name="add" type="tns:add"/>
             <xsd:element name="addResponse" type="tns:addResponse"/>
             <xsd:element name="del" type="tns:del"/>
@@ -84,7 +86,6 @@
                     <xsd:element name="message" type="xsd:string"/>
                 </xsd:sequence>
             </xsd:complexType>
-
         </xsd:schema>
 
 
@@ -204,7 +205,7 @@
     <wsdl:service name="UserService">
         <wsdl:port binding="tns:UserServiceSOAPBinding" name="UserServicePort">
             <!-- 指定服务发布的地址 -->
-            <soap:address location="http://localhost:8888/ws"/>
+            <soap:address location="http://localhost:8080/ws"/>
         </wsdl:port>
     </wsdl:service>
 

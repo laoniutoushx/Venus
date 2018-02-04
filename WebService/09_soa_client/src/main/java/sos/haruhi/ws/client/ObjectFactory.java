@@ -28,6 +28,7 @@ public class ObjectFactory {
     private final static QName _DelResponse_QNAME = new QName("http://sos.haruhi.ws/test/", "delResponse");
     private final static QName _LoginResponse_QNAME = new QName("http://sos.haruhi.ws/test/", "loginResponse");
     private final static QName _Add_QNAME = new QName("http://sos.haruhi.ws/test/", "add");
+    private final static QName _License_QNAME = new QName("http://sos.haruhi.ws/test/", "license");
     private final static QName _ListResponse_QNAME = new QName("http://sos.haruhi.ws/test/", "listResponse");
     private final static QName _List_QNAME = new QName("http://sos.haruhi.ws/test/", "list");
     private final static QName _Login_QNAME = new QName("http://sos.haruhi.ws/test/", "login");
@@ -47,6 +48,14 @@ public class ObjectFactory {
      */
     public Add createAdd() {
         return new Add();
+    }
+
+    /**
+     * Create an instance of {@link License }
+     * 
+     */
+    public License createLicense() {
+        return new License();
     }
 
     /**
@@ -155,6 +164,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://sos.haruhi.ws/test/", name = "add")
     public JAXBElement<Add> createAdd(Add value) {
         return new JAXBElement<Add>(_Add_QNAME, Add.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link License }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://sos.haruhi.ws/test/", name = "license")
+    public JAXBElement<License> createLicense(License value) {
+        return new JAXBElement<License>(_License_QNAME, License.class, null, value);
     }
 
     /**

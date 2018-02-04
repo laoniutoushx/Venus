@@ -15,9 +15,87 @@
         </xsd:schema>-->
         <!-- schema include 引入 -->
         <xsd:schema targetNamespace="http://sos.haruhi.ws/test/">
-            <xsd:include schemaLocation="user.xsd"/>
-        </xsd:schema>
+            <!--<xsd:include schemaLocation="user.xsd"/>-->
+            <!--手工编写 schema 文件-->
 
+            <xsd:element name="add" type="tns:add"/>
+            <xsd:element name="addResponse" type="tns:addResponse"/>
+            <xsd:element name="del" type="tns:del"/>
+            <xsd:element name="delResponse" type="tns:delResponse"/>
+            <xsd:element name="list" type="tns:list"/>
+            <xsd:element name="listResponse" type="tns:listResponse"/>
+            <xsd:element name="login" type="tns:login"/>
+            <xsd:element name="loginResponse" type="tns:loginResponse"/>
+            <!-- 异常类 -->
+            <xsd:element name="UserException" type="tns:UserException"/>
+            <xsd:element name="license" type="tns:license"/>
+
+            <!--手工编写 schema 文件-->
+
+            <xsd:complexType name="add">
+                <xsd:sequence>
+                    <xsd:element name="user" type="tns:user"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="user">
+                <xsd:sequence>
+                    <xsd:element name="username" type="xsd:string"/>
+                    <xsd:element name="password" type="xsd:string"/>
+                    <xsd:element name="nickname" type="xsd:string"/>
+
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="addResponse">
+            </xsd:complexType>
+
+            <xsd:complexType name="del">
+                <xsd:sequence>
+                    <xsd:element name="username" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="delResponse">
+            </xsd:complexType>
+
+            <xsd:complexType name="list">
+            </xsd:complexType>
+
+            <xsd:complexType name="listResponse">
+                <xsd:sequence maxOccurs="unbounded">
+                    <xsd:element name="user" type="tns:user"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="login">
+                <xsd:sequence>
+                    <xsd:element name="username" type="xsd:string"/>
+                    <xsd:element name="password" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="loginResponse">
+                <xsd:sequence>
+                    <xsd:element name="user" type="tns:user"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <!--关于异常的封装-->
+            <xsd:complexType name="UserException">
+                <xsd:sequence>
+                    <xsd:element name="message" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <!--关于权限控制（简单的） header-->
+            <xsd:complexType name="license">
+                <xsd:sequence>
+                    <xsd:element name="registerUser" type="tns:user"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+        </xsd:schema>
 
 
 
@@ -61,6 +139,11 @@
         <wsdl:part element="tns:UserException" name="fault"/>
     </wsdl:message>
 
+    <!--为header 权限设置 Prottype 和 Binding-->
+    <wsdl:message name="license">
+        <wsdl:part element="tns:license" name="license"/>
+    </wsdl:message>
+
     <!-- PORTTYPE 指定接口和方法 -->
     <wsdl:portType name="IUserService">
         <wsdl:operation name="add">
@@ -91,6 +174,7 @@
                 <!-- add方法的header中加入license消息 -->
                 <!--<soap:header use="literal" part="license" message="tns:license"></soap:header>-->
                 <soap:body use="literal"/>
+                <soap:header message="tns:license" part="license" use="literal"/>
             </wsdl:input>
             <wsdl:output>
                 <soap:body use="literal"/>

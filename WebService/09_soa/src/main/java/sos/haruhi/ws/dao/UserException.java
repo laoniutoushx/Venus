@@ -1,6 +1,7 @@
 package sos.haruhi.ws.dao;
 
 public class UserException extends Exception {
+    private static final long serialVersionUID = 323L;
     public UserException() {
     }
 

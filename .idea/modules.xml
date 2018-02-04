@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/WebService/08_wsdl/08_wsdl.iml" filepath="$PROJECT_DIR$/WebService/08_wsdl/08_wsdl.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/09_soa/09_soa.iml" filepath="$PROJECT_DIR$/WebService/09_soa/09_soa.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/09_soa_client/09_soa_client.iml" filepath="$PROJECT_DIR$/WebService/09_soa_client/09_soa_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/09_soa_web/09_soa_web.iml" filepath="$PROJECT_DIR$/WebService/09_soa_web/09_soa_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" filepath="$PROJECT_DIR$/Crypto&amp;Decrypt/Crypto&amp;Decrypt.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Effective-java/Effective-java.iml" filepath="$PROJECT_DIR$/Effective-java/Effective-java.iml" />

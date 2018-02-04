@@ -49,6 +49,7 @@
     <file type="web" url="file://$PROJECT_DIR$/spring-test" />
     <file type="web" url="file://$PROJECT_DIR$/springsourcetest" />
     <file type="web" url="file://$PROJECT_DIR$/WebService/09_soa" />
+    <file type="web" url="file://$PROJECT_DIR$/WebService/09_soa_web" />
     <file type="web" url="file://$PROJECT_DIR$/wechat-H5-netpay-demo" />
   </component>
   <component name="MavenProjectsManager">
