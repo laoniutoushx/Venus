@@ -1,5 +1,6 @@
 import com.sun.net.httpserver.Headers;
 import com.sun.xml.internal.ws.developer.WSBindingProvider;
+import org.apache.commons.io.FileUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.w3c.dom.Document;
@@ -12,6 +13,9 @@ import javax.xml.bind.Marshaller;
 import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.ws.soap.MTOMFeature;
+import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
@@ -27,7 +31,7 @@ public class ServiceTest {
         URL url = new URL("http://localhost:8080/ws?wsdl");
         QName qName = new QName("http://sos.haruhi.ws/test/", "UserService");
         us = new UserService(url, qName);
-        port = us.getUserServicePort();
+        port = us.getUserServicePort(new MTOMFeature());
     }
 
     @Test
@@ -86,6 +90,16 @@ public class ServiceTest {
             User user = port.login("admin", "123");
             System.out.println(user.getNickname());
         } catch (UserException_Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testUplaod(){
+        try {
+            byte[] file = FileUtils.readFileToByteArray(new File("d:/Picture/wallhaven-4895.jpg"));
+            port.upload(file);
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

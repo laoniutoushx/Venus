@@ -24,6 +24,10 @@
         <module>09_soa</module>
         <module>09_soa_client</module>
         <module>09_soa_web</module>
+        <module>10_binary</module>
+        <module>11_binary</module>
+        <module>11_binary</module>
+        <module>11_binary</module>
     </modules>
 
     <properties>

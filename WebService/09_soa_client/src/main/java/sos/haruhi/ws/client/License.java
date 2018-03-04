@@ -1,13 +1,16 @@
 
 package sos.haruhi.ws.client;
 
-import javax.xml.bind.annotation.*;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>license complex type锟斤拷 Java 锟洁。
+ * <p>license complex type的 Java 类。
  * 
- * <p>锟斤拷锟斤拷模式片锟斤拷指锟斤拷锟斤拷锟斤拷锟节达拷锟斤拷锟叫碉拷预锟斤拷锟斤拷锟捷★拷
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="license">
@@ -25,7 +28,7 @@ import javax.xml.bind.annotation.*;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "license", propOrder = {
-        "registerUser"
+    "registerUser"
 })
 public class License {
 
@@ -33,7 +36,7 @@ public class License {
     protected User registerUser;
 
     /**
-     * 锟斤拷取registerUser锟斤拷锟皆碉拷值锟斤拷
+     * 获取registerUser属性的值。
      * 
      * @return
      *     possible object is
@@ -45,7 +48,7 @@ public class License {
     }
 
     /**
-     * 锟斤拷锟斤拷registerUser锟斤拷锟皆碉拷值锟斤拷
+     * 设置registerUser属性的值。
      * 
      * @param value
      *     allowed object is

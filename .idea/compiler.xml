@@ -18,6 +18,8 @@
         <module name="09_soa" />
         <module name="09_soa_client" />
         <module name="09_soa_web" />
+        <module name="10_binary" />
+        <module name="11_binary" />
         <module name="client-server-test" />
         <module name="ftp" />
         <module name="http" />
@@ -44,6 +46,8 @@
       <module name="09_soa" target="1.8" />
       <module name="09_soa_client" target="1.8" />
       <module name="09_soa_web" target="1.8" />
+      <module name="10_binary" target="1.8" />
+      <module name="11_binary" target="1.8" />
       <module name="client-server-tcp-test" target="1.8" />
       <module name="ftp" target="1.5" />
       <module name="http" target="1.5" />
@@ -55,8 +59,8 @@
       <module name="Venus" target="1.5" />
       <module name="ws_i" target="1.8" />
       <module name="ws_ii" target="1.8" />
-      <module name="XML" target="1.8" />
       <module name="xml" target="1.8" />
+      <module name="XML" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

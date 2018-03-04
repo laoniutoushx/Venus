@@ -25,6 +25,7 @@ import javax.xml.namespace.QName;
 public class ObjectFactory {
 
     private final static QName _AddResponse_QNAME = new QName("http://sos.haruhi.ws/test/", "addResponse");
+    private final static QName _Upload_QNAME = new QName("http://sos.haruhi.ws/test/", "upload");
     private final static QName _DelResponse_QNAME = new QName("http://sos.haruhi.ws/test/", "delResponse");
     private final static QName _LoginResponse_QNAME = new QName("http://sos.haruhi.ws/test/", "loginResponse");
     private final static QName _Add_QNAME = new QName("http://sos.haruhi.ws/test/", "add");
@@ -34,6 +35,7 @@ public class ObjectFactory {
     private final static QName _Login_QNAME = new QName("http://sos.haruhi.ws/test/", "login");
     private final static QName _Del_QNAME = new QName("http://sos.haruhi.ws/test/", "del");
     private final static QName _UserException_QNAME = new QName("http://sos.haruhi.ws/test/", "UserException");
+    private final static QName _UploadResponse_QNAME = new QName("http://sos.haruhi.ws/test/", "uploadResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: sos.haruhi.ws.client
@@ -75,11 +77,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link Upload }
+     * 
+     */
+    public Upload createUpload() {
+        return new Upload();
+    }
+
+    /**
      * Create an instance of {@link AddResponse }
      * 
      */
     public AddResponse createAddResponse() {
         return new AddResponse();
+    }
+
+    /**
+     * Create an instance of {@link UploadResponse }
+     * 
+     */
+    public UploadResponse createUploadResponse() {
+        return new UploadResponse();
     }
 
     /**
@@ -137,6 +155,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://sos.haruhi.ws/test/", name = "addResponse")
     public JAXBElement<AddResponse> createAddResponse(AddResponse value) {
         return new JAXBElement<AddResponse>(_AddResponse_QNAME, AddResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Upload }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://sos.haruhi.ws/test/", name = "upload")
+    public JAXBElement<Upload> createUpload(Upload value) {
+        return new JAXBElement<Upload>(_Upload_QNAME, Upload.class, null, value);
     }
 
     /**
@@ -218,6 +245,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://sos.haruhi.ws/test/", name = "UserException")
     public JAXBElement<UserException> createUserException(UserException value) {
         return new JAXBElement<UserException>(_UserException_QNAME, UserException.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link UploadResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://sos.haruhi.ws/test/", name = "uploadResponse")
+    public JAXBElement<UploadResponse> createUploadResponse(UploadResponse value) {
+        return new JAXBElement<UploadResponse>(_UploadResponse_QNAME, UploadResponse.class, null, value);
     }
 
 }

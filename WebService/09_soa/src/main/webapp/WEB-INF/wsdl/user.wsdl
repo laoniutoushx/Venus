@@ -28,7 +28,15 @@
             <xsd:element name="loginResponse" type="tns:loginResponse"/>
             <!-- 异常类 -->
             <xsd:element name="UserException" type="tns:UserException"/>
+
+            <!--头文件-->
             <xsd:element name="license" type="tns:license"/>
+
+            <xsd:element name="upload" type="tns:upload"/>
+            <xsd:element name="uploadResponse" type="tns:uploadResponse"/>
+
+
+
 
             <!--手工编写 schema 文件-->
 
@@ -95,6 +103,16 @@
                 </xsd:sequence>
             </xsd:complexType>
 
+            <!--关于二进制-->
+            <xsd:complexType name="upload">
+                <xsd:sequence>
+                    <xsd:element name="file" type="xsd:base64Binary"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType name="uploadResponse">
+            </xsd:complexType>
+
         </xsd:schema>
 
 
@@ -144,6 +162,13 @@
         <wsdl:part element="tns:license" name="license"/>
     </wsdl:message>
 
+    <wsdl:message name="upload">
+        <wsdl:part element="tns:upload" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="uploadResponse">
+        <wsdl:part element="tns:uploadResponse" name="parameters"/>
+    </wsdl:message>
+
     <!-- PORTTYPE 指定接口和方法 -->
     <wsdl:portType name="IUserService">
         <wsdl:operation name="add">
@@ -163,6 +188,10 @@
             <wsdl:input message="tns:login"/>
             <wsdl:output message="tns:loginResponse"/>
             <wsdl:fault name="UserException" message="tns:UserException"/>
+        </wsdl:operation>
+        <wsdl:operation name="upload">
+            <wsdl:input message="tns:upload"/>
+            <wsdl:output message="tns:uploadResponse"/>
         </wsdl:operation>
     </wsdl:portType>
 
@@ -209,6 +238,14 @@
             <wsdl:fault name="UserException" >
                 <soap:fault name="UserException" use="literal"/>
             </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="upload">
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
         </wsdl:operation>
     </wsdl:binding>
 

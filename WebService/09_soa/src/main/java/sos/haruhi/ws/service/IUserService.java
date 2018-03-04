@@ -77,7 +77,16 @@ public interface IUserService {
                     String username,
             @WebParam(name = "password", targetNamespace = "")
                     String password)
-        throws UserException
-    ;
+        throws UserException;
 
+    /**
+     *
+     * @param file
+     */
+    @WebMethod
+    @RequestWrapper(localName = "upload", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.Upload")
+    @ResponseWrapper(localName = "uploadResponse", targetNamespace = "http://sos.haruhi.ws/test/", className = "ws.haruhi.sos.test.UploadResponse")
+    public void upload(
+            @WebParam(name = "file", targetNamespace = "")
+                    byte[] file);
 }

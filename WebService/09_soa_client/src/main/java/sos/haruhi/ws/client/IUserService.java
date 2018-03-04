@@ -80,4 +80,15 @@ public interface IUserService {
         throws UserException_Exception
     ;
 
+    /**
+     * 
+     * @param file
+     */
+    @WebMethod
+    @RequestWrapper(localName = "upload", targetNamespace = "http://sos.haruhi.ws/test/", className = "sos.haruhi.ws.client.Upload")
+    @ResponseWrapper(localName = "uploadResponse", targetNamespace = "http://sos.haruhi.ws/test/", className = "sos.haruhi.ws.client.UploadResponse")
+    public void upload(
+        @WebParam(name = "file", targetNamespace = "")
+        byte[] file);
+
 }

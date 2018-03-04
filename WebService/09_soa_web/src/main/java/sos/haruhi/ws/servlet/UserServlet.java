@@ -1,10 +1,22 @@
 package sos.haruhi.ws.servlet;
 
+import com.sun.xml.internal.ws.developer.WSBindingProvider;
+import org.w3c.dom.Document;
+import sos.haruhi.ws.util.WebUtil;
+import sos.haruhi.ws.webservice.*;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.namespace.QName;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
 @WebServlet(name = "list", urlPatterns = "/list")
@@ -29,7 +41,13 @@ public class UserServlet extends HttpServlet {
         if(method == null || "".equals(method)){
             list(req, resp);
         } else if("add".equals(method)){
-            add(req, resp);
+
+            try {
+                add(req, resp);
+            } catch (JAXBException | ParserConfigurationException e) {
+                e.printStackTrace();
+            }
+
         } else if("login".equals(method)){
             login(req, resp);
         } else if("del".equals(method)){
@@ -42,11 +60,14 @@ public class UserServlet extends HttpServlet {
         req.setAttribute("users", port.list());
         req.getRequestDispatcher("list.jsp").forward(req, resp);
     }
-    public void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    public void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException, JAXBException, ParserConfigurationException {
 
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String nickname = req.getParameter("nickname");
+
+        WebUtil.addLicenseHeader(port, req);
+
 
         User u = new User();
         u.setUsername(username);
