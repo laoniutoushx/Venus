@@ -10,8 +10,8 @@ package State.Lisp;
  */
 public abstract class LiftState {
 
-    protected Context context;
-    public void setContext(Context _context){
+    protected LispContext context;
+    public void setContext(LispContext _context){
         this.context = _context;
     }
 

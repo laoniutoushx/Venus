@@ -1,6 +1,6 @@
 package State.Lisp.StateImpl;
 
-import State.Lisp.Context;
+import State.Lisp.LispContext;
 import State.Lisp.LiftState;
 
 public class RunningState extends LiftState {
@@ -21,7 +21,7 @@ public class RunningState extends LiftState {
 
     @Override
     public void stop() {
-        super.context.setLiftState(Context.stoppingState);
+        super.context.setLiftState(LispContext.stoppingState);
         super.context.getLiftState().stop();
     }
 }

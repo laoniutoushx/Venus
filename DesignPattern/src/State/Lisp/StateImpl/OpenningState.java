@@ -1,6 +1,6 @@
 package State.Lisp.StateImpl;
 
-import State.Lisp.Context;
+import State.Lisp.LispContext;
 import State.Lisp.LiftState;
 
 public class OpenningState extends LiftState {
@@ -12,7 +12,7 @@ public class OpenningState extends LiftState {
     @Override
     public void close() {
         // 修改状态
-        super.context.setLiftState(Context.closingState);
+        super.context.setLiftState(LispContext.closingState);
         // 动作委托 CloseState 来执行
         super.context.getLiftState().close();
     }

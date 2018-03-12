@@ -4,7 +4,7 @@ import State.Lisp.StateImpl.ClosingState;
 
 public class Client {
     public static void main(String[] args) {
-        Context context = new Context();
+        LispContext context = new LispContext();
         context.setLiftState(new ClosingState());
         context.open();
         context.close();

@@ -5,7 +5,7 @@ import State.Lisp.StateImpl.OpenningState;
 import State.Lisp.StateImpl.RunningState;
 import State.Lisp.StateImpl.StoppingState;
 
-public class Context {
+public class LispContext {
     // 定义出所有电梯状态
     public final static OpenningState openningState = new OpenningState();
 
