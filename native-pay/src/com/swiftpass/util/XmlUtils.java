@@ -46,6 +46,7 @@ public class XmlUtils {
      * @see [类、类#方法、类#成员]
      */
     public static String parseRequst(HttpServletRequest request){
+        request.getParameter("haruhi");
         String body = "";
         try {
             ServletInputStream inputStream = request.getInputStream(); 
