@@ -13,9 +13,6 @@
         <module>com.haruhi.client-server-test</module>
         <module>com.haruhi.client-server-tcp-test</module>
         <module>paymax-demo</module>
-        <module>alipay-demo</module>
-        <module>SPA</module>
-        <module>spring-test</module>
         <module>springsourcetest</module>
         <module>Concurrency</module>
         <module>minsheng- bank-demo</module>
@@ -23,6 +20,7 @@
         <module>WebService</module>
         <module>ftp</module>
         <module>http</module>
+        <module>poi</module>
     </modules>
 
 </project>

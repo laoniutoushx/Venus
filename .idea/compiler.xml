@@ -27,6 +27,7 @@
         <module name="minsheng- bank-demo" />
         <module name="netpay-demo" />
         <module name="paymax-demo" />
+        <module name="poi" />
         <module name="shcema" />
         <module name="springsourcetest" />
         <module name="ws_i" />
@@ -35,10 +36,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="01_ws" target="1.8" />
-      <module name="02_ws" target="1.8" />
-      <module name="03_xml" target="1.8" />
-      <module name="04_shcema" target="1.8" />
       <module name="05_java_xml" target="1.8" />
       <module name="06_soap" target="1.8" />
       <module name="07_soap_client" target="1.8" />
@@ -54,6 +51,7 @@
       <module name="javamail" target="1.5" />
       <module name="minsheng- bank-demo" target="1.5" />
       <module name="paymax-demo" target="1.5" />
+      <module name="poi" target="1.7" />
       <module name="shcema" target="1.8" />
       <module name="springsourcetest" target="1.5" />
       <module name="Venus" target="1.5" />
