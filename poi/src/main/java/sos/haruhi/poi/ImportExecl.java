@@ -316,28 +316,28 @@ public class ImportExecl {
 
 
         String targetPath = "s:/test.xls";
-        String sourcePath = "s:/898310157324001_20180513_1.xls";
-//        ImportExecl poi = new ImportExecl();
-//        List<String> sheetName = new ArrayList<>();
-//        List<List<String>> list = poi.read(sourcepath);
-//        //List<List<String>> list = poi.read("运单.xlsx");
-//        if (list != null) {
-//            row:
-//            for (int i = 0; i < list.size(); i++) {
-//                System.out.print("第" + (i) + "行");
-//                List<String> cellList = list.get(i);
-//                for (int j = 0; j < cellList.size(); j++) {
-//                    // System.out.print("    第" + (j + 1) + "列值：");
-//                    if ("汇总信息".equals(cellList.get(j))) {
-//                        break row;
-//                    }
-//                    System.out.print("    " + cellList.get(j));
-//                }
-//                System.out.println();
-//            }
-//        }
+        String sourcePath = "s:/test.xls";
+        ImportExecl poi = new ImportExecl();
+        List<String> sheetName = new ArrayList<>();
+        List<List<String>> list = poi.read(sourcePath);
+        //List<List<String>> list = poi.read("运单.xlsx");
+        if (list != null) {
+            row:
+            for (int i = 0; i < list.size(); i++) {
+                System.out.print("第" + (i) + "行");
+                List<String> cellList = list.get(i);
+                for (int j = 0; j < cellList.size(); j++) {
+                    // System.out.print("    第" + (j + 1) + "列值：");
+                    if ("汇总信息".equals(cellList.get(j))) {
+                        break row;
+                    }
+                    System.out.print("    " + cellList.get(j));
+                }
+                System.out.println();
+            }
+        }
 
-        copySheet(targetPath, "s:/duizhang");
+//        copySheet(targetPath, "s:/duizhang");
     }
 
     public static String copySheet(String targetPath, String sourcePath) throws Exception {
