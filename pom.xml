@@ -21,6 +21,14 @@
         <module>ftp</module>
         <module>http</module>
         <module>poi</module>
+        <module>ServletTest</module>
+        <module>servlet</module>
+        <module>mybatis</module>
+        <module>mybatis</module>
+        <module>mybatis</module>
+        <module>mybatis</module>
+        <module>mybatis</module>
+        <module>mybatis</module>
     </modules>
 
 </project>

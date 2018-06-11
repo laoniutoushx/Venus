@@ -44,7 +44,9 @@
     <file type="web" url="file://$PROJECT_DIR$/Concurrency" />
     <file type="web" url="file://$PROJECT_DIR$/javamail" />
     <file type="web" url="file://$PROJECT_DIR$/minsheng- bank-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/paymax-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/servlet" />
     <file type="web" url="file://$PROJECT_DIR$/SPA" />
     <file type="web" url="file://$PROJECT_DIR$/spring-test" />
     <file type="web" url="file://$PROJECT_DIR$/springsourcetest" />
@@ -63,10 +65,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Concurrency/pom.xml" />
-        <option value="$PROJECT_DIR$/SPA/pom.xml" />
         <option value="$PROJECT_DIR$/WebService/11_binary/pom.xml" />
         <option value="$PROJECT_DIR$/WebService/pom.xml" />
-        <option value="$PROJECT_DIR$/excelpoi/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
       </set>
     </option>
   </component>

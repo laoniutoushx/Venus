@@ -25,9 +25,11 @@
         <module name="http" />
         <module name="javamail" />
         <module name="minsheng- bank-demo" />
+        <module name="mybatis" />
         <module name="netpay-demo" />
         <module name="paymax-demo" />
         <module name="poi" />
+        <module name="servlet" />
         <module name="shcema" />
         <module name="springsourcetest" />
         <module name="ws_i" />
@@ -50,8 +52,10 @@
       <module name="http" target="1.5" />
       <module name="javamail" target="1.5" />
       <module name="minsheng- bank-demo" target="1.5" />
+      <module name="mybatis" target="1.8" />
       <module name="paymax-demo" target="1.5" />
       <module name="poi" target="1.7" />
+      <module name="servlet" target="1.7" />
       <module name="shcema" target="1.8" />
       <module name="springsourcetest" target="1.5" />
       <module name="Venus" target="1.5" />
@@ -60,5 +64,8 @@
       <module name="xml" target="1.8" />
       <module name="XML" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
   </component>
 </project>
