@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="sos.haruhi.mapper.PersonMapper">
+    <!-- 这里namespace必须是PostsMapper接口的路径，不然要运行的时候要报错 “is not known to the MapperRegistry”-->
+    <insert id="addPerson">
+        insert into person(id, name, age, sex) values(#{id},#{name},#{age},#{sex})
+        <!-- 这里sql结尾不能加分号，否则报“ORA-00911”的错误 -->
+    </insert>
+
+    <!-- 这里的id必须和PostsMapper接口中的接口方法名相同，不然运行的时候也要报错 -->
+    <select id="getPersonById" resultType="sos.haruhi.pojo.Person" parameterType="int">
+        select * from person where id=#{id}
+    </select>
+    <!--<select id="getPostsByTitle" resultType="Posts" parameterType="java.lang.String">
+        select * from posts where title like #{title}
+    </select>
+    &lt;!&ndash; 如果方法没有参数，那么就不需要parameterType &ndash;&gt;
+    <select id="getList" resultMap="postList">
+        select * from posts
+    </select>
+    <update id="updatePosts" parameterType="Posts">
+        update posts set context=#{context} where id=#{id}
+    </update>
+    <delete id="deletePosts" parameterType="int">
+        <![CDATA[
+             delete from posts where id=#{id}
+         ]]>
+    </delete>
+    <update id="batchUpdate" parameterType="java.util.List">
+        update posts set  badcount=3,goodcount=5 where id in
+        <foreach collection="list" item="item" open="(" close=")" index="index" separator=",">
+            #{item.id}
+        </foreach>
+    </update>-->
+    <!--<resultMap type="Person" id="personList">
+        <id column="id" property="id"/>
+        <result column="name" property="name" />
+        <result column="age" property="age" />
+        <result column="sex" property="sex" />
+
+    </resultMap>-->
+</mapper>
