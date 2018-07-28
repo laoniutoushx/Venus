@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" filepath="$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" filepath="$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ftp/ftp.iml" filepath="$PROJECT_DIR$/ftp/ftp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greedSnake/greedSnake.iml" filepath="$PROJECT_DIR$/greedSnake/greedSnake.iml" />
       <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
       <module fileurl="file://$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" filepath="$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javamail/javamail.iml" filepath="$PROJECT_DIR$/javamail/javamail.iml" />

@@ -52,7 +52,6 @@
       <module name="http" target="1.5" />
       <module name="javamail" target="1.5" />
       <module name="minsheng- bank-demo" target="1.5" />
-      <module name="mybatis" target="1.8" />
       <module name="mybatiss" target="1.7" />
       <module name="paymax-demo" target="1.5" />
       <module name="poi" target="1.7" />
