@@ -6,15 +6,6 @@
         <element id="directory" name="classes">
           <element id="module-output" name="mybatiss" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.6" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
-          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.3" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-access:1.1.3" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.3" />
-        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/mybatiss/target/mybatiss/META-INF/MANIFEST.MF" />

@@ -26,6 +26,10 @@ public class SnakeFrame extends Frame {
         this.setVisible(true);
     }
 
+    public void lunchFrame(){
+
+    }
+
     public static void main(String[] args) {
         new SnakeFrame().lunch();
     }
