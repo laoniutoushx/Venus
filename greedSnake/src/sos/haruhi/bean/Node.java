@@ -10,8 +10,7 @@ public class Node {
     /*
      * 每个节点的位置
      * */
-    public int row;
-    public int col;
+    public Coordinate coord;
     //方向
     public Direction dir;
 
@@ -19,19 +18,18 @@ public class Node {
     public Node next;
 
     public Node(int row, int col, Direction dir) {
-        this.row = row;
-        this.col = col;
+        this.coord = new Coordinate(col, row);
         this.dir = dir;
     }
 
     public void draw(Graphics g) {
         Color c = g.getColor();
         g.setColor(Color.BLACK);
-        g.fillRect(col * BLOCK_WIDTH, row * BLOCK_HEIGHT, BLOCK_WIDTH, BLOCK_HEIGHT);
+        g.fillRect(coord.getCol() * BLOCK_WIDTH, coord.getRow() * BLOCK_HEIGHT, BLOCK_WIDTH, BLOCK_HEIGHT);
         g.setColor(c);
     }
 
     public void earease(Graphics g){
-        g.clearRect(col * BLOCK_WIDTH, row * BLOCK_HEIGHT, BLOCK_WIDTH, BLOCK_HEIGHT);
+        g.clearRect(coord.getCol() * BLOCK_WIDTH, coord.getRow() * BLOCK_HEIGHT, BLOCK_WIDTH, BLOCK_HEIGHT);
     }
 }

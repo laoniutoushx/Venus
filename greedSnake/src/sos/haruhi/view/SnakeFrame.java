@@ -1,6 +1,7 @@
 package sos.haruhi.view;
 
 import sos.haruhi.bean.Direction;
+import sos.haruhi.bean.Egg;
 import sos.haruhi.bean.Snake;
 
 import java.awt.*;
@@ -10,6 +11,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 public class SnakeFrame extends Frame {
+
     // 方格大小
     public static final int BLOCK_WIDTH = 30;
     public static final int BLOCK_HEIGHT = 30;
@@ -19,6 +21,8 @@ public class SnakeFrame extends Frame {
 
     private static SnakeFrame snakeFrame = null;
     private static Snake snake = null;
+    public static Graphics graphics = null;     // 图形渲染
+    public static Egg egg = null;
 
     @Override
     public void paint(Graphics g) {
@@ -54,6 +58,7 @@ public class SnakeFrame extends Frame {
         //先将内容画在虚拟画布上
         paint(offg);
         snake.draw(offg);
+        egg.drawEgg(offg);
         //然后将虚拟画布上的内容一起画在画布上
         g.drawImage(offScreenImage, 0, 0, null);
 
@@ -96,6 +101,13 @@ public class SnakeFrame extends Frame {
         });
         this.setResizable(false);
         this.setVisible(true);
+        lunchFrame();   // 开启渲染
+        graphics = super.getGraphics(); // 获取渲染器
+        /**
+         * 创建 蛋
+         */
+        egg = new Egg(15, 15);
+        egg.drawEgg(graphics);
     }
 
     public void lunchFrame() {
@@ -106,7 +118,5 @@ public class SnakeFrame extends Frame {
         snakeFrame = new SnakeFrame();
         snake = new Snake(snakeFrame);
         snakeFrame.lunch();
-        snakeFrame.lunchFrame();
-
     }
 }

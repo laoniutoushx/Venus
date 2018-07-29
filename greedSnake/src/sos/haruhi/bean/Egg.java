@@ -1,24 +1,22 @@
 package sos.haruhi.bean;
 
-import sos.haruhi.view.SnakeFrame;
-
 import java.awt.*;
 
 public class Egg {
-    private int row;
-    private int col;
-
-    private static int WIDTH = SnakeFrame.BLOCK_WIDTH;
-    private static int HEIGHT = SnakeFrame.BLOCK_HEIGHT;
+    public Coordinate coord = null;
 
     public Egg(int row, int col) {
-        this.row = row;
-        this.col = col;
+        this.coord = new Coordinate(col, row);
     }
 
     public Node drawEgg(Graphics g){
-        Node node = new Node(this.row, this.col, null);
+        Node node = new Node(coord.getRow(), coord.getCol(), null);
         node.draw(g);
         return node;
+    }
+
+    @Override
+    public String toString() {
+        return "位置 x:" + coord.getCol() + ", y:" + coord.getRow();
     }
 }

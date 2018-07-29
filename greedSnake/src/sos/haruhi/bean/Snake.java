@@ -23,8 +23,8 @@ public class Snake {
     }
 
     public Node addNodeInHead(Direction dir){
-        int _row = head.row;
-        int _col = head.col;
+        int _row = head.coord.getRow();
+        int _col = head.coord.getCol();
         if(dir == null){
             dir = head.dir;
         }
@@ -58,9 +58,16 @@ public class Snake {
         tail.next = null;
     }
 
-    public void move(){
+    public void move(Graphics g){
         addNodeInHead(null);
-        removeNodeInTail();
+        // 碰撞检测
+        if(head.coord.equals(SnakeFrame.egg.coord)){
+            System.out.println("吃到蛋：" + SnakeFrame.egg.toString());
+        }else{
+            removeNodeInTail();
+
+        }
+
     }
 
     public void earease(Graphics g){
@@ -72,7 +79,7 @@ public class Snake {
             return;
         }
         earease(g);
-        move();
+        move(g);
         for(Node node = head; node != null; node = node.next){
             node.draw(g);
         }
