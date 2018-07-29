@@ -58,16 +58,20 @@ public class Snake {
         tail.next = null;
     }
 
+    public boolean collisionCheck(){
+        boolean flag = head.coord.equals(SnakeFrame.egg.coord);
+        // 碰撞检测
+        if(flag){
+            System.out.println("吃到蛋：" + SnakeFrame.egg.toString());
+        }
+        return flag;
+    }
+
     public void move(Graphics g){
         addNodeInHead(null);
-        // 碰撞检测
-        if(head.coord.equals(SnakeFrame.egg.coord)){
-            System.out.println("吃到蛋：" + SnakeFrame.egg.toString());
-        }else{
-            removeNodeInTail();
-
+        if(!collisionCheck()){      // 未碰撞
+            removeNodeInTail();     // 删除末节点
         }
-
     }
 
     public void earease(Graphics g){
@@ -77,6 +81,7 @@ public class Snake {
     public void draw(Graphics g){
         if(head == null){
             return;
+
         }
         earease(g);
         move(g);
