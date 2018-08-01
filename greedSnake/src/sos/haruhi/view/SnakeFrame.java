@@ -16,13 +16,14 @@ public class SnakeFrame extends Frame {
     public static final int BLOCK_WIDTH = 30;
     public static final int BLOCK_HEIGHT = 30;
     // 行数列数
-    private static final int ROWS = 30;
-    private static final int COLS = 30;
+    public static final int ROWS = 30;
+    public static final int COLS = 30;
 
-    private static SnakeFrame snakeFrame = null;
+    public static SnakeFrame snakeFrame = null;
     private static Snake snake = null;
     public static Graphics graphics = null;     // 图形渲染
     public static Egg egg = null;
+    public Thread thread = null;
 
     @Override
     public void paint(Graphics g) {
@@ -111,7 +112,17 @@ public class SnakeFrame extends Frame {
     }
 
     public void lunchFrame() {
-        new Thread(new MyPaintThread()).start();    // 开启画面渲染线程
+        thread = new Thread(new MyPaintThread());
+        thread.start();    // 开启画面渲染线程
+    }
+
+    public void stopFrame(){
+        thread.interrupt();
+        try {
+            thread.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {

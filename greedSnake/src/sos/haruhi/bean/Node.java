@@ -32,4 +32,15 @@ public class Node {
     public void earease(Graphics g){
         g.clearRect(coord.getCol() * BLOCK_WIDTH, coord.getRow() * BLOCK_HEIGHT, BLOCK_WIDTH, BLOCK_HEIGHT);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        Node tempNode = (Node)obj;
+        return this.coord.equals(tempNode.coord);
+    }
+
+    @Override
+    public int hashCode() {
+        return this.coord.hashCode();
+    }
 }

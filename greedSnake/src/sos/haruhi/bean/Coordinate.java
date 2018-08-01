@@ -41,7 +41,6 @@ public class Coordinate {
 
     @Override
     public int hashCode() {
-        return Integer.valueOf(
-                String.valueOf(this.col) + String.valueOf(this.row));
+        return (String.valueOf(this.col) + String.valueOf(this.row)).hashCode();
     }
 }
