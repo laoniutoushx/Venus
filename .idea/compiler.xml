@@ -32,6 +32,7 @@
         <module name="servlet" />
         <module name="shcema" />
         <module name="springsourcetest" />
+        <module name="tankWar" />
         <module name="ws_i" />
         <module name="ws_ii" />
         <module name="xml" />
@@ -58,6 +59,7 @@
       <module name="servlet" target="1.7" />
       <module name="shcema" target="1.8" />
       <module name="springsourcetest" target="1.5" />
+      <module name="tankWar" target="1.7" />
       <module name="Venus" target="1.5" />
       <module name="ws_i" target="1.8" />
       <module name="ws_ii" target="1.8" />
