@@ -12,6 +12,7 @@ public class MyFrame extends JFrame {
         this.setSize(800, 500);
         this.setVisible(true);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.addKeyListener(this.panel);
     }
 
     public static void main(String[] args) {
