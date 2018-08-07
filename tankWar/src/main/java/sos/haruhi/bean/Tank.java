@@ -1,10 +1,14 @@
 package sos.haruhi.bean;
 
+import java.awt.*;
+
 public class Tank {
     private int x = 0;
     private int y = 0;
     private Direction direct = Direction.U;
     private int speed = 5;
+    private Type type;
+    private Color color;
 
     public void move(){
         switch (this.direct){
@@ -58,5 +62,21 @@ public class Tank {
 
     public void setSpeed(int speed) {
         this.speed = speed;
+    }
+
+    public Type getType() {
+        return type;
+    }
+
+    public void setType(Type type) {
+        this.type = type;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
     }
 }
