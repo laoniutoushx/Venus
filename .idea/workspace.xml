@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/EnemyTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/EnemyTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,43 +47,43 @@
     <session id="-680892846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="45" />
+          <entry key="java" value="47" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="47" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5478" />
-          <entry key="txt" value="121" />
+          <entry key="java" value="6079" />
+          <entry key="txt" value="123" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5478" />
-          <entry key="PLAIN_TEXT" value="121" />
+          <entry key="JAVA" value="6079" />
+          <entry key="PLAIN_TEXT" value="123" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -94,12 +94,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-551">
-              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="1691">
+              <caret line="89" column="19" lean-forward="true" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2728#2729#0" expanded="true" />
-                <element signature="e#2762#2763#0" expanded="true" />
+                <element signature="e#3263#3264#0" expanded="true" />
+                <element signature="e#3297#3298#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,18 +109,49 @@
         <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Type.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java">
+        <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="266">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,15 +160,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Tank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="931">
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
                 <element signature="e#1310#1311#0" expanded="true" />
                 <element signature="e#1338#1339#0" expanded="true" />
                 <element signature="e#1379#1380#0" expanded="true" />
@@ -151,7 +176,7 @@
         <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/EnemyTank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="34" />
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -159,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="133">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,13 +219,13 @@
         <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/Frame.java" />
         <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Direction.java" />
         <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Type.java" />
-        <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyFrame.java" />
         <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/MyTank.java" />
         <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Tank.java" />
         <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/EnemyTank.java" />
-        <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyPanel.java" />
-        <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java" />
         <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java" />
+        <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyPanel.java" />
+        <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyFrame.java" />
+        <option value="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java" />
       </list>
     </option>
   </component>
@@ -328,15 +353,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533649242343" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533819928403" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="S:/MyFramework" />
     <property name="project.structure.last.edited" value="Project" />
@@ -412,7 +437,8 @@
       <workItem from="1533125081216" duration="5145000" />
       <workItem from="1533210293663" duration="5770000" />
       <workItem from="1533556831880" duration="5253000" />
-      <workItem from="1533646197553" duration="3640000" />
+      <workItem from="1533646197553" duration="4187000" />
+      <workItem from="1533816368374" duration="3426000" />
     </task>
     <task id="LOCAL-00001" summary="greedy snake for concurrency program practice">
       <created>1532747906032</created>
@@ -477,17 +503,24 @@
       <option name="project" value="LOCAL" />
       <updated>1533564587323</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tankWar 设计">
+      <created>1533650458095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533650458095</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42988000" />
+    <option name="totallyTimeSpent" value="46961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -497,7 +530,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,7 +624,8 @@
     <MESSAGE value="greedy snake for concurrency program practice" />
     <MESSAGE value="greedy snake finish I &#10;第二阶段准备 &#10;&#10;&#10;贪吃蛇 AI&#10;  寻路算法" />
     <MESSAGE value="tankWar 初始" />
-    <option name="LAST_COMMIT_MESSAGE" value="tankWar 初始" />
+    <MESSAGE value="tankWar 设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="tankWar 设计" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/greedSnake/greedSnake.iml">
@@ -700,41 +734,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Type.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/EnemyTank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="34" />
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="931">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
             <element signature="e#1310#1311#0" expanded="true" />
             <element signature="e#1338#1339#0" expanded="true" />
             <element signature="e#1379#1380#0" expanded="true" />
@@ -743,23 +754,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyPanel.java">
+    <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="95">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2762#2763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="89" column="19" lean-forward="true" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3263#3264#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/EnemyTank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/tools/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="1306" column="63" selection-start-line="1306" selection-start-column="54" selection-end-line="1306" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="266">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
+            <element signature="e#109#110#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
@@ -767,16 +813,18 @@
             <element signature="e#239#240#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
           </folding>
         </state>
       </provider>

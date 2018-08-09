@@ -1,9 +1,6 @@
 package sos.haruhi.view;
 
-import sos.haruhi.bean.Direction;
-import sos.haruhi.bean.EnemyTank;
-import sos.haruhi.bean.PlayerTank;
-import sos.haruhi.bean.Type;
+import sos.haruhi.bean.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +8,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Vector;
 
-public class MyPanel extends JPanel implements KeyListener {
+public class MyPanel extends JPanel implements KeyListener, Runnable {
 
     PlayerTank myTank = null;
     Vector<EnemyTank> enemyTanks = new Vector<>();
@@ -34,6 +31,17 @@ public class MyPanel extends JPanel implements KeyListener {
 
         // 画出我方坦克
         this.drawTank(myTank.getX(), myTank.getY(), g, myTank.getDirect(), Type.PLAYER);
+
+        //画出子弹
+        if(myTank.bullets != null && myTank.bullets.size() > 0){
+            for(Bullet bullet:myTank.bullets){
+                if(bullet.isLive()){
+                    g.setColor(Color.red);
+                    g.draw3DRect(bullet.getX(), bullet.getY(), 2, 2, false);
+                }
+            }
+        }
+
 
         // 画出敌方坦克
         for(int i=0;i<enemyTanks.size();i++){
@@ -114,6 +122,9 @@ public class MyPanel extends JPanel implements KeyListener {
                 myTank.setDirect(Direction.R);
                 myTank.move();
                 break;
+            case KeyEvent.VK_J:
+                myTank.shotting();
+                break;
         }
         this.repaint();
     }
@@ -121,5 +132,18 @@ public class MyPanel extends JPanel implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
 
+    }
+
+    @Override
+    public void run() {
+        //每隔100毫秒 重新画图
+        while(true){
+            try {
+                Thread.sleep(100);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            this.repaint();
+        }
     }
 }
