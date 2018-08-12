@@ -16,29 +16,20 @@
       <module fileurl="file://$PROJECT_DIR$/Effective-java/Effective-java.iml" filepath="$PROJECT_DIR$/Effective-java/Effective-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hello/Hello.iml" filepath="$PROJECT_DIR$/Hello/Hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MinSheng-Bank-javaDemo/MinSheng-Bank-javaDemo.iml" filepath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/MinSheng-Bank-javaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Venus.iml" filepath="$PROJECT_DIR$/Venus.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/XML.iml" filepath="$PROJECT_DIR$/WebService/XML.iml" />
-      <module fileurl="file://$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" filepath="$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" filepath="$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" filepath="$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/ftp/ftp.iml" filepath="$PROJECT_DIR$/ftp/ftp.iml" />
       <module fileurl="file://$PROJECT_DIR$/greedSnake/greedSnake.iml" filepath="$PROJECT_DIR$/greedSnake/greedSnake.iml" />
       <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
       <module fileurl="file://$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" filepath="$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javamail/javamail.iml" filepath="$PROJECT_DIR$/javamail/javamail.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" filepath="$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" filepath="$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatiss/mybatiss.iml" filepath="$PROJECT_DIR$/mybatiss/mybatiss.iml" />
-      <module fileurl="file://$PROJECT_DIR$/native-pay/native-pay.iml" filepath="$PROJECT_DIR$/native-pay/native-pay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/paymax-demo/paymax-demo.iml" filepath="$PROJECT_DIR$/paymax-demo/paymax-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/poi/poi.iml" filepath="$PROJECT_DIR$/poi/poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/04_shcema/shcema.iml" filepath="$PROJECT_DIR$/WebService/04_shcema/shcema.iml" />
       <module fileurl="file://$PROJECT_DIR$/springsourcetest/springsourcetest.iml" filepath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/tankWar/tankWar.iml" filepath="$PROJECT_DIR$/tankWar/tankWar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webSocketShow/webSocketShow.iml" filepath="$PROJECT_DIR$/webSocketShow/webSocketShow.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/02_ws/ws_i.iml" filepath="$PROJECT_DIR$/WebService/02_ws/ws_i.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/01_ws/ws_ii.iml" filepath="$PROJECT_DIR$/WebService/01_ws/ws_ii.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/03_xml/xml.iml" filepath="$PROJECT_DIR$/WebService/03_xml/xml.iml" />

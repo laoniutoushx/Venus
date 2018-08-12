@@ -41,7 +41,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/alipay-demo" />
     <file type="web" url="file://$PROJECT_DIR$/client-server-tcp-test" />
-    <file type="web" url="file://$PROJECT_DIR$/Concurrency" />
+    <file type="web" url="file://$PROJECT_DIR$/concurrency" />
     <file type="web" url="file://$PROJECT_DIR$/javamail" />
     <file type="web" url="file://$PROJECT_DIR$/minsheng- bank-demo" />
     <file type="web" url="file://$PROJECT_DIR$/mybatis" />
@@ -68,7 +68,10 @@
         <option value="$PROJECT_DIR$/Concurrency/pom.xml" />
         <option value="$PROJECT_DIR$/WebService/11_binary/pom.xml" />
         <option value="$PROJECT_DIR$/WebService/pom.xml" />
+        <option value="$PROJECT_DIR$/javamail/pom.xml" />
+        <option value="$PROJECT_DIR$/minsheng- bank-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/paymax-demo/pom.xml" />
       </set>
     </option>
   </component>

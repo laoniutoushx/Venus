@@ -8,12 +8,14 @@ public class Bullet implements Runnable {
     private Direction direct;
     private int speed = 5;
     private boolean isLive = true;
+    private Tank tank;
 
-    public Bullet(int x, int y, Direction direct) {
+    public Bullet(int x, int y, Direction direct, Tank tank) {
         this.x = x;
         this.y = y;
         this.direct = direct;
         MyFrame.threadPool.execute(this);
+        this.tank = tank;
     }
 
     public int getX() {
@@ -85,6 +87,7 @@ public class Bullet implements Runnable {
             //子弹何时死亡
             if(x<0||x>800||y<0||y>500){
                 this.isLive = false;
+                tank.bullets.remove(this);
             }
         }
 }

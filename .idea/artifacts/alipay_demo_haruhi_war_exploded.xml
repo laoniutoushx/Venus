@@ -8,7 +8,6 @@
           <element id="module-output" name="alipay-demo-haruhi" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="lib" />
           <element id="library" level="application" name="org.apache.commons:commons-lang3:3.7" />
         </element>
       </element>

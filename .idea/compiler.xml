@@ -21,13 +21,11 @@
         <module name="10_binary" />
         <module name="11_binary" />
         <module name="client-server-test" />
+        <module name="concurrency" />
         <module name="ftp" />
         <module name="http" />
-        <module name="javamail" />
-        <module name="minsheng- bank-demo" />
         <module name="mybatiss" />
         <module name="netpay-demo" />
-        <module name="paymax-demo" />
         <module name="poi" />
         <module name="servlet" />
         <module name="shcema" />
@@ -49,6 +47,7 @@
       <module name="10_binary" target="1.8" />
       <module name="11_binary" target="1.8" />
       <module name="client-server-tcp-test" target="1.8" />
+      <module name="concurrency" target="1.8" />
       <module name="ftp" target="1.5" />
       <module name="http" target="1.5" />
       <module name="javamail" target="1.5" />

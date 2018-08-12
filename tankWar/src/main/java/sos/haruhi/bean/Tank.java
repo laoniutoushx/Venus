@@ -1,6 +1,7 @@
 package sos.haruhi.bean;
 
 import java.awt.*;
+import java.util.Vector;
 
 public class Tank {
     private int x = 0;
@@ -9,6 +10,7 @@ public class Tank {
     private int speed = 5;
     private Type type;
     private Color color;
+    public Vector<Bullet> bullets = new Vector<>();
 
     public void move(){
         switch (this.direct){
