@@ -2,405 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="Concurrency 轮流打印字母 ABC">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/alipay_demo_haruhi_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/alipay_demo_haruhi_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/javamail_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/javamail_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lakala_bount_pay_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lakala_bount_pay_demo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/native_pay_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/native_pay_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/servlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/servlet_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springsourcetest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/springsourcetest_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_39.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/MinSehngJar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecuteThreeThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrency/Concurrency.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrency/NativeConcurrency/NativeConcurrency.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrency/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/MinSheng-Bank-javaDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/bin/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/bin/test/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/bin/test/SignEncryptDncryptSignChk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/lib/SADK-CMBC-3.1.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/lib/gson-2.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/src/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/src/test/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinSheng-Bank-javaDemo/javaDemo/src/test/SignEncryptDncryptSignChk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Venus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Venus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/alipay-demo-haruhi.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/src/com/alipay/config/AlipayConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/src/com/alipay/util/logFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/WEB-INF/lib/alipay-sdk-java20170307171631-source.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/WEB-INF/lib/alipay-sdk-java20170307171631.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/WEB-INF/lib/commons-logging-1.1.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/notify_url.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/return_url.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/wappay/close.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/wappay/downloadurl.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/wappay/pay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/wappay/query.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/wappay/refund.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay-demo-haruhi/web/wappay/refundquery.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/ACPSample_B2C.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay.trade.wap.pay-java-utf-8/javaDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-tcp-test/client-server-tcp-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-tcp-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-tcp-test/src/main/java/com/haruhi/tcp/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-tcp-test/src/main/java/com/haruhi/tcp/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-tcp-test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-tcp-test/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-tcp-test/target/classes/com/haruhi/tcp/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-tcp-test/target/classes/com/haruhi/tcp/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-udp-test/client-server-udp-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-udp-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-udp-test/src/main/java/com/haruhi/udp/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-udp-test/src/main/java/com/haruhi/udp/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-udp-test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-server-udp-test/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftp/ftp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ftp/ftp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/http.iml" beforeDir="false" afterPath="$PROJECT_DIR$/http/http.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javamail/javamail.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javamail/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javamail/src/main/java/com/haruhi/mail/SendMail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javamail/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javamail/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javamail/target/classes/com/haruhi/mail/SendMail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/lakala-bount-pay-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/config/LakalPayConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/enums/LklCurrency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/util/ByteArrayUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/util/DESCrypto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/util/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/util/DigestUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/util/LklMessageUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/util/RSAUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/src/com/lakala/java/util/ToolsUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/WEB-INF/lib/gson-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/env.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/envConfig.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/mob/mob_ds.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/mob/mob_kj_quick.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/mob/mob_quickpay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/mob/mod_kj_ds.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/pageNotify.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/pay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/pc/pc_ds.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/pc/pc_kj_ds.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/pc/pc_kj_quickpay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/pc/pc_quickpay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lakala-bount-pay-demo/web/returnNotify.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-lang3-3.7-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-lang3-3.7-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-lang3-3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/poi-3.5-FINAL.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/minsheng- bank-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/config/Alipay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/config/MinShengConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/config/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayCheckFileDownloadServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2AlipayQRCodeDoPayServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinSheng2WxpayQRCodeDoPayServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinShengBankNotifyServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/java/sos/haruhi/servlet/MinShengBankPayServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/resources/certificate.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/resources/certificate/cmbcTest.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/resources/certificate/cust0001.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/resources/certificate/cust0001.sm2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/test/ByteCopy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/test/DoubleQuote.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/lib/SADK-CMBC-3.1.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/lib/alipay-sdk-java20170307171631-source.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/lib/alipay-sdk-java20170307171631.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/lib/commons-logging-1.1.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/lib/gson-2.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/minSheng_Alipay_AuthCode.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/src/main/webapp/minSheng_Wxpay_AuthCode.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/certificate.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/certificate/cmbcTest.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/certificate/cust0001.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/certificate/cust0001.sm2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/sos/haruhi/config/Alipay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/sos/haruhi/config/MinShengConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/sos/haruhi/servlet/MinSheng2AlipayCheckFileDownloadServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/sos/haruhi/servlet/MinSheng2AlipayQRCodeDoPayServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/sos/haruhi/servlet/MinSheng2WxpayQRCodeDoPayServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/sos/haruhi/servlet/MinShengBankNotifyServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/classes/sos/haruhi/servlet/MinShengBankPayServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/certificate.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/certificate/cmbcTest.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/certificate/cust0001.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/certificate/cust0001.sm2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/sos/haruhi/config/Alipay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/sos/haruhi/config/MinShengConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/sos/haruhi/config/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/sos/haruhi/servlet/MinSheng2AlipayCheckFileDownloadServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/sos/haruhi/servlet/MinSheng2AlipayQRCodeDoPayServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/sos/haruhi/servlet/MinSheng2WxpayQRCodeDoPayServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/sos/haruhi/servlet/MinShengBankNotifyServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/classes/sos/haruhi/servlet/MinShengBankPayServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/SADK-CMBC-3.1.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/alipay-sdk-java20170307171631-source.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/alipay-sdk-java20170307171631.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/commons-logging-1.1.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/commons-net-3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/fastjson-1.2.39.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/gson-2.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/httpclient-4.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/lib/httpcore-4.4.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/minSheng_Alipay_AuthCode.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/minsheng- bank-demo/minSheng_Wxpay_AuthCode.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/test-classes/ByteCopy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minsheng- bank-demo/target/test-classes/DoubleQuote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/sos/haruhi/pojo/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/res/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/res/sqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/lib/commons-codec-1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/lib/commons-httpclient-3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/lib/httpclient-4.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/lib/httpcore-4.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/lib/jaxen-1.1-beta-6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/css/Copy of style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/images/bg01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/images/correct.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/images/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/images/new-btn-fixed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/images/page-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/images/page01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/images/weixin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/index-pay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/js/jquery-1.4.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/WebRoot/log/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/build/classes/com/swiftpass/action/TestPayResultSerlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/build/classes/com/swiftpass/action/TestPayServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/build/classes/com/swiftpass/config/SwiftpassConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/build/classes/com/swiftpass/util/MD5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/build/classes/com/swiftpass/util/SignUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/build/classes/com/swiftpass/util/XmlUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/build/classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/native-pay.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/src/com/swiftpass/action/TestPayResultSerlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/src/com/swiftpass/action/TestPayServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/src/com/swiftpass/config/SwiftpassConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/src/com/swiftpass/util/MD5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/src/com/swiftpass/util/SignUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/src/com/swiftpass/util/XmlUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-pay/src/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/paymax-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/config/PaymaxConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/config/SignConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/example/ChargeExample.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/example/ChargeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/example/ChargeExample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/example/RefundExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/example/StatementDownloadExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/exception/AuthorizationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/exception/InvalidRequestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/exception/InvalidResponseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/exception/PaymaxException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/model/Charge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/model/Paymax.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/model/PaymaxBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/model/Refund.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/model/StatementDownload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/sign/Base64.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/sign/HttpRequestWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/sign/RSA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/sign/RSAKeyGenerateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/java/com/paymax/sign/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/webapp/WEB-INF/lib/fastjson-1.2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/webapp/demo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/config/PaymaxConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/config/SignConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/example/ChargeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/example/RefundExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/example/StatementDownloadExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/exception/AuthorizationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/exception/InvalidRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/exception/InvalidResponseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/exception/PaymaxException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/model/Charge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/model/Paymax$AnyTrustStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/model/Paymax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/model/PaymaxBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/model/Refund.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/model/StatementDownload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/sign/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/sign/HttpRequestWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/sign/RSA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/sign/RSAKeyGenerateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/classes/com/paymax/sign/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/lib/fastjson-1.2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/lib/httpclient-4.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/lib/httpcore-4.4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/lib/httpmime-4.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/demo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/PaymaxDemo/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/config/PaymaxConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/config/SignConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/example/ChargeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/example/RefundExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/example/StatementDownloadExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/exception/AuthorizationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/exception/InvalidRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/exception/InvalidResponseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/exception/PaymaxException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/model/Charge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/model/Paymax$AnyTrustStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/model/Paymax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/model/PaymaxBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/model/Refund.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/model/StatementDownload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/sign/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/sign/HttpRequestWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/sign/RSA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/sign/RSAKeyGenerateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/classes/com/paymax/sign/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-demo/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/config/PaymaxConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/config/SignConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/example/ChargeExample.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/example/ChargeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/example/ChargeExample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/example/RefundExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/example/StatementDownloadExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/exception/AuthorizationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/exception/InvalidRequestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/exception/InvalidResponseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/exception/PaymaxException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/model/Charge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/model/Paymax.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/model/PaymaxBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/model/Refund.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/model/StatementDownload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/sign/Base64.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/sign/HttpRequestWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/sign/RSA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/sign/RSAKeyGenerateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymax-server-sdk-java/src/main/java/com/paymax/sign/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/poi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/poi/poi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tankWar/tankWar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tankWar/tankWar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/antlr-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-chain-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-digester-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-lang-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-lang3-3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/commons-validator-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/dom4j-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/ezmorph-1.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/httpclient-4.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/httpcore-4.4.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/javax.websocket-api-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/json-lib-2.4-jdk15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/lombok-1.16.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/oro-2.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-aop-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-context-support-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-jdbc-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-jms-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-messaging-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-orm-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-tx-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-webmvc-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/spring-websocket-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/sslext-1.2-0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/struts-core-1.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/struts-taglib-1.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/struts-tiles-1.3.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/velocity-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/lib/velocity-tools-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/union-pay-H5-netpay-demo/target/netpay-demo/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webSocketShow/lib/fastjson-1.1.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webSocketShow/src/Pojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webSocketShow/src/WebSocket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webSocketShow/webSocketShow.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLocked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecuteThreeThread.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebService/11_binary/target/" />
@@ -442,23 +51,23 @@
     <session id="-680892846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="60" />
+          <entry key="java" value="61" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
@@ -466,20 +75,20 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="61" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7266" />
+          <entry key="java" value="7723" />
           <entry key="txt" value="148" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7266" />
+          <entry key="JAVA" value="7723" />
           <entry key="PLAIN_TEXT" value="148" />
           <entry key="XML" value="20" />
         </counts>
@@ -489,39 +98,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecuteThreeThread.java">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecuteThreeThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLocked.java">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLocked.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="589">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeSequential.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -566,6 +175,8 @@
         <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecuteThreeThread.java" />
         <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLocked.java" />
         <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeSequential.java" />
       </list>
     </option>
   </component>
@@ -627,7 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -678,140 +288,38 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sos" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sos" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
               <item name="multiThreadOrderExec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534066203403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534167144751" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="S:/MyFramework" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44367817" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/Bullet.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/bean/PlayerTank.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyFrame.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tankWar/src/main/java/sos/haruhi/view/MyPanel.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -825,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderExecThreadLockedFinal">
+  <component name="RunManager" selected="Application.TotalFileSizeSequential">
     <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sos.haruhi.view.MyFrame" />
       <module name="tankWar" />
@@ -878,12 +386,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.view.SnakeFrame" />
-      <module name="greedSnake" />
+    <configuration name="TotalFileSizeSequential" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.caculateFileSystem.TotalFileSizeSequential" />
+      <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.view.*" />
+          <option name="PATTERN" value="sos.haruhi.caculateFileSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -892,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SnakeFrame" />
       <item itemvalue="Application.MyFrame" />
       <item itemvalue="Application.OrderExecuteThreeThread" />
       <item itemvalue="Application.OrderExecThreadLocked" />
       <item itemvalue="Application.OrderExecThreadLockedFinal" />
+      <item itemvalue="Application.TotalFileSizeSequential" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalFileSizeSequential" />
         <item itemvalue="Application.OrderExecThreadLockedFinal" />
         <item itemvalue="Application.OrderExecThreadLocked" />
         <item itemvalue="Application.OrderExecuteThreeThread" />
         <item itemvalue="Application.MyFrame" />
-        <item itemvalue="Application.SnakeFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -927,7 +435,8 @@
       <workItem from="1533210293663" duration="5770000" />
       <workItem from="1533556831880" duration="5253000" />
       <workItem from="1533646197553" duration="4187000" />
-      <workItem from="1534037533106" duration="18735000" />
+      <workItem from="1534037533106" duration="19439000" />
+      <workItem from="1534161944121" duration="3058000" />
     </task>
     <task id="LOCAL-00001" summary="greedy snake for concurrency program practice">
       <created>1532747906032</created>
@@ -999,24 +508,38 @@
       <option name="project" value="LOCAL" />
       <updated>1533650458095</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Concurrency 轮流打印字母 ABC">
+      <created>1534066242683</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534066242683</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Concurrency 轮流打印字母 ABC">
+      <created>1534066280301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534066280301</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62270000" />
+    <option name="totallyTimeSpent" value="66032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.28150135" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.2855228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.28150135" />
+      <window_info id="Web" order="7" sideWeight="0.50139666" side_tool="true" weight="0.2855228" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
@@ -1114,7 +637,8 @@
     <MESSAGE value="greedy snake finish I &#10;第二阶段准备 &#10;&#10;&#10;贪吃蛇 AI&#10;  寻路算法" />
     <MESSAGE value="tankWar 初始" />
     <MESSAGE value="tankWar 设计" />
-    <option name="LAST_COMMIT_MESSAGE" value="tankWar 设计" />
+    <MESSAGE value="Concurrency 轮流打印字母 ABC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concurrency 轮流打印字母 ABC" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/greedSnake/greedSnake.iml">
@@ -1223,9 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,9 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,13 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1281,20 +792,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webSocketShow/src/Pojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocketShow/src/WebSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocketShow/src/Pojo.java" />
+    <entry file="file://$PROJECT_DIR$/webSocketShow/src/WebSocket.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/sos/haruhi/boundary/Fushi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1343,9 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1356,15 +852,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/target/test-classes/sos/mult/OrderExecuteThreeThread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <folding>
-            <element signature="e#0#2622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/target/test-classes/sos/mult/OrderExecuteThreeThread.class" />
     <entry file="jar://G:/tools/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -1372,35 +860,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecuteThreeThread.java">
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecuteThreeThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLocked.java">
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLocked.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="589">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java">
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="267">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeSequential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
