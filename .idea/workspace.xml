@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="Concurrency 轮流打印字母 ABC">
-      <change afterPath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLocked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecuteThreeThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLocked.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecuteThreeThread.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebService/11_binary/target/" />
@@ -51,23 +44,23 @@
     <session id="-680892846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.24" value="4" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="61" />
+          <entry key="java" value="63" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
@@ -75,21 +68,21 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="61" />
+          <entry key="JAVA" value="63" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7723" />
-          <entry key="txt" value="148" />
+          <entry key="java" value="8400" />
+          <entry key="txt" value="171" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7723" />
-          <entry key="PLAIN_TEXT" value="148" />
+          <entry key="JAVA" value="8400" />
+          <entry key="PLAIN_TEXT" value="171" />
           <entry key="XML" value="20" />
         </counts>
       </usages-collector>
@@ -98,37 +91,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecuteThreeThread.java">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeSequential.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLocked.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="145">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeSequential.java">
+        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeConcurrent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="342">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,6 +152,7 @@
         <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haurhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java" />
         <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java" />
         <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeSequential.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeConcurrent.java" />
       </list>
     </option>
   </component>
@@ -299,21 +275,21 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sos" type="462c0819:PsiDirectoryNode" />
               <item name="haruhi" type="462c0819:PsiDirectoryNode" />
-              <item name="multiThreadOrderExec" type="462c0819:PsiDirectoryNode" />
+              <item name="caculateFileSystem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534168419389" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534254385000" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="S:/MyFramework" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -333,20 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TotalFileSizeSequential">
-    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.view.MyFrame" />
-      <module name="tankWar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sos.haruhi.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TotalFileSizeConcurrent">
     <configuration name="OrderExecThreadLocked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sos.haurhi.multiThreadOrderExec.OrderExecThreadLocked" />
       <module name="concurrency" />
@@ -386,6 +349,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TotalFileSizeConcurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.caculateFileSystem.TotalFileSizeConcurrent" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sos.haruhi.caculateFileSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TotalFileSizeSequential" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sos.haruhi.caculateFileSystem.TotalFileSizeSequential" />
       <module name="concurrency" />
@@ -400,19 +376,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyFrame" />
       <item itemvalue="Application.OrderExecuteThreeThread" />
       <item itemvalue="Application.OrderExecThreadLocked" />
       <item itemvalue="Application.OrderExecThreadLockedFinal" />
       <item itemvalue="Application.TotalFileSizeSequential" />
+      <item itemvalue="Application.TotalFileSizeConcurrent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalFileSizeConcurrent" />
         <item itemvalue="Application.TotalFileSizeSequential" />
         <item itemvalue="Application.OrderExecThreadLockedFinal" />
         <item itemvalue="Application.OrderExecThreadLocked" />
         <item itemvalue="Application.OrderExecuteThreeThread" />
-        <item itemvalue="Application.MyFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +412,8 @@
       <workItem from="1533556831880" duration="5253000" />
       <workItem from="1533646197553" duration="4187000" />
       <workItem from="1534037533106" duration="19439000" />
-      <workItem from="1534161944121" duration="3058000" />
+      <workItem from="1534161944121" duration="3233000" />
+      <workItem from="1534251267128" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="greedy snake for concurrency program practice">
       <created>1532747906032</created>
@@ -522,17 +499,31 @@
       <option name="project" value="LOCAL" />
       <updated>1534066280301</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Concurrency FileSystemSizeCaculator">
+      <created>1534168356075</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534168356075</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Concurrency FileSystemSizeCaculator">
+      <created>1534168452498</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534168452498</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66032000" />
+    <option name="totallyTimeSpent" value="68517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.2855228" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.28954422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -638,7 +629,8 @@
     <MESSAGE value="tankWar 初始" />
     <MESSAGE value="tankWar 设计" />
     <MESSAGE value="Concurrency 轮流打印字母 ABC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Concurrency 轮流打印字母 ABC" />
+    <MESSAGE value="Concurrency FileSystemSizeCaculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concurrency FileSystemSizeCaculator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/greedSnake/greedSnake.iml">
@@ -876,15 +868,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/multiThreadOrderExec/OrderExecThreadLockedFinal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="646">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeSequential.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="145">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/caculateFileSystem/TotalFileSizeConcurrent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
