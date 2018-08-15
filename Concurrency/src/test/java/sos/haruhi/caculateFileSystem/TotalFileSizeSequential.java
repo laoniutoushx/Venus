@@ -3,6 +3,7 @@ package sos.haruhi.caculateFileSystem;
 import java.io.File;
 
 /**
+ * 单线程递归计算
  * 顺序递归计算文件系统大小
  */
 public class TotalFileSizeSequential {
@@ -23,7 +24,7 @@ public class TotalFileSizeSequential {
 
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
-        String rootPath = "S:\\08";
+        String rootPath = "S:\\";
         TotalFileSizeSequential totalFileSizeSequential = new TotalFileSizeSequential();
         totalFileSizeSequential.getTotalSizeOfFilesInDir(new File(rootPath));
         System.out.println(totalFileSizeSequential.totalSize);

@@ -7,6 +7,7 @@ import java.util.concurrent.*;
 
 /**
  * 并发计算文件目录大小
+ * 为每个目录开启一个线程，对于目录结构较深的目录会线程死锁
  */
 public class TotalFileSizeConcurrent {
     private long getTotalSizeOfFilesInDir(final ExecutorService service, final File file) throws InterruptedException, ExecutionException, TimeoutException {
@@ -46,7 +47,7 @@ public class TotalFileSizeConcurrent {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException, TimeoutException {
         long startTime = System.currentTimeMillis();
-        long size = new TotalFileSizeConcurrent().getTotalSizeOfFile("S:\\");
+        long size = new TotalFileSizeConcurrent().getTotalSizeOfFile("S:\\apache-maven-3.5.2");
         System.out.println(size);
         System.out.println(System.currentTimeMillis() - startTime);
     }
