@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class TotalFileSizeConcurrentAnother {
+public class TotalFileSizeConcurrentFutureTask {
 
     class SubDirectoriesAndSize{
         final public long size;
@@ -45,7 +45,7 @@ public class TotalFileSizeConcurrentAnother {
      * @return  文件大小
      */
     private long getTotalSizeOfFilesInDir(final File file) throws InterruptedException, ExecutionException, TimeoutException {
-        final ExecutorService service = Executors.newFixedThreadPool(12);
+        final ExecutorService service = Executors.newFixedThreadPool(20);
 
         try {
             long total = 0;
@@ -80,7 +80,7 @@ public class TotalFileSizeConcurrentAnother {
     public static void main(String[] args) {
         try {
             long startTime = System.currentTimeMillis();
-            TotalFileSizeConcurrentAnother totalFileSizeConcurrentAnother = new TotalFileSizeConcurrentAnother();
+            TotalFileSizeConcurrentFutureTask totalFileSizeConcurrentAnother = new TotalFileSizeConcurrentFutureTask();
             File rootPath = new File("S:\\");
             long size = totalFileSizeConcurrentAnother.getTotalSizeOfFilesInDir(rootPath);
             System.out.println(size);

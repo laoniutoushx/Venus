@@ -37,7 +37,7 @@ public class TotalFileSizeConcurrent {
     }
 
     private long getTotalSizeOfFile(final String fileName) throws InterruptedException, ExecutionException, TimeoutException {
-        final ExecutorService service = Executors.newFixedThreadPool(100);
+        final ExecutorService service = Executors.newFixedThreadPool(50);
         try {
             return getTotalSizeOfFilesInDir(service, new File(fileName));
         } finally {
