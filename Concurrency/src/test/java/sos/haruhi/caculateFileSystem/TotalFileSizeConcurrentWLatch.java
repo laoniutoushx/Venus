@@ -43,7 +43,7 @@ public class TotalFileSizeConcurrentWLatch {
             }
         }
         totalSize.addAndGet(fileSize);
-        if(pendingFileVisits.decrementAndGet() == 0) latch.countDown();
+        if(pendingFileVisits.decrementAndGet() == 0) latch.countDown(); // 线程条件判断
     }
 
     private long getTotalSizeOfFile(final String fileName) throws InterruptedException {
@@ -52,7 +52,7 @@ public class TotalFileSizeConcurrentWLatch {
 
         try {
             updateTotalSizeOfFilesInDir(new File(fileName));
-            latch.await(100, TimeUnit.SECONDS);
+            latch.await(100, TimeUnit.SECONDS);     // 挂起当前主线程，直到 latch = 0
             return totalSize.longValue();
         } finally {
             service.shutdown();
