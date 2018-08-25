@@ -1,4 +1,4 @@
-package sos.haruhi.multiThreadOrderExec;
+package sos.haruhi.share.multiThreadOrderExec;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

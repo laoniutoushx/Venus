@@ -1,4 +1,4 @@
-package sos.haruhi.caculateFileSystem;
+package sos.haruhi.share.caculateFileSystem;
 
 import java.io.File;
 import java.util.concurrent.CountDownLatch;

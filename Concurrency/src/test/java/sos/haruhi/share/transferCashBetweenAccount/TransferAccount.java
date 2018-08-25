@@ -1,4 +1,4 @@
-package sos.haruhi.transferCashBetweenAccount;
+package sos.haruhi.share.transferCashBetweenAccount;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

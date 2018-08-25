@@ -1,4 +1,4 @@
-package sos.haruhi.multiThreadOrderExec;
+package sos.haruhi.share.multiThreadOrderExec;
 
 public class OrderExecThreadLockedFinal implements Runnable {
 
