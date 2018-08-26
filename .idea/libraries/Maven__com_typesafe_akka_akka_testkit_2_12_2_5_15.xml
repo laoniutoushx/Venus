@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.typesafe.akka:akka-testkit_2.12:2.5.15">
+    <CLASSES>
+      <root url="jar://S:/apache-maven-3.5.2/responsity/com/typesafe/akka/akka-testkit_2.12/2.5.15/akka-testkit_2.12-2.5.15.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://S:/apache-maven-3.5.2/responsity/com/typesafe/akka/akka-testkit_2.12/2.5.15/akka-testkit_2.12-2.5.15-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://S:/apache-maven-3.5.2/responsity/com/typesafe/akka/akka-testkit_2.12/2.5.15/akka-testkit_2.12-2.5.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
