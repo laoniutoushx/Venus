@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrency/Concurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrency/Concurrency.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrency/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebService/11_binary/target/" />
@@ -46,23 +44,23 @@
     <session id="-680892846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="6" />
-          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.25" value="4" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="76" />
+          <entry key="java" value="80" />
           <entry key="readme" value="4" />
           <entry key="xml" value="9" />
         </counts>
@@ -71,7 +69,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="80" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="9" />
         </counts>
@@ -79,7 +77,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="15081" />
+          <entry key="java" value="15172" />
           <entry key="readme" value="19" />
           <entry key="txt" value="171" />
           <entry key="xml" value="127" />
@@ -87,7 +85,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15081" />
+          <entry key="JAVA" value="15172" />
           <entry key="PLAIN_TEXT" value="210" />
           <entry key="XML" value="127" />
         </counts>
@@ -95,38 +93,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/HollywoodActor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/UseHollywoodActor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -184,6 +151,10 @@
         <option value="$PROJECT_DIR$/concurrency/pom.xml" />
         <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/HollywoodActor.java" />
         <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/UseHollywoodActor.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/Greet.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/Greeting.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/WhoToGreet.java" />
+        <option value="$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/Greeter.java" />
       </list>
     </option>
   </component>
@@ -236,6 +207,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,68 +217,16 @@
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
-              <item name="actor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535285932636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535463809418" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="S:/MyFramework" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -435,7 +357,8 @@
       <workItem from="1534939487157" duration="6165000" />
       <workItem from="1535028515044" duration="1842000" />
       <workItem from="1535267323998" duration="6637000" />
-      <workItem from="1535285219460" duration="1314000" />
+      <workItem from="1535285219460" duration="1344000" />
+      <workItem from="1535457046540" duration="2999000" />
     </task>
     <task id="LOCAL-00001" summary="greedy snake for concurrency program practice">
       <created>1532747906032</created>
@@ -570,17 +493,23 @@
       <option name="project" value="LOCAL" />
       <updated>1535196457411</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Concurrency FileSystemSizeCaculator">
+      <created>1535287405230</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1535287405230</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111425000" />
+    <option name="totallyTimeSpent" value="114454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.20643431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -656,34 +585,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Concurrency FileSystemSizeCaculator" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://G:/tools/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedSnake/src/sos/haruhi/bean/Snake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedSnake/src/sos/haruhi/bean/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greedSnake/src/sos/haruhi/bean/Egg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greedSnake/src/sos/haruhi/bean/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -956,27 +857,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/HollywoodActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/UseHollywoodActor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/Greet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/Greeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/WhoToGreet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/src/test/java/sos/haruhi/actor/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
