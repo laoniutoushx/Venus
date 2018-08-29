@@ -26,6 +26,7 @@
         <module name="http" />
         <module name="mybatiss" />
         <module name="netpay-demo" />
+        <module name="orgnization" />
         <module name="poi" />
         <module name="servlet" />
         <module name="shcema" />
@@ -53,6 +54,7 @@
       <module name="javamail" target="1.5" />
       <module name="minsheng- bank-demo" target="1.5" />
       <module name="mybatiss" target="1.7" />
+      <module name="orgnization" target="1.8" />
       <module name="paymax-demo" target="1.5" />
       <module name="poi" target="1.7" />
       <module name="servlet" target="1.7" />

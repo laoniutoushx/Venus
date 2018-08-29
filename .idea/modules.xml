@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatiss/mybatiss.iml" filepath="$PROJECT_DIR$/mybatiss/mybatiss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orgnization/orgnization.iml" filepath="$PROJECT_DIR$/orgnization/orgnization.iml" />
       <module fileurl="file://$PROJECT_DIR$/poi/poi.iml" filepath="$PROJECT_DIR$/poi/poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/04_shcema/shcema.iml" filepath="$PROJECT_DIR$/WebService/04_shcema/shcema.iml" />

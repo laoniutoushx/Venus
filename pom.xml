@@ -18,6 +18,7 @@
         <module>mybatiss</module>
         <module>tankWar</module>
         <module>concurrency</module>
+        <module>orgnization</module>
     </modules>
 
     <dependencies>
