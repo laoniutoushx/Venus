@@ -6,24 +6,18 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * 组织机构类型，用来设定系统中存在哪些组织类型
- * 学校 -》 分校区 -》 校长办  行政部门 专业 班级
+ * 岗位的对象
+ * 用来确认每个人员所属的岗位
+ * 存储岗位名称
+ * 副校长，校长，副处长，处长
  */
 @Entity
-@Table(name = "t_org_type")
-public class OrgType {
-    /**
-     * 类型标识
-     */
+@Table(name = "t_position")
+public class Position {
     private int id;
-    /**
-     * 类型的名称
-     */
     private String name;
-    /**
-     * 类型的sn序号
-     */
     private String sn;
+    private int manage;
 
     @Id
     @GeneratedValue
@@ -49,5 +43,13 @@ public class OrgType {
 
     public void setSn(String sn) {
         this.sn = sn;
+    }
+
+    public int getManage() {
+        return manage;
+    }
+
+    public void setManage(int manage) {
+        this.manage = manage;
     }
 }

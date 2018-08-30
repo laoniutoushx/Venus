@@ -1,7 +1,6 @@
 package haruhi.sys.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * 组织对象，完整的组织树
@@ -26,6 +25,10 @@ public class Org {
     private String typeName;
     // 组织序号
     private int orderNum;
+
+    // 管理类型
+    private int managerType;
+
     // 父级组织
     private Org parent;
     private String address;
@@ -35,6 +38,8 @@ public class Org {
     private String att2;
     private String att3;
 
+    @Id
+    @GeneratedValue
     public int getId() {
         return id;
     }
@@ -75,6 +80,8 @@ public class Org {
         this.orderNum = orderNum;
     }
 
+    @ManyToOne
+    @JoinColumn(name = "pid")
     public Org getParent() {
         return parent;
     }
@@ -121,5 +128,13 @@ public class Org {
 
     public void setAtt3(String att3) {
         this.att3 = att3;
+    }
+
+    public int getManagerType() {
+        return managerType;
+    }
+
+    public void setManagerType(int managerType) {
+        this.managerType = managerType;
     }
 }

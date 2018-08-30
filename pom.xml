@@ -19,6 +19,7 @@
         <module>tankWar</module>
         <module>concurrency</module>
         <module>orgnization</module>
+        <module>persistent_module</module>
     </modules>
 
     <dependencies>
@@ -27,6 +28,14 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.7</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>

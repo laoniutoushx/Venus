@@ -2,7 +2,7 @@ package sos.haruhi.pojo;
 
 /**
  * @Project <h2>Venus</h2>
- * @Package <h3>sos.haruhi.pojo</h3>
+ * @Package <h3>sos.haruhi.exception</h3>
  * @Description <p></p>
  * @Author SuzumiyaHaruhi
  * @Time 2018/6/13 11:10:10

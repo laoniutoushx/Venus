@@ -1,6 +1,8 @@
 package haruhi.sys.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -18,6 +20,8 @@ public class OrgTypeRule {
     // 两者之间的数量, -1 表示 无限个 0 表示 没有
     private int num;
 
+    @Id
+    @GeneratedValue
     public int getId() {
         return id;
     }
