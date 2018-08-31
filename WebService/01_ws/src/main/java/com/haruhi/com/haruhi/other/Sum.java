@@ -7,14 +7,14 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>sum complex type的 Java 类。
+ * <p>sum complex type锟斤拷 Java 锟洁。
  * 
- * <p>以下模式片段指定包含在此类中的预期内容。
+ * <p>锟斤拷锟斤拷模式片锟斤拷指锟斤拷锟斤拷锟斤拷锟节达拷锟斤拷锟叫碉拷预锟斤拷锟斤拷锟捷★拷
  * 
  * <pre>
  * &lt;complexType name="sum">
  *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *     &lt;restriction basedao="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="arg0" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *         &lt;element name="arg1" type="{http://www.w3.org/2001/XMLSchema}int"/>
@@ -37,7 +37,7 @@ public class Sum {
     protected int arg1;
 
     /**
-     * 获取arg0属性的值。
+     * 锟斤拷取arg0锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public int getArg0() {
@@ -45,7 +45,7 @@ public class Sum {
     }
 
     /**
-     * 设置arg0属性的值。
+     * 锟斤拷锟斤拷arg0锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public void setArg0(int value) {
@@ -53,7 +53,7 @@ public class Sum {
     }
 
     /**
-     * 获取arg1属性的值。
+     * 锟斤拷取arg1锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public int getArg1() {
@@ -61,7 +61,7 @@ public class Sum {
     }
 
     /**
-     * 设置arg1属性的值。
+     * 锟斤拷锟斤拷arg1锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public void setArg1(int value) {

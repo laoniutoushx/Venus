@@ -7,7 +7,9 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.transaction.TransactionConfiguration;
+import sos.nagato.ibasedao.IBaseDao;
 
+import javax.annotation.Resource;
 import javax.transaction.Transactional;
 
 /**
@@ -18,13 +20,16 @@ import javax.transaction.Transactional;
 @ContextConfiguration(locations={"classpath:/spring-hibernate.xml"})
 @TransactionConfiguration(transactionManager="transactionManager",defaultRollback=true)
 @Transactional
-public class AppTest 
-{
+public class AppTest {
+
+    @Resource
+    private IBaseDao baseDao;
+
     /**
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
+    public void shouldAnswerWithTrue(){
+
     }
 }

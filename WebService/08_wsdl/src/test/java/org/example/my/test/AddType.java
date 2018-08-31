@@ -7,14 +7,14 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>addType complex type的 Java 类。
+ * <p>addType complex type锟斤拷 Java 锟洁。
  * 
- * <p>以下模式片段指定包含在此类中的预期内容。
+ * <p>锟斤拷锟斤拷模式片锟斤拷指锟斤拷锟斤拷锟斤拷锟节达拷锟斤拷锟叫碉拷预锟斤拷锟斤拷锟捷★拷
  * 
  * <pre>
  * &lt;complexType name="addType">
  *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *     &lt;restriction basedao="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="a" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *         &lt;element name="b" type="{http://www.w3.org/2001/XMLSchema}int"/>
@@ -37,7 +37,7 @@ public class AddType {
     protected int b;
 
     /**
-     * 获取a属性的值。
+     * 锟斤拷取a锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public int getA() {
@@ -45,7 +45,7 @@ public class AddType {
     }
 
     /**
-     * 设置a属性的值。
+     * 锟斤拷锟斤拷a锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public void setA(int value) {
@@ -53,7 +53,7 @@ public class AddType {
     }
 
     /**
-     * 获取b属性的值。
+     * 锟斤拷取b锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public int getB() {
@@ -61,7 +61,7 @@ public class AddType {
     }
 
     /**
-     * 设置b属性的值。
+     * 锟斤拷锟斤拷b锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public void setB(int value) {

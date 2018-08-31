@@ -7,6 +7,13 @@
           <element id="module-output" name="orgnization" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="persistent_module-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="persistent_module" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.11.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.11.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.11.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.11.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.11.RELEASE" />

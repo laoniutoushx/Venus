@@ -7,14 +7,14 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>addResponseType complex type的 Java 类。
+ * <p>addResponseType complex type锟斤拷 Java 锟洁。
  * 
- * <p>以下模式片段指定包含在此类中的预期内容。
+ * <p>锟斤拷锟斤拷模式片锟斤拷指锟斤拷锟斤拷锟斤拷锟节达拷锟斤拷锟叫碉拷预锟斤拷锟斤拷锟捷★拷
  * 
  * <pre>
  * &lt;complexType name="addResponseType">
  *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *     &lt;restriction basedao="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="addResult" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *       &lt;/sequence>
@@ -34,7 +34,7 @@ public class AddResponseType {
     protected int addResult;
 
     /**
-     * 获取addResult属性的值。
+     * 锟斤拷取addResult锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public int getAddResult() {
@@ -42,7 +42,7 @@ public class AddResponseType {
     }
 
     /**
-     * 设置addResult属性的值。
+     * 锟斤拷锟斤拷addResult锟斤拷锟皆碉拷值锟斤拷
      * 
      */
     public void setAddResult(int value) {
