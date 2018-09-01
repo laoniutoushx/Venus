@@ -1,19 +1,19 @@
 package haruhi.sys.service.impl;
 
-import java.util.List;
 
-import javax.inject.Inject;
-
-import org.konghao.sys.org.idao.IPositionDao;
-import org.konghao.sys.org.iservice.IPositionService;
-import org.konghao.sys.org.model.Position;
-import org.konghao.sys.org.model.SysException;
+import haruhi.sys.idao.IPositionDao;
+import haruhi.sys.iservice.IPositionService;
+import haruhi.sys.model.Position;
+import haruhi.sys.model.SysException;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.List;
 
 @Service("positionService")
 public class PositionService extends AbstractBaseService implements
 		IPositionService {
-	@Inject
+	@Resource
 	private IPositionDao positionDao;
 	
 	@Override

@@ -1,8 +1,9 @@
 package haruhi.sys.iservice;
 
-import java.util.List;
 
-import org.konghao.sys.org.model.Position;
+import haruhi.sys.model.Position;
+
+import java.util.List;
 
 public interface IPositionService {
 	public void add(Position pos);

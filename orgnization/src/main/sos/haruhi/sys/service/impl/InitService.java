@@ -1,34 +1,34 @@
 package haruhi.sys.service.impl;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.List;
 
-import javax.inject.Inject;
-
+import haruhi.sys.iservice.IInitService;
+import haruhi.sys.model.SysException;
 import org.apache.commons.beanutils.BeanUtils;
+import org.apache.commons.collections.CollectionUtils;
 import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-import org.hibernate.annotations.Parent;
-import org.konghao.sys.org.iservice.IInitService;
-import org.konghao.sys.org.model.SysException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.List;
 
 @Service("initService")
 @SuppressWarnings("unchecked")
 public class InitService extends AbstractBaseService implements IInitService {
-	@Inject
+	@Resource
 	private BeanFactory factory;
 	
 	private Element readRootElement(String filename) {
 		try {
 			SAXReader reader = new SAXReader();
-//			System.out.println(InitService.class.getClassLoader().getResource("init/orgs.xml"));
-			Document d = reader.read(InitService.class.getClassLoader().getResourceAsStream("init/"+filename));
+			System.out.println(InitService.class.getClassLoader().getResource("init/orgs.xml"));
+			Document d = reader.read(InitService.class.getClassLoader().getResourceAsStream("init/" + filename));
 			return d.getRootElement();
 		} catch (DocumentException e) {
 			e.printStackTrace();
@@ -78,6 +78,7 @@ public class InitService extends AbstractBaseService implements IInitService {
 				String value = att.getValue();
 				BeanUtils.copyProperty(obj, name, value);
 			}
+			
 			if(parent!=null) {
 				BeanUtils.copyProperty(obj, "parent", parent);
 			}

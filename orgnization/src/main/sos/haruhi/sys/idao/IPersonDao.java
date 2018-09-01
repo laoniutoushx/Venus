@@ -1,13 +1,13 @@
 package haruhi.sys.idao;
 
 
-import java.util.List;
+import haruhi.sys.dto.PersonDto;
+import haruhi.sys.model.Person;
+import haruhi.sys.model.PersonOrgPos;
+import sos.nagato.ibasedao.IBaseDao;
+import sos.nagato.pojo.Pager;
 
-import org.konghao.basic.dao.IBaseDao;
-import org.konghao.basic.model.Pager;
-import org.konghao.sys.org.dto.PersonDto;
-import org.konghao.sys.org.model.Person;
-import org.konghao.sys.org.model.PersonOrgPos;
+import java.util.List;
 
 public interface IPersonDao extends IBaseDao<Person> {
 	/**

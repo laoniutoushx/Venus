@@ -1,9 +1,10 @@
 package haruhi.sys.idao;
 
-import java.util.List;
 
-import org.konghao.basic.dao.IBaseDao;
-import org.konghao.sys.org.model.Position;
+import haruhi.sys.model.Position;
+import sos.nagato.ibasedao.IBaseDao;
+
+import java.util.List;
 
 public interface IPositionDao extends IBaseDao<Position> {
 	public List<Position> find();

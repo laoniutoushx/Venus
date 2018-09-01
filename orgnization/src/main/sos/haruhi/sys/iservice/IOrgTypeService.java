@@ -1,11 +1,12 @@
 package haruhi.sys.iservice;
 
-import java.util.List;
 
-import org.konghao.sys.init.dto.InitOrgTypeRuleDto;
-import org.konghao.sys.org.dto.OrgTypeDto;
-import org.konghao.sys.org.dto.OrgTypeRuleDto;
-import org.konghao.sys.org.model.OrgType;
+import haruhi.sys.dto.InitOrgTypeRuleDto;
+import haruhi.sys.dto.OrgTypeDto;
+import haruhi.sys.dto.OrgTypeRuleDto;
+import haruhi.sys.model.OrgType;
+
+import java.util.List;
 
 public interface IOrgTypeService {
 	public void add(OrgType orgType);

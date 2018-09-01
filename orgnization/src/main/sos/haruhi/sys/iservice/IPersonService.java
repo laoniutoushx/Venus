@@ -1,13 +1,14 @@
 package haruhi.sys.iservice;
 
-import java.util.List;
 
-import org.konghao.basic.model.Pager;
-import org.konghao.sys.dto.TreeDto;
-import org.konghao.sys.org.dto.PersonDto;
-import org.konghao.sys.org.model.Org;
-import org.konghao.sys.org.model.Person;
-import org.konghao.sys.org.model.PersonOrgPos;
+import haruhi.sys.dto.PersonDto;
+import haruhi.sys.dto.TreeDto;
+import haruhi.sys.model.Org;
+import haruhi.sys.model.Person;
+import haruhi.sys.model.PersonOrgPos;
+import sos.nagato.pojo.Pager;
+
+import java.util.List;
 
 public interface IPersonService {
 	public void add(Person person);

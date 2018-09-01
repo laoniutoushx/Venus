@@ -1,29 +1,29 @@
 package haruhi.sys.service.impl;
 
+
+import haruhi.sys.dto.PersonDto;
+import haruhi.sys.dto.TreeDto;
+import haruhi.sys.idao.IOrgDao;
+import haruhi.sys.idao.IPersonDao;
+import haruhi.sys.iservice.IPersonService;
+import haruhi.sys.kit.BasicSysKit;
+import haruhi.sys.model.Org;
+import haruhi.sys.model.Person;
+import haruhi.sys.model.PersonOrgPos;
+import org.springframework.stereotype.Service;
+import sos.nagato.pojo.Pager;
+
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.inject.Inject;
-
-import org.konghao.basic.model.Pager;
-import org.konghao.sys.dto.TreeDto;
-import org.konghao.sys.kit.BasicSysKit;
-import org.konghao.sys.org.dto.PersonDto;
-import org.konghao.sys.org.idao.IOrgDao;
-import org.konghao.sys.org.idao.IPersonDao;
-import org.konghao.sys.org.iservice.IPersonService;
-import org.konghao.sys.org.model.Org;
-import org.konghao.sys.org.model.Person;
-import org.konghao.sys.org.model.PersonOrgPos;
-import org.springframework.stereotype.Service;
 
 @Service("personService")
 public class PersonService extends AbstractBaseService implements
 		IPersonService {
 	
-	@Inject
+	@Resource
 	private IPersonDao personDao;
-	@Inject
+	@Resource
 	private IOrgDao orgDao;
 
 	@Override

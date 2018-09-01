@@ -1,24 +1,23 @@
 package haruhi.sys.service.impl;
 
-import java.util.List;
-
-import javax.inject.Inject;
-
-import org.konghao.sys.init.dto.InitOrgTypeRuleDto;
-import org.konghao.sys.org.dto.OrgTypeDto;
-import org.konghao.sys.org.dto.OrgTypeRuleDto;
-import org.konghao.sys.org.idao.IOrgDao;
-import org.konghao.sys.org.idao.IOrgTypeDao;
-import org.konghao.sys.org.iservice.IOrgTypeService;
-import org.konghao.sys.org.model.OrgType;
-import org.konghao.sys.org.model.SysException;
+import haruhi.sys.dto.InitOrgTypeRuleDto;
+import haruhi.sys.dto.OrgTypeDto;
+import haruhi.sys.dto.OrgTypeRuleDto;
+import haruhi.sys.idao.IOrgDao;
+import haruhi.sys.idao.IOrgTypeDao;
+import haruhi.sys.iservice.IOrgTypeService;
+import haruhi.sys.model.OrgType;
+import haruhi.sys.model.SysException;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.List;
 
 @Service("orgTypeService")
 public class OrgTypeService extends AbstractBaseService implements IOrgTypeService {
-	@Inject
+	@Resource
 	private IOrgTypeDao orgTypeDao;
-	@Inject
+	@Resource
 	private IOrgDao orgDao;
 	
 	@Override

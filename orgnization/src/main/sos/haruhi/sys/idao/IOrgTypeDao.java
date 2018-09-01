@@ -1,11 +1,11 @@
 package haruhi.sys.idao;
 
-import java.util.List;
+import haruhi.sys.dto.OrgTypeDto;
+import haruhi.sys.dto.OrgTypeRuleDto;
+import haruhi.sys.model.OrgType;
+import sos.nagato.ibasedao.IBaseDao;
 
-import org.konghao.basic.dao.IBaseDao;
-import org.konghao.sys.org.dto.OrgTypeDto;
-import org.konghao.sys.org.dto.OrgTypeRuleDto;
-import org.konghao.sys.org.model.OrgType;
+import java.util.List;
 
 public interface IOrgTypeDao extends IBaseDao<OrgType> {
 	/**
