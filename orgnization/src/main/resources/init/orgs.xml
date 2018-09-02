@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<entitys package="sos.haruhi.model">
+<entitys package="sos.haruhi.sys.model">
 	<initEntity exist="0" class="OrgType" method="orgTypeService.add">
 		<entity name="学校" sn="XX"/>
 		<entity name="分校" sn="FX"/>
@@ -10,7 +10,7 @@
 		<entity name="班级" sn="BJ"/>
 	</initEntity>
 	
-	<initEntity package="sos.haruhi.dto" exist="0" class="InitOrgTypeRuleDto" method="orgTypeService.addOrgTypeRule">
+	<initEntity package="sos.haruhi.sys.dto" exist="0" class="InitOrgTypeRuleDto" method="orgTypeService.addOrgTypeRule">
 		<entity psn="XX" csn="FX" num="90"/>
 		<entity psn="XX" csn="XLDB" num="90"/>
 		<entity psn="XX" csn="XZBM" num="90"/>
