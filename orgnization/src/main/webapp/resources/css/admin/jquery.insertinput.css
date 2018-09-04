@@ -1,0 +1,16 @@
+input.insertinput_txt {
+	height:30px;
+	width:170px;
+	border: none;
+	border-bottom:1px solid #000;
+}
+span.insertinput_submit,span.insertinput_cancel {
+	border:1px solid #999;
+	padding:10px 15px;
+	margin:0 5px;
+	cursor:pointer;
+}
+span.insertinput_hover {
+	background:#632;
+	color:#fff;
+}

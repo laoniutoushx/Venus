@@ -1,0 +1,114 @@
+.main_content_container {
+	/*background: url("../images/sidebar_shadow.png") repeat-y scroll left top;*/
+	height: 500px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+*.errorContainer {
+	color:#f00;
+	padding:0px 4px;
+}
+*.em {
+	font-weight:bolder;
+	color:#f00;
+}
+
+tr.trHover {
+	background:#eee;
+}
+td.right {
+	padding:4px;
+	padding-right:10px;
+	text-align:right;
+}
+td.left {
+	padding:4px;
+	padding-left:10px;
+	text-align:left;
+}
+td.center {
+	padding:4px;
+	text-align:center;
+}
+.list_table {
+	width:100%;
+	border:0px;
+	border-left: 1px solid #c8c8c8;
+    border-top: 1px solid #c8c8c8;
+}
+.list_table tfoot td {
+	text-align:right;
+	padding-right:30px;
+}
+.list_table tr {
+	line-height: 36px;
+}
+.list_table td {
+	border-bottom: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+}
+.list_table thead tr {
+	background: #efefef;
+    height: 40px
+}
+.list_table .title {
+	background: #fff;
+    height: 40px
+}
+ul.function_menu {
+	float: right;
+	margin-right:10px;
+	list-style: none outside none;
+}
+ul.function_menu li {
+	display: inline;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 10px;
+    text-align: center;
+}
+.list_table a:link,.list_table a:visited {
+	color: #77bace;
+    text-decoration: none;
+}
+.list_table a:hover {
+	color: #2123a9;
+	text-decoration: underline;
+}
+
+.page_numble{
+	height: 18px;
+    margin: 0 5px;
+    width: 40px;
+}
+
+hr.hr_gray_h2px{
+	background: url("../images/sidebar_divider.png") repeat-x scroll 0 0;
+    border: medium none;
+    display: block;
+    height: 2px;
+    outline: medium none;
+    width: 100%;
+}
+
+.left_right_container {
+	height: 500px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.left_right_container .left {
+	background: url("../images/sidebar_shadow.png") repeat-y scroll left top;
+	float: left;
+	width: 18%;
+	height: 100%;
+}
+.left_right_container .right {
+	background: url("../images/sidebar_shadow.png") repeat-y scroll left top;
+	float: left;
+	width: 82%;
+	height: 100%;
+}

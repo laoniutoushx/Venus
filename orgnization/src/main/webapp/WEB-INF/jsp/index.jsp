@@ -1,16 +1,17 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Nagato
-  Date: 2018/9/2
-  Time: 20:13
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>后台管理页面测试</title>
 </head>
-<body>
-    <h2>Hello World</h2>
-</body>
+<frameset rows="93,*,40" border="0" frameborder="0" framespacing="0">
+	<frame src="<%=request.getContextPath() %>/jsp/admin/top.jsp"/>
+	<frameset cols="18%,*">
+		<frame src="<%=request.getContextPath() %>/jsp/admin/left.jsp"/>
+		<frame name="content" src="<%=request.getContextPath() %>/jsp/admin/table.jsp"/>
+	</frameset>
+	<frame src="<%=request.getContextPath() %>/jsp/admin/bottom.jsp"/>
+</frameset>
 </html>

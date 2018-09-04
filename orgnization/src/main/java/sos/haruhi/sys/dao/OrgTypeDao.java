@@ -61,7 +61,7 @@ public class OrgTypeDao extends BaseDao<OrgType> implements IOrgTypeDao {
 
 	@Override
 	public List<OrgTypeDto> listChildType(int pid) {
-		String hql = "select new org.konghao.sys.org.dto.OrgTypeDto(ot2.id,ot2.name,otr.num) from " +
+		String hql = "select new sos.haruhi.sys.dto.OrgTypeDto(ot2.id,ot2.name,otr.num) from " +
 				"OrgType ot,OrgTypeRule otr,OrgType ot2 " +
 				"where ot.id=? and ot.id=otr.pid and ot2.id=otr.cid";
 		return super.listObj(hql, pid);

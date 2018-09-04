@@ -1,0 +1,195 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-size:12px;
+	font-family: "宋体";
+}
+#header {
+	width: 100%;
+	height: 55px;
+	background: #222222 url(../images/header_bg.png) repeat-x;
+}
+#header div {
+	float: left;
+	height: 55px;
+}
+#header div.site_title {
+	width: 23%;
+}
+#header div.site_title a{
+	color: #fff;
+    text-decoration: none;
+	font-size: 22px;
+    font-weight: normal;
+    display: block;
+    line-height: 55px;
+    text-align: left;
+    text-indent: 8%;
+    text-shadow: 0 -1px 0 #000;
+}
+#header div.section_title {
+	width: 68%;
+	/*background: url("../images/header_shadow.png") no-repeat scroll left top;*/
+    text-align: center;
+}
+#header div.section_title h2{
+	color: #fff;
+	font-size: 22px;
+    font-weight: normal;
+    display: block;
+    line-height: 55px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #000;
+}
+#header .view_site {
+	width: 9%;
+}
+#header .view_site a{
+	background: url("../images/btn_view_site.png") no-repeat scroll 0 0;
+	color: #fff;
+	font-size:12px;
+    display: block;
+    height: 27px;
+    line-height: 29px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #000;
+    width: 91px;
+}
+
+#secondary_bar {
+	background: url("../images/secondary_bar.png") repeat-x scroll 0 0 #f1f1f4;
+    height: 38px;
+    width: 100%;
+}
+#secondary_bar div {
+	float: left;
+	height: 38px;
+}
+#secondary_bar div.user {
+	float: left;
+	width: 18%;
+	height: 38px;
+}
+#secondary_bar div.user p{
+	background: url("../images/icn_user.png") no-repeat scroll left center;
+    color: #666666;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 0 0 6%;
+    padding: 0;
+    text-indent: 25px;
+    text-shadow: 0 1px 0 #fff;
+    width: 82%;
+}
+#secondary_bar div.user a:link,#secondary_bar div.user a:visited{
+	color: #666666;
+    text-decoration: none;
+}
+#secondary_bar div.user a:hover {
+	color: #77bace;
+    text-decoration: none;
+}
+#secondary_bar div.breadcrumbs_container{
+	/*background: url("../images/secondary_bar_shadow.png") no-repeat scroll left top;*/
+    float: left;
+    height: 38px;
+    width: 77%;
+}
+#secondary_bar div.breadcrumbs_container a{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #fff;
+    float: right;
+    height: 23px;
+    margin: 4px 0px;
+    margin-right:10px;
+    padding: 0 10px;
+    display: inline-block;
+    line-height: 23px;
+}
+#secondary_bar div.breadcrumbs_container a:link,#secondary_bar div.breadcrumbs_container a:visited {
+	color: #44474f;
+    font-weight: bold;
+	text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+}
+#secondary_bar div.breadcrumbs_container a:hover {
+	color: #222222;
+}
+
+div.sidebar_dl {
+	background: url("../images/sidebar.png") repeat scroll 0 0 #e0e0e3;
+    overflow: hidden;
+}
+#sidebar {
+	 float: left;
+	 margin-top: -4px;
+	 min-height: 500px;
+     width: 97%;
+}
+#hide_btn {
+	float:left;
+	background: #999;
+    margin-top: -4px;
+    height: 500px;
+    width: 3%;
+    overflow: hidden;
+}
+#hide_btn div {
+	height:30px;
+	width: 7px;
+	color:#fff;
+	background:#238;
+	position:relative;
+	top:50%;
+	line-height: 30px;
+	cursor: pointer;
+}
+dt.toggleHeader {
+    margin: 10px 0 10px 5%;
+    width: 90%;
+    color: #1f1f20;
+    font-size: 14px;
+}
+dl.toggle{
+	clear: both;
+    margin: 0 20px 0 0;
+    padding: 0;
+    list-style: none outside none;
+}
+dl.toggle dd {
+	cursor: pointer;
+    font-size: 13px;
+    list-style: none outside none;
+    margin: 0 0 0 12%;
+    padding: 0 5px;
+    position: relative;
+}
+#sidebar li:hover{
+	background-color:#f6f6f6
+}
+a.toggleHref {
+	color: #666666;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    display: inline-block;
+    line-height: 17px;
+    padding: 5px;
+    vertical-align: middle;
+}
+a.toggleHref:link,a.toggleHref:visited {
+	color: #666666;
+	text-decoration: none;
+}
+a.toggleHref:hover{
+	color: #632;
+	text-decoration: underline;
+}
+#sidebar dl dt{
+	cursor: pointer;
+}
