@@ -1,5 +1,7 @@
 package sos.haruhi.auth.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import javax.persistence.*;
 
 /**
@@ -18,6 +20,7 @@ public class ControllerOper {
     private String name;
     private int indexPos;
     private int rid;
+    private String rsn;
 
     @Id
     @GeneratedValue
@@ -60,7 +63,15 @@ public class ControllerOper {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if(StringUtils.isBlank(this.methodName)){
+            this.methodName = methodName;
+        }else{
+            if(this.methodName.indexOf(methodName) >= 0){
+                // 原有 methodName 已包含
+                return;
+            }
+            this.methodName += "\\|" + methodName;
+        }
     }
 
     /***
@@ -86,5 +97,17 @@ public class ControllerOper {
 
     public void setRid(int rid) {
         this.rid = rid;
+    }
+
+    /***
+     * 资源 对象 sn
+     * @return
+     */
+    public String getRsn() {
+        return rsn;
+    }
+
+    public void setRsn(String rsn) {
+        this.rsn = rsn;
     }
 }

@@ -12,6 +12,9 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_menu_resources")
 public class MenuResources implements SystemResources {
+
+    public static final String RES_TYPE = "controller";
+
     private int id;
     private String name;
     private String sn;

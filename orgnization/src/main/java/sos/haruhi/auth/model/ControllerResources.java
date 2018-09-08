@@ -1,5 +1,7 @@
 package sos.haruhi.auth.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import javax.persistence.*;
 
 /**
@@ -13,7 +15,7 @@ import javax.persistence.*;
 @Table(name = "t_controller_resources")
 public class ControllerResources implements SystemResources {
 
-    public static final String PRINCIPAL_TYPE = "controller";
+    public static final String RES_TYPE = "controller";
 
     /*
     资源的标识
@@ -86,7 +88,15 @@ public class ControllerResources implements SystemResources {
     }
 
     public void setClassName(String className) {
-        this.className = className;
+        if(StringUtils.isBlank(this.className)){
+            this.className = className;
+        }else{
+            if(this.className.indexOf(className) >= 0){
+                // 原有 className 已包含
+                return;
+            }
+            this.className += "\\|" + className;
+        }
     }
 
     @Column(name = "order_num")
