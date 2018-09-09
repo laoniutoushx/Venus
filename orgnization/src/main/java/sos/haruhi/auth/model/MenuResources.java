@@ -11,19 +11,35 @@ import javax.persistence.*;
  **/
 @Entity
 @Table(name = "t_menu_resources")
-public class MenuResources implements SystemResources {
+public class MenuResources implements SystemResources,Comparable<MenuResources> {
 
     public static final String RES_TYPE = "controller";
 
     private int id;
     private String name;
     private String sn;
+    private int menuPos;
     private MenuPosition menuPosition;
     private String href;
     private String icon;
     private int orderNum;
+    private String psn;
     private int display;
     private MenuResources parent;
+
+    public MenuResources(int id, String name, String sn, int menuPos,
+                         String href, String icon, int orderNum, String psn, int display) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.sn = sn;
+        this.menuPos = menuPos;
+        this.href = href;
+        this.icon = icon;
+        this.orderNum = orderNum;
+        this.psn = psn;
+        this.display = display;
+    }
 
     @Id
     @GeneratedValue
@@ -57,6 +73,18 @@ public class MenuResources implements SystemResources {
 
     public void setSn(String sn) {
         this.sn = sn;
+    }
+
+    /**
+     * 菜单所在的位置
+     * @return
+     */
+    @Column(name="menu_pos")
+    public int getMenuPos() {
+        return menuPos;
+    }
+    public void setMenuPos(int menuPos) {
+        this.menuPos = menuPos;
     }
 
     /***
@@ -109,6 +137,17 @@ public class MenuResources implements SystemResources {
         this.orderNum = orderNum;
     }
 
+    /**
+     * 菜单的父类sn，方便初始化的时候做操作
+     * @return
+     */
+    public String getPsn() {
+        return psn;
+    }
+    public void setPsn(String psn) {
+        this.psn = psn;
+    }
+
     /***
      * 是否显示菜单  1 显示  0  不显示
      * @return
@@ -133,5 +172,13 @@ public class MenuResources implements SystemResources {
 
     public void setParent(MenuResources parent) {
         this.parent = parent;
+    }
+
+    @Override
+    public int compareTo(MenuResources o) {
+        return Integer.compare(this.orderNum, o.orderNum);
+    }
+
+    public MenuResources() {
     }
 }

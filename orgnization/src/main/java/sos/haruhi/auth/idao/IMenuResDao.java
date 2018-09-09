@@ -1,11 +1,11 @@
 package sos.haruhi.auth.idao;
 
-import java.util.List;
+import sos.haruhi.auth.dto.LeftMenuDto;
+import sos.haruhi.auth.model.MenuResources;
+import sos.haruhi.sys.dto.TreeDto;
+import sos.nagato.ibasedao.IBaseDao;
 
-import org.konghao.basic.dao.IBaseDao;
-import org.konghao.sys.auth.dto.LeftMenuDto;
-import org.konghao.sys.auth.model.MenuResources;
-import org.konghao.sys.dto.TreeDto;
+import java.util.List;
 
 /**
  * 菜单资源对象的接口

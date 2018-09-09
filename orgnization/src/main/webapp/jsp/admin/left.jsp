@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -19,12 +20,15 @@
 </head>
 <body>
 <div id="sidebar">
-	<dl status="show">
-		<dt>组织机构管理</dt>
-		<dd><a href="<%=request.getContextPath() %>/admin/orgType/orgTypes" target="content"><span class="icon16 icon-user-info"></span>组织机构类型</a></dd>
-		<dd><a href="<%=request.getContextPath() %>/admin/org/orgs" target="content"><span class="icon16 icon-security"></span>组织机构管理</a></dd>
-		<dd><a href="<%=request.getContextPath() %>/admin/position/positions" target="content"><span class="icon16 icon-security"></span>岗位管理</a></dd>
-	</dl>
+	<c:forEach var="lm" items="${leftMenus }">
+		<dl status="show">
+			<dt>${lm.parent.name }</dt>
+			<c:forEach var="m" items="${lm.childs}">
+				<dd auth_menu="1" sn="${m.sn}"><a href="<%=request.getContextPath() %>${m.href}" target="content"><span class="icon16 ${m.icon }"></span>${m.name }</a></dd>
+			</c:forEach>
+		</dl>
+	</c:forEach>
+	<%-- 
 	<dl status="show">
 		<dt>学校部门管理</dt>
 		<dd><a href="<%=request.getContextPath() %>/admin/classroom/classrooms" target="content"><span class="icon16 icon-user-grey"></span>班级管理</a></dd>
@@ -43,6 +47,7 @@
 		<dd><a href="table2.html" target="content"><span class="icon16 icon-role"></span>角色管理</a></dd>
 		<dd><a href="table2.html" target="content"><span class="icon16 icon-static"></span>静态化管理</a></dd>
 	</dl>
+	--%>
 </div>
 </body>
 </html>

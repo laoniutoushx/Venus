@@ -1,10 +1,10 @@
 package sos.haruhi.auth.iservice;
 
-import java.util.List;
+import sos.haruhi.auth.dto.LeftMenuDto;
+import sos.haruhi.auth.model.MenuResources;
+import sos.haruhi.sys.dto.TreeDto;
 
-import org.konghao.sys.auth.dto.LeftMenuDto;
-import org.konghao.sys.auth.model.MenuResources;
-import org.konghao.sys.dto.TreeDto;
+import java.util.List;
 
 public interface IMenuResService {
 	

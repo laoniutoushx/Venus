@@ -1,8 +1,8 @@
 package sos.haruhi.auth.dto;
 
-import java.util.List;
+import sos.haruhi.auth.model.MenuResources;
 
-import org.konghao.sys.auth.model.MenuResources;
+import java.util.List;
 
 public class LeftMenuDto implements Comparable<LeftMenuDto>{
 	private MenuResources parent;

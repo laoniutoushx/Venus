@@ -1,27 +1,26 @@
 package sos.haruhi.auth.service.impl;
 
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
+import sos.haruhi.auth.annotation.ModelMenu;
+import sos.haruhi.auth.annotation.NavMenu;
+import sos.haruhi.auth.dto.LeftMenuDto;
+import sos.haruhi.auth.idao.IMenuResDao;
+import sos.haruhi.auth.iservice.IMenuResService;
+import sos.haruhi.auth.model.AuthFinalVal;
+import sos.haruhi.auth.model.MenuResources;
+import sos.haruhi.sys.dto.TreeDto;
+import sos.haruhi.sys.kit.BasicSysKit;
+
+import javax.annotation.Resource;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Inject;
-
-import org.konghao.sys.auth.annotation.ModelMenu;
-import org.konghao.sys.auth.annotation.NavMenu;
-import org.konghao.sys.auth.dto.LeftMenuDto;
-import org.konghao.sys.auth.idao.IMenuResDao;
-import org.konghao.sys.auth.iservice.IMenuResService;
-import org.konghao.sys.auth.model.AuthFinalVal;
-import org.konghao.sys.auth.model.MenuResources;
-import org.konghao.sys.dto.TreeDto;
-import org.konghao.sys.kit.BasicSysKit;
-import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMapping;
-
 @Service("menuResService")
 public class MenuResService implements IMenuResService {
 	
-	@Inject
+	@Resource
 	private IMenuResDao menuResDao;
 
 	@Override

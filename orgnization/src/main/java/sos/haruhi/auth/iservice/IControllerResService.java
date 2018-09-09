@@ -1,10 +1,10 @@
 package sos.haruhi.auth.iservice;
 
-import java.util.List;
+import sos.haruhi.auth.model.ControllerOper;
+import sos.haruhi.auth.model.ControllerResources;
+import sos.haruhi.sys.dto.TreeDto;
 
-import org.konghao.sys.auth.model.ControllerOper;
-import org.konghao.sys.auth.model.ControllerResources;
-import org.konghao.sys.dto.TreeDto;
+import java.util.List;
 
 public interface IControllerResService {
 	

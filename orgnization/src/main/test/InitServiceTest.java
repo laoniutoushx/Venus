@@ -17,4 +17,9 @@ public class InitServiceTest {
     public void testInitByXml() {
         initService.initEntityByXml("orgs.xml");
     }
+
+    @Test
+    public void testInitByXmlAuth() {
+        initService.initEntityByXml("auth.xml");
+    }
 }

@@ -1,11 +1,11 @@
 package sos.haruhi.auth.annotation;
 
+import sos.haruhi.auth.model.AuthFinalVal;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
-import org.konghao.sys.auth.model.AuthFinalVal;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)

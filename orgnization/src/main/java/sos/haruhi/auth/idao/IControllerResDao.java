@@ -1,13 +1,13 @@
 package sos.haruhi.auth.idao;
 
+import sos.haruhi.auth.model.ControllerOper;
+import sos.haruhi.auth.model.ControllerResources;
+import sos.haruhi.sys.dto.TreeDto;
+import sos.nagato.ibasedao.IBaseDao;
+
 import java.util.List;
 
-import org.konghao.basic.dao.IBaseDao;
-import org.konghao.sys.auth.model.ControllerOper;
-import org.konghao.sys.auth.model.ControllerResources;
-import org.konghao.sys.dto.TreeDto;
-
-public interface IControllerResDao extends IBaseDao<ControllerResources>{
+public interface IControllerResDao extends IBaseDao<ControllerResources> {
 	public void addResources(ControllerResources cr, String psn);
 	
 	public void addOper(ControllerOper oper, String rsn);

@@ -1,15 +1,15 @@
 package sos.haruhi.auth.dao.impl;
 
-import java.util.List;
-
-import org.konghao.basic.dao.BaseDao;
-import org.konghao.sys.auth.idao.IControllerResDao;
-import org.konghao.sys.auth.model.ControllerOper;
-import org.konghao.sys.auth.model.ControllerResources;
-import org.konghao.sys.dto.TreeDto;
-import org.konghao.sys.kit.BasicSysKit;
-import org.konghao.sys.org.model.SysException;
 import org.springframework.stereotype.Repository;
+import sos.haruhi.auth.idao.IControllerResDao;
+import sos.haruhi.auth.model.ControllerOper;
+import sos.haruhi.auth.model.ControllerResources;
+import sos.haruhi.sys.dto.TreeDto;
+import sos.haruhi.sys.kit.BasicSysKit;
+import sos.haruhi.sys.model.SysException;
+import sos.nagato.basedao.BaseDao;
+
+import java.util.List;
 
 @Repository("controllerResDao")
 public class ControllerResDao extends BaseDao<ControllerResources> implements IControllerResDao {

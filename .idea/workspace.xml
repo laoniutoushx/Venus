@@ -8,10 +8,35 @@
   <component name="ChangeListManager">
     <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/ModelMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/ModelMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/NavMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/NavMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/AclDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/AclDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/ControllerResDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/ControllerResDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/MenuResDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/MenuResDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dto/LeftMenuDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dto/LeftMenuDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IAclDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IAclDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IControllerResDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IControllerResDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IMenuResDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IMenuResDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IAclService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IAclService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IControllerResService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IControllerResService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IMenuResService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IMenuResService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ACL.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ACL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerOper.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerOper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/AclService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/AclService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/ControllerResService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/ControllerResService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/MenuResService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/MenuResService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/kit/BasicSysKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/kit/BasicSysKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/ClassroomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/ClassroomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/PositionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/test/InitServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/test/InitServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orgnization/src/main/webapp/jsp/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orgnization/src/main/webapp/jsp/admin/left.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebService/11_binary/target/" />
@@ -78,13 +103,13 @@
           <entry key="class" value="11" />
           <entry key="css" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="309" />
+          <entry key="java" value="347" />
           <entry key="jpg" value="2" />
-          <entry key="jsp" value="14" />
+          <entry key="jsp" value="18" />
           <entry key="pom" value="1" />
           <entry key="readme" value="4" />
           <entry key="xhtml" value="2" />
-          <entry key="xml" value="71" />
+          <entry key="xml" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -93,31 +118,31 @@
           <entry key="CSS" value="1" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="309" />
-          <entry key="JSP" value="14" />
+          <entry key="JAVA" value="347" />
+          <entry key="JSP" value="18" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XHTML" value="2" />
-          <entry key="XML" value="72" />
+          <entry key="XML" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
           <entry key="ft" value="123" />
-          <entry key="java" value="22379" />
+          <entry key="java" value="22526" />
           <entry key="jsp" value="97" />
           <entry key="readme" value="19" />
           <entry key="txt" value="207" />
-          <entry key="xml" value="781" />
+          <entry key="xml" value="791" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22379" />
+          <entry key="JAVA" value="22526" />
           <entry key="JSP" value="97" />
           <entry key="PLAIN_TEXT" value="246" />
           <entry key="VTL" value="123" />
-          <entry key="XML" value="781" />
+          <entry key="XML" value="791" />
         </counts>
       </usages-collector>
     </session>
@@ -125,46 +150,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuResources.java">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="665">
+              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/jsp/position/update.jsp">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgTypeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="2090">
+              <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/jsp/position/nav.jsp">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/PositionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/jsp/position/list.jsp">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/service/impl/TeacherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="133">
+              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/menu_include/orgType/list_inc.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/pager/pager.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/admin/bottom.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/admin/left.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/jsp/position/add.jsp">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/resources/init/auth.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="328">
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orgnization/src/main/test/InitServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,38 +280,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/iservice/IOrgTypeService.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/resources/init/orgs.xml" />
-        <option value="$PROJECT_DIR$/persistent_module/src/test/resources/spring-hibernate.xml" />
-        <option value="$PROJECT_DIR$/persistent_module/src/main/resources/spring-hibernate.xml" />
-        <option value="$PROJECT_DIR$/persistent_module/pom.xml" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/service/impl/InitService.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/context/BeanFactoryContext.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/InitServlet.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/filter/SystemContextFilter.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/resources/orgnization-servlet.xml" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/jsp/index.xhtml" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/test/InitServiceTest.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/test/test.xhtml" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/test/test.jsp" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/filter/AnotherController.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgController.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgTypeController.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/PositionController.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/dao/impl/ClassroomDao.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/idao/IClassroomDao.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/idao/ITeacherDao.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/iservice/IClassroomService.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/iservice/ITeacherService.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/model/Classroom.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/model/Department.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/service/impl/ClassroomService.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/service/impl/TeacherService.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/ClassroomController.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dao/OrgTypeDao.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/orgnization-servlet.xml" />
         <option value="$PROJECT_DIR$/orgnization/pom.xml" />
@@ -249,12 +297,40 @@
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/UserRole.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/SystemResources.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuPosition.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuResources.java" />
-        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ACL.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerResources.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerOper.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/Res.java" />
         <option value="$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/jsp/position/add.jsp" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dto/LeftMenuDto.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IAclDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IControllerResDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IMenuResDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IRoleDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/ControllerResDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/RoleDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/UserDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IAclService.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IMenuResService.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IControllerResService.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/AclService.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/ControllerResService.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/AuthFinalVal.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/ModelMenu.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/NavMenu.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ACL.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/AclDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/MenuResDao.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuResources.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/MenuResService.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/kit/BasicSysKit.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/ClassroomController.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgController.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgTypeController.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/PositionController.java" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/resources/init/auth.xml" />
+        <option value="$PROJECT_DIR$/orgnization/src/main/test/InitServiceTest.java" />
       </list>
     </option>
   </component>
@@ -304,7 +380,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -365,6 +440,104 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="idao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="iservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,6 +558,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
@@ -429,7 +611,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="menu_include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="menu_include" type="462c0819:PsiDirectoryNode" />
+              <item name="orgType" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="pager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="orgnization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
@@ -509,6 +721,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -516,7 +729,7 @@
     <property name="SearchEverywhereHistoryKey" value="kong&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536415531947" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536476349263" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="S:/MyFramework" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -525,13 +738,6 @@
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="S:\Venus\orgnization\src\main\java\sos\haruhi\auth" />
-      <recent name="S:\Venus\orgnization\src\main\java\sos\haruhi" />
-      <recent name="S:\Venus\orgnization\src\main\java\sos\haruhi\web\controller" />
-      <recent name="S:\Venus\orgnization\src\main\webapp\resources" />
-      <recent name="S:\Venus\orgnization\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="S:\Venus\orgnization\src\main\webapp\WEB-INF" />
       <recent name="S:\Venus\orgnization\src\main\webapp\WEB-INF\jsp" />
@@ -539,6 +745,148 @@
       <recent name="S:\Venus\orgnization\src\main\java" />
       <recent name="S:\Venus\persistent_module\src\main" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Venus\orgnization\src\main\resources\init" />
+      <recent name="S:\Venus\orgnization\src\main\webapp\jsp\admin" />
+      <recent name="S:\Venus\orgnization\src\main\webapp\jsp" />
+      <recent name="S:\Venus\orgnization\src\main\java\sos\haruhi\auth\model" />
+      <recent name="S:\Venus\orgnization\src\main\java\sos\haruhi\auth" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ACL.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerOper.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerResources.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuResources.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/AuthOper.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/ModelMenu.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/NavMenu.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/Res.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/AclDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/ControllerResDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/MenuResDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/RoleDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/UserDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dto/LeftMenuDto.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IAclDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IControllerResDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IMenuResDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IRoleDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IUserDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IAclService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IControllerResService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IMenuResService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/AclService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/ControllerResService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/MenuResService.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -552,7 +900,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jetty Server.orginaze">
+  <component name="RunManager" selected="JUnit.InitServiceTest.testInitByXmlAuth">
     <configuration name="EnergySource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sos.haruhi.energyManage.EnergySource" />
       <module name="concurrency" />
@@ -572,19 +920,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sos.haruhi.stm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransferAccountService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.transferCashBetweenAccount.TransferAccountService" />
-      <module name="concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sos.haruhi.transferCashBetweenAccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -613,6 +948,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InitServiceTest" />
       <option name="METHOD_NAME" value="testInitByXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitServiceTest.testInitByXmlAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orgnization" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InitServiceTest" />
+      <option name="METHOD_NAME" value="testInitByXmlAuth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1067,19 +1412,19 @@
     </configuration>
     <list>
       <item itemvalue="Jetty Server.orginaze" />
-      <item itemvalue="Application.TransferAccountService" />
       <item itemvalue="Application.EnergySource" />
       <item itemvalue="Application.MultiverseTest" />
       <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
       <item itemvalue="JUnit.InitServiceTest.testInitByXml" />
+      <item itemvalue="JUnit.InitServiceTest.testInitByXmlAuth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InitServiceTest.testInitByXmlAuth" />
         <item itemvalue="JUnit.InitServiceTest.testInitByXml" />
         <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
         <item itemvalue="Application.MultiverseTest" />
         <item itemvalue="Application.EnergySource" />
-        <item itemvalue="Application.TransferAccountService" />
       </list>
     </recent_temporary>
   </component>
@@ -1333,12 +1678,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InitServiceTest_testInitByXml - 2018.09.02 at 12h 01m 40s.xml">
-      <configuration name="InitServiceTest.testInitByXml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2018.09.02 at 12h 02m 27s.xml">
-      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_shouldAnswerWithTrue - 2018.09.02 at 12h 02m 48s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
@@ -1363,9 +1702,15 @@
     <history-entry file="InitServiceTest_testInitByXml - 2018.09.02 at 12h 22m 21s.xml">
       <configuration name="InitServiceTest.testInitByXml" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InitServiceTest_testInitByXmlAuth - 2018.09.09 at 14h 50m 20s.xml">
+      <configuration name="InitServiceTest.testInitByXmlAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitServiceTest_testInitByXmlAuth - 2018.09.09 at 14h 53m 20s.xml">
+      <configuration name="InitServiceTest.testInitByXmlAuth" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192796000" />
+    <option name="totallyTimeSpent" value="196821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1380,7 +1725,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.23927614" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.23927614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1460,230 +1805,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="acl" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/service/impl/TeacherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/model/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/service/impl/ClassroomService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/iservice/IClassroomService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/model/SysException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/context/BeanFactoryContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/iservice/IOrgTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/ClassroomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/filter/SystemContextFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/service/impl/OrgTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="177" column="21" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/pager/pager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/service/impl/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dto/InitOrgTypeRuleDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dao/PositionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/dao/impl/ClassroomDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/dao/impl/TeacherDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/dto/TeacherDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/WEB-INF/orgnization-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dto/OrgTypeDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dao/OrgTypeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dto/OrgTypeRuleDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dto/PersonDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/dao/OrgDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/resources/spring-hibernate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1724,13 +1845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1743,84 +1857,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ACL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2170#2171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerResources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="98" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2198#2199#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1064">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ControllerOper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2138#2139#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/Res.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1838,20 +1885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/admin/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1880,6 +1913,381 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/AuthOper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/Res.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IControllerResDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IMenuResDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/idao/IAclDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/ControllerResDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IAclService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IMenuResService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/iservice/IControllerResService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/AclService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/ModelMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/annotation/NavMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/AuthFinalVal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/ACL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="150" column="23" lean-forward="true" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/AclDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dto/LeftMenuDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/dao/impl/MenuResDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="97" column="24" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/model/MenuResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="166" column="14" lean-forward="true" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
+          <folding>
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+            <element signature="e#2810#2811#0" expanded="true" />
+            <element signature="e#2840#2841#0" expanded="true" />
+            <element signature="e#3389#3390#0" expanded="true" />
+            <element signature="e#3475#3476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/MenuResService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/auth/service/impl/ControllerResService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/sys/kit/BasicSysKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#998#1027#0" expanded="true" />
+            <element signature="e#1122#1129#0" expanded="true" />
+            <element signature="e#1813#1859#0" expanded="true" />
+            <element signature="e#1973#1980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/ClassroomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/OrgTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/web/controller/PositionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/java/sos/haruhi/student/service/impl/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/menu_include/orgType/list_inc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/pager/pager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/admin/bottom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/webapp/jsp/admin/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/test/InitServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgnization/src/main/resources/init/auth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
     </entry>

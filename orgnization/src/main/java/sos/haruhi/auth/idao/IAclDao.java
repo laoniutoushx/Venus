@@ -1,10 +1,10 @@
 package sos.haruhi.auth.idao;
 
+import sos.nagato.ibasedao.IBaseDao;
+
+import java.security.acl.Acl;
 import java.util.List;
 import java.util.Map;
-
-import org.konghao.basic.dao.IBaseDao;
-import org.konghao.sys.auth.model.Acl;
 
 public interface IAclDao extends IBaseDao<Acl> {
 	/**
@@ -49,7 +49,7 @@ public interface IAclDao extends IBaseDao<Acl> {
 	 * @param roleId
 	 * @return
 	 */
-	public Map<String,List<String>>  listAllResAndOperByRole(Integer roleId, String rtype);
+	public Map<String,List<String>> listAllResAndOperByRole(Integer roleId, String rtype);
 	
 	/**
 	 * 获取某个用户可以访问的所有的资源操作对象

@@ -1,9 +1,9 @@
 package sos.haruhi.auth.annotation;
 
+import sos.haruhi.auth.model.AuthFinalVal;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-
-import org.konghao.sys.auth.model.AuthFinalVal;
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface NavMenu {

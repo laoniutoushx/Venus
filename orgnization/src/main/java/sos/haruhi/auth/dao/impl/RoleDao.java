@@ -1,12 +1,12 @@
 package sos.haruhi.auth.dao.impl;
 
 
-import java.util.List;
-
-import org.konghao.basic.dao.BaseDao;
-import org.konghao.sys.auth.idao.IRoleDao;
-import org.konghao.sys.auth.model.Role;
 import org.springframework.stereotype.Repository;
+import sos.haruhi.auth.idao.IRoleDao;
+import sos.haruhi.auth.model.Role;
+import sos.nagato.basedao.BaseDao;
+
+import java.util.List;
 
 @Repository("roleDao")
 public class RoleDao extends BaseDao<Role> implements IRoleDao {

@@ -1,9 +1,8 @@
 package sos.haruhi.auth.iservice;
 
+import java.security.acl.Acl;
 import java.util.List;
 import java.util.Map;
-
-import org.konghao.sys.auth.model.Acl;
 
 public interface IAclService {
 	
@@ -67,7 +66,7 @@ public interface IAclService {
 	 * @param roleId
 	 * @return
 	 */
-	public Map<String,List<String>>  listAllControllerResAndOperByRole(Integer roleId);
+	public Map<String,List<String>> listAllControllerResAndOperByRole(Integer roleId);
 	
 	/**
 	 * 获取某个用户可以访问的所有的资源操作对象

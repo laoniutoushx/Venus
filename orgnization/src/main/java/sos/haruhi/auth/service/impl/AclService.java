@@ -1,21 +1,20 @@
 package sos.haruhi.auth.service.impl;
 
+import org.springframework.stereotype.Service;
+import sos.haruhi.auth.idao.IAclDao;
+import sos.haruhi.auth.iservice.IAclService;
+import sos.haruhi.auth.model.ControllerResources;
+import sos.haruhi.auth.model.Role;
+import sos.haruhi.auth.model.User;
+
+import javax.annotation.Resource;
+import java.security.acl.Acl;
 import java.util.List;
 import java.util.Map;
 
-import javax.inject.Inject;
-
-import org.konghao.sys.auth.idao.IAclDao;
-import org.konghao.sys.auth.iservice.IAclService;
-import org.konghao.sys.auth.model.Acl;
-import org.konghao.sys.auth.model.ControllerResources;
-import org.konghao.sys.auth.model.Role;
-import org.konghao.sys.auth.model.User;
-import org.springframework.stereotype.Service;
-
 @Service("aclService")
 public class AclService implements IAclService {
-	@Inject
+	@Resource
 	private IAclDao aclDao;
 
 	@Override
@@ -35,7 +34,7 @@ public class AclService implements IAclService {
 
 	@Override
 	public List<Integer> listRoleOperIdsByRes(Integer rid, String rtype,
-			Integer roleId) {
+											  Integer roleId) {
 		return aclDao.listRoleOperIdsByRes(rid, rtype, roleId);
 	}
 

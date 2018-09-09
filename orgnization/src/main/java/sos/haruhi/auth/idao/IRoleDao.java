@@ -1,9 +1,9 @@
 package sos.haruhi.auth.idao;
 
-import java.util.List;
+import sos.haruhi.auth.model.Role;
+import sos.nagato.ibasedao.IBaseDao;
 
-import org.konghao.basic.dao.IBaseDao;
-import org.konghao.sys.auth.model.Role;
+import java.util.List;
 
 public interface IRoleDao extends IBaseDao<Role> {
 	public List<Role> listRole();

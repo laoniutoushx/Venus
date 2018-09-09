@@ -157,4 +157,9 @@ public class ACL {
         int tarPosNum = 1 << pos;
         return (this.aclState & tarPosNum) > 0;
     }
+    public static boolean checkPermission(int pos, int state){
+        Assert.isTrue(pos > -1 && pos < 32, "操作越界");
+        int tarPosNum = 1 << pos;
+        return (state & tarPosNum) > 0;
+    }
 }

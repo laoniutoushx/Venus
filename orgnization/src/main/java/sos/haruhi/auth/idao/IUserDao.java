@@ -1,14 +1,14 @@
 package sos.haruhi.auth.idao;
 
+import sos.haruhi.auth.model.Role;
+import sos.haruhi.auth.model.User;
+import sos.haruhi.auth.model.UserRole;
+import sos.nagato.ibasedao.IBaseDao;
+import sos.nagato.pojo.Pager;
+
 import java.util.List;
 
-import org.konghao.basic.dao.IBaseDao;
-import org.konghao.basic.model.Pager;
-import org.konghao.sys.auth.model.Role;
-import org.konghao.sys.auth.model.User;
-import org.konghao.sys.auth.model.UserRole;
-
-public interface IUserDao extends IBaseDao<User>{
+public interface IUserDao extends IBaseDao<User> {
 	
 	/**
 	 * 获取用户的所有角色信息

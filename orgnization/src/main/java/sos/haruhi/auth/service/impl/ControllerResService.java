@@ -1,24 +1,23 @@
 package sos.haruhi.auth.service.impl;
 
+import org.springframework.stereotype.Service;
+import sos.haruhi.auth.annotation.AuthOper;
+import sos.haruhi.auth.annotation.Res;
+import sos.haruhi.auth.idao.IControllerResDao;
+import sos.haruhi.auth.iservice.IControllerResService;
+import sos.haruhi.auth.model.ControllerOper;
+import sos.haruhi.auth.model.ControllerResources;
+import sos.haruhi.sys.dto.TreeDto;
+import sos.haruhi.sys.kit.BasicSysKit;
+
+import javax.annotation.Resource;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Inject;
-
-import org.konghao.sys.auth.annotation.AuthOper;
-import org.konghao.sys.auth.annotation.Res;
-import org.konghao.sys.auth.idao.IControllerResDao;
-import org.konghao.sys.auth.iservice.IControllerResService;
-import org.konghao.sys.auth.model.ControllerOper;
-import org.konghao.sys.auth.model.ControllerResources;
-import org.konghao.sys.dto.TreeDto;
-import org.konghao.sys.kit.BasicSysKit;
-import org.springframework.stereotype.Service;
-
 @Service("controllerResService")
 public class ControllerResService implements IControllerResService {
-	@Inject
+	@Resource
 	private IControllerResDao controllerResDao;
 	
 	@Override
@@ -89,7 +88,7 @@ public class ControllerResService implements IControllerResService {
 
 	@SuppressWarnings({"rawtypes" })
 	private void addAuthOper(Class c, ControllerResources cr) {
-		Method [] ms = c.getDeclaredMethods();
+		Method[] ms = c.getDeclaredMethods();
 		for(Method m:ms) {
 			if(m.isAnnotationPresent(AuthOper.class)) {
 				addControllerOper(m,cr);
