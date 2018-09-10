@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import sos.haruhi.auth.annotation.AuthOper;
 import sos.haruhi.auth.annotation.ModelMenu;
+import sos.haruhi.auth.annotation.NavMenu;
+import sos.haruhi.auth.annotation.Res;
 import sos.haruhi.auth.model.AuthFinalVal;
 import sos.haruhi.sys.iservice.IPositionService;
 import sos.haruhi.sys.model.Position;
@@ -16,6 +18,8 @@ import sos.haruhi.sys.model.Position;
 import javax.annotation.Resource;
 import javax.validation.Valid;
 
+@NavMenu(name="岗位管理",href="/positions",orderNum=3,psn="org_root",icon="icon-notes")
+@Res(name="岗位管理",orderNum=3,psn="org_root",sn="org_position")
 @Controller
 @RequestMapping("/admin/position")
 public class PositionController {
