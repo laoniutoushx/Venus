@@ -1,6 +1,5 @@
 package sos.haruhi.web.controller;
 
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -37,20 +36,20 @@ public class OrgController {
 	private IPersonService personService;
 	@Resource
 	private IPositionService positionService;
-
+	
 	@ModelMenu
 	@RequestMapping("/orgs")
 	public String list() {
 		return "org/list";
 	}
-
+	
 	@AuthOper
 	@RequestMapping("/treeAll")
 	public @ResponseBody
 	List<TreeDto> tree() {
 		return orgService.tree();
 	}
-
+	
 	@AuthOper
 	@RequestMapping("/orgs/{id}")
 	public String listChilds(@PathVariable int id, Integer typeId, Model model) {
@@ -71,7 +70,7 @@ public class OrgController {
 		types.put(-1,"不具备管理功能");
 		return types;
 	}
-
+	
 	@ModelMenu
 	@AuthOper
 	@RequestMapping(value="/orgs/{id}/add",method= RequestMethod.GET)
@@ -83,7 +82,7 @@ public class OrgController {
 		model.addAttribute("managerTypes",initManagerType());
 		return "org/add";
 	}
-
+	
 	@AuthOper
 	@RequestMapping(value="/orgs/{id}/add",method=RequestMethod.POST)
 	public String add(@PathVariable int id, @Valid @ModelAttribute("org")Org org, BindingResult br, Integer pid, Model model) {
@@ -93,15 +92,15 @@ public class OrgController {
 		orgService.add(org,pid);
 		return "redirect:/admin/org/orgs/"+id;
 	}
-
-	@ModelMenu(menuPos=AuthFinalVal.MENU_MODEL_OPER)
+	
+	@ModelMenu(menuPos= AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper
 	@RequestMapping(value="/orgs/{pid}/delete/{id}",method=RequestMethod.GET)
 	public String delete(@PathVariable int pid,@PathVariable int id) {
 		orgService.delete(id);
 		return "redirect:/admin/org/orgs/"+pid;
 	}
-
+	
 	@ModelMenu(menuPos=AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper
 	@RequestMapping(value="/orgs/{pid}/{id}",method=RequestMethod.GET)
@@ -111,7 +110,6 @@ public class OrgController {
 		model.addAttribute("persons", personService.listPersonAndPosByOrg(id, null));
 		return "org/show";
 	}
-
 	@ModelMenu(menuPos=AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper
 	@RequestMapping(value="/orgs/{pid}/update/{id}",method=RequestMethod.GET)
@@ -123,7 +121,7 @@ public class OrgController {
 		model.addAttribute("managerTypes",initManagerType());
 		return "org/update";
 	}
-
+	
 	@AuthOper
 	@RequestMapping(value="/orgs/{pid}/update/{id}",method=RequestMethod.POST)
 	public String update(@PathVariable int pid,@PathVariable int id,@Valid @ModelAttribute("org")Org org,BindingResult br,Model model) {
@@ -144,7 +142,7 @@ public class OrgController {
 		orgService.update(to);
 		return "redirect:/admin/org/orgs/"+pid;
 	}
-
+	
 	@ModelMenu(name="设置规则",menuPos=AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper(name="设置规则",sn="SET_RULE",index=4)
 	@RequestMapping(value="/setRule/{id}",method=RequestMethod.GET)
@@ -153,7 +151,7 @@ public class OrgController {
 		model.addAttribute("mids", orgService.listManagerRuleIds(id));
 		return "org/setRule";
 	}
-
+	
 	@AuthOper(name="设置规则",sn="SET_RULE",index=4)
 	@RequestMapping(value="/setRule",method=RequestMethod.POST)
 	public @ResponseBody
@@ -161,8 +159,7 @@ public class OrgController {
 		orgService.addRule(id, mids);
 		return AjaxObj.success("成功设置规则");
 	}
-
-
+	
 	@ModelMenu(name="查询人员",menuPos=AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper(name="显示人员列表",sn="SHOW_PERSON",index=5)
 	@RequestMapping("/persons/{id}")
@@ -179,7 +176,7 @@ public class OrgController {
 		model.addAttribute("parent", org);
 		return "org/showPerson";
 	}
-
+	
 	@ModelMenu(name="查询管理部门",menuPos=AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper(name="显示人员列表",sn="SHOW_PERSON",index=5)
 	@RequestMapping("/personManagers/{id}")
@@ -187,7 +184,7 @@ public class OrgController {
 		model.addAttribute("person", personService.load(id));
 		return "org/personManagers";
 	}
-
+	
 	@AuthOper(name="显示人员列表",sn="SHOW_PERSON",index=5)
 	@RequestMapping("/personTree/{id}")
 	public @ResponseBody List<TreeDto> personManagerTree(@PathVariable int id) {

@@ -1,8 +1,8 @@
 package sos.haruhi.auth.idao;
 
+import sos.haruhi.auth.model.Acl;
 import sos.nagato.ibasedao.IBaseDao;
 
-import java.security.acl.Acl;
 import java.util.List;
 import java.util.Map;
 
@@ -49,7 +49,7 @@ public interface IAclDao extends IBaseDao<Acl> {
 	 * @param roleId
 	 * @return
 	 */
-	public Map<String,List<String>> listAllResAndOperByRole(Integer roleId, String rtype);
+	public Map<String,List<String>>  listAllResAndOperByRole(Integer roleId, String rtype);
 	
 	/**
 	 * 获取某个用户可以访问的所有的资源操作对象
@@ -58,7 +58,7 @@ public interface IAclDao extends IBaseDao<Acl> {
 	 * @param roleId
 	 * @return
 	 */
-	public Map<String,List<String>>  listAllResAndOperByUser(Integer userId, String rtype);
+	public Map<String,List<String>> listAllResAndOperByUser(Integer userId, String rtype);
 	/**
 	 * 根据角色的id获取该角色可以访问的所有的菜单的sn
 	 * @param roleId

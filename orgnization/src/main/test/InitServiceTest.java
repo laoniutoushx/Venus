@@ -4,7 +4,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.springframework.orm.hibernate4.SessionHolder;
 import org.springframework.transaction.support.TransactionSynchronizationManager;
+import sos.haruhi.auth.dto.LeftMenuDto;
 import sos.haruhi.auth.iservice.IControllerResService;
+import sos.haruhi.auth.iservice.IMenuResService;
+import sos.haruhi.auth.model.MenuResources;
 import sos.haruhi.sys.iservice.IInitService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,6 +15,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("/spring-hibernate.xml")
@@ -22,6 +26,9 @@ public class InitServiceTest {
 
     @Resource
     private IControllerResService controllerResService;
+
+    @Resource
+    private IMenuResService menuResService;
 
     @Resource
     private SessionFactory sessionFactory;
@@ -56,4 +63,22 @@ public class InitServiceTest {
     public void testInitRes(){
         controllerResService.initControllerRes(new String[]{"sos.haruhi.web.controller"});
     }
+
+    @Test
+    public void testInitMenuRes() {
+        menuResService.initMenuResources(new String[]{"sos.haruhi.web.controller"});
+    }
+
+
+    @Test
+    public void testGetLeftNavMenu() {
+        List<LeftMenuDto> mds = menuResService.listLeftNav();
+        for(LeftMenuDto md : mds) {
+            System.out.println(md.getParent().getName()+","+md.getChilds().size());
+            for(MenuResources mr:md.getChilds()) {
+                System.out.println("---->"+mr.getName());
+            }
+        }
+    }
+
 }

@@ -3,12 +3,12 @@ package sos.haruhi.auth.service.impl;
 import org.springframework.stereotype.Service;
 import sos.haruhi.auth.idao.IAclDao;
 import sos.haruhi.auth.iservice.IAclService;
+import sos.haruhi.auth.model.Acl;
 import sos.haruhi.auth.model.ControllerResources;
 import sos.haruhi.auth.model.Role;
 import sos.haruhi.auth.model.User;
 
 import javax.annotation.Resource;
-import java.security.acl.Acl;
 import java.util.List;
 import java.util.Map;
 
@@ -34,7 +34,7 @@ public class AclService implements IAclService {
 
 	@Override
 	public List<Integer> listRoleOperIdsByRes(Integer rid, String rtype,
-											  Integer roleId) {
+			Integer roleId) {
 		return aclDao.listRoleOperIdsByRes(rid, rtype, roleId);
 	}
 

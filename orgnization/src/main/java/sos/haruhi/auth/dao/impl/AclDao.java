@@ -1,16 +1,19 @@
 package sos.haruhi.auth.dao.impl;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import org.springframework.stereotype.Repository;
 import sos.haruhi.auth.idao.IAclDao;
-import sos.haruhi.auth.model.ACL;
+import sos.haruhi.auth.model.Acl;
 import sos.haruhi.auth.model.MenuResources;
 import sos.haruhi.auth.model.Role;
 import sos.haruhi.auth.model.User;
 import sos.haruhi.sys.kit.BasicSysKit;
 import sos.nagato.basedao.BaseDao;
-
-import java.security.acl.Acl;
-import java.util.*;
 
 @Repository("aclDao")
 public class AclDao extends BaseDao<Acl> implements IAclDao {
@@ -21,7 +24,7 @@ public class AclDao extends BaseDao<Acl> implements IAclDao {
 		return (Acl)super.queryObject(hql, pid,ptype,rid,rtype);
 	}
 	
-	private List<Integer> listOperIdsByResPrin(int rid, String rtype, int pid, String ptype) {
+	private List<Integer> listOperIdsByResPrin(int rid,String rtype,int pid,String ptype) {
 		String hql = "select a.aclState,co.id,co.indexPos from Acl a,ControllerOper co where " +
 				"a.rid=co.rid and a.rid=? and a.rtype=? and a.pid=? and a.ptype=?";
 		List<Object[]> objs = super.listObj(hql, rid,rtype,pid,ptype);
@@ -36,7 +39,7 @@ public class AclDao extends BaseDao<Acl> implements IAclDao {
 			aclState = (Integer)aobj[0];
 			coid = (Integer)aobj[1];
 			indexPos = (Integer)aobj[2];
-			if(ACL.checkPermission(indexPos, aclState)) {
+			if(Acl.checkPermission(indexPos, aclState)) {
 				ids.add(coid);
 			}
 		}
@@ -69,7 +72,7 @@ public class AclDao extends BaseDao<Acl> implements IAclDao {
 		return listOperIdsByResPrin(rid,rtype,userId, User.PRINCIPAL_TYPE);
 	}
 	
-	private Map<String,List<String>> listAllResAndOperByPrin(Integer pid, String ptype, String rtype) {
+	private Map<String,List<String>> listAllResAndOperByPrin(Integer pid,String ptype,String rtype) {
 		String hql = "select a.aclState,co.indexPos,cr.className,co.methodName from Acl a,ControllerResources cr,ControllerOper co where" +
 				"a.rid=cr.id and cr.id=co.rid and a.pid=? and a.ptype=? and a.rtype=?";
 		List<Object[]> objs = super.listObj(hql,pid,ptype,rtype);
@@ -84,7 +87,7 @@ public class AclDao extends BaseDao<Acl> implements IAclDao {
 			indexPos = (Integer)aobj[1];
 			className = (String)aobj[2];
 			methodName = (String)aobj[3];
-			if(ACL.checkPermission(indexPos, aclState)) {
+			if(Acl.checkPermission(indexPos, aclState)) {
 				if(!maps.containsKey(className)) {
 					maps.put(className, new ArrayList<String>());
 					addMethodToList(maps,className,methodName);
@@ -140,7 +143,7 @@ public class AclDao extends BaseDao<Acl> implements IAclDao {
 		for(Object[] aobj:objs) {
 			aclState = (Integer)aobj[0];
 			sn = (String)aobj[1];
-			if(ACL.checkPermission(0, aclState)) {
+			if(Acl.checkPermission(0, aclState)) {
 				sns.add(sn);
 			}
 		}
@@ -175,7 +178,7 @@ public class AclDao extends BaseDao<Acl> implements IAclDao {
 		for(Object[] aobj:objs) {
 			aclState = (Integer)aobj[0];
 			id = (Integer)aobj[1];
-			if(ACL.checkPermission(0, aclState)) {
+			if(Acl.checkPermission(0, aclState)) {
 				ids.add(id);
 			}
 		}

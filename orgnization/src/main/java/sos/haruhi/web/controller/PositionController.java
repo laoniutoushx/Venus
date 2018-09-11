@@ -25,7 +25,7 @@ import javax.validation.Valid;
 public class PositionController {
 	@Resource
 	private IPositionService positionService;
-
+	
 	@ModelMenu
 	@AuthOper
 	@RequestMapping("/positions")
@@ -33,33 +33,33 @@ public class PositionController {
 		model.addAttribute("datas", positionService.find());
 		return "position/list";
 	}
-
+	
 	@ModelMenu
 	@AuthOper
-	@RequestMapping(value="/add",method=RequestMethod.GET)
+	@RequestMapping(value="/add",method= RequestMethod.GET)
 	public String add(Model model) {
 		model.addAttribute("position", new Position());
 		return "position/add";
 	}
-
+	
 	@AuthOper
 	@RequestMapping(value="/add",method=RequestMethod.POST)
-	public String add(@Valid @ModelAttribute("position")Position position,BindingResult br,Model model) {
+	public String add(@Valid @ModelAttribute("position")Position position, BindingResult br, Model model) {
 		if(br.hasFieldErrors()) {
 			return "position/add";
 		}
 		positionService.add(position);
 		return "redirect:/admin/position/positions";
 	}
-
-	@ModelMenu(menuPos=AuthFinalVal.MENU_MODEL_OPER)
+	
+	@ModelMenu(menuPos= AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper
 	@RequestMapping(value="/update/{id}",method=RequestMethod.GET)
-	public String update(@PathVariable int id,Model model) {
+	public String update(@PathVariable int id, Model model) {
 		model.addAttribute("position", positionService.load(id));
 		return "position/update";
 	}
-
+	
 	@AuthOper
 	@RequestMapping(value="/update/{id}",method=RequestMethod.POST)
 	public String update(@PathVariable int id,@Valid @ModelAttribute("position")Position position,BindingResult br,Model model) {
@@ -73,8 +73,8 @@ public class PositionController {
 		positionService.update(tp);
 		return "redirect:/admin/position/positions";
 	}
-
-	@ModelMenu(menuPos= AuthFinalVal.MENU_MODEL_OPER)
+	
+	@ModelMenu(menuPos=AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper
 	@RequestMapping(value="/delete/{id}",method=RequestMethod.GET)
 	public String delete(@PathVariable int id) {

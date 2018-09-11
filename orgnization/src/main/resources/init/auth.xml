@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entitys package="sos.haruhi.auth.model">
-	<initEntity exist="1" class="ControllerResources" method="controllerResService.add">
+	<initEntity exist="★★★★★★★★★★★★" class="ControllerResources" method="controllerResService.add">
 		<entity name="系统资源" sn="root" psn="" className="" orderNum="0">
 			<entity name="组织机构管理" sn="org_root" className="" orderNum="1"  />
 			<entity name="学校信息管理" sn="school_root" className="" orderNum="2"  />

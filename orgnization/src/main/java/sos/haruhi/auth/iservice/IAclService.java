@@ -1,6 +1,7 @@
 package sos.haruhi.auth.iservice;
 
-import java.security.acl.Acl;
+import sos.haruhi.auth.model.Acl;
+
 import java.util.List;
 import java.util.Map;
 

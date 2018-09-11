@@ -19,14 +19,14 @@ import javax.annotation.Resource;
 import javax.validation.Valid;
 import java.util.List;
 
-@Controller
 @NavMenu(name="班级信息管理",href="/classrooms",orderNum=2,psn="school_root",icon="icon-user-grey")
 @Res(name="班级信息管理",orderNum=1,psn="school_root",sn="classroom")
+@Controller
 @RequestMapping("/admin/classroom")
 public class ClassroomController {
 	@Resource
 	private IClassroomService classroomService;
-	
+
 	@Resource
 	private IOrgService orgService;
 
@@ -36,14 +36,14 @@ public class ClassroomController {
 	public String list(Model model, Integer pid) {
 		return "classroom/list";
 	}
-
+	
 	@AuthOper
 	@RequestMapping("/tree")
 	public @ResponseBody
 	List<TreeDto> tree() {
 		return orgService.listParentTreeByOrgType(Classroom.ZZLX);
 	}
-
+	
 	@AuthOper
 	@RequestMapping("/classrooms/{id}")
 	public String listChilds(@PathVariable int id, Model model) {
@@ -52,7 +52,7 @@ public class ClassroomController {
 		model.addAttribute("childs",classroomService.find(id));
 		return "classroom/listChilds";
 	}
-
+	
 	@ModelMenu
 	@AuthOper
 	@RequestMapping(value="/classrooms/{id}/add",method= RequestMethod.GET)
@@ -62,7 +62,7 @@ public class ClassroomController {
 		model.addAttribute("parent", parent);
 		return "classroom/add";
 	}
-
+	
 	@AuthOper
 	@RequestMapping(value="/classrooms/{id}/add",method=RequestMethod.POST)
 	public String add(@PathVariable int id, @Valid @ModelAttribute("classroom")Classroom classroom, BindingResult br, Integer pid, Model model) {
@@ -72,7 +72,7 @@ public class ClassroomController {
 		classroomService.add(classroom,pid);
 		return "redirect:/admin/classroom/classrooms/"+id;
 	}
-
+	
 	@ModelMenu(menuPos= AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper
 	@RequestMapping(value="/classrooms/{pid}/delete/{id}",method=RequestMethod.GET)
@@ -80,7 +80,7 @@ public class ClassroomController {
 		classroomService.delete(id);
 		return "redirect:/admin/classroom/classrooms/"+pid;
 	}
-
+	
 	@ModelMenu(menuPos=AuthFinalVal.MENU_MODEL_OPER)
 	@AuthOper
 	@RequestMapping(value="/classrooms/{pid}/update/{id}",method=RequestMethod.GET)
@@ -90,10 +90,10 @@ public class ClassroomController {
 		model.addAttribute("parent", parent);
 		return "classroom/update";
 	}
-
+	
 	@AuthOper
 	@RequestMapping(value="/classrooms/{pid}/update/{id}",method=RequestMethod.POST)
-	public String update(@PathVariable int pid, @PathVariable int id, @Valid @ModelAttribute("classroom") Classroom classroom, BindingResult br, Model model) {
+	public String update(@PathVariable int pid,@PathVariable int id,@Valid @ModelAttribute("classroom")Classroom classroom,BindingResult br,Model model) {
 		if(br.hasErrors()) {
 			return "classroom/update";
 		}
