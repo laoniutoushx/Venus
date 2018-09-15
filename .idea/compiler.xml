@@ -22,7 +22,6 @@
         <module name="11_binary" />
         <module name="client-server-test" />
         <module name="concurrency" />
-        <module name="ftp" />
         <module name="http" />
         <module name="mybatiss" />
         <module name="netpay-demo" />
@@ -31,6 +30,8 @@
         <module name="poi" />
         <module name="servlet" />
         <module name="shcema" />
+        <module name="shirobase" />
+        <module name="shirofirst" />
         <module name="springsourcetest" />
         <module name="tankWar" />
         <module name="ws_i" />
@@ -48,19 +49,17 @@
       <module name="09_soa_web" target="1.8" />
       <module name="10_binary" target="1.8" />
       <module name="11_binary" target="1.8" />
-      <module name="client-server-tcp-test" target="1.8" />
       <module name="concurrency" target="1.8" />
-      <module name="ftp" target="1.5" />
       <module name="http" target="1.5" />
-      <module name="javamail" target="1.5" />
-      <module name="minsheng- bank-demo" target="1.5" />
       <module name="mybatiss" target="1.7" />
       <module name="orgnization" target="1.8" />
-      <module name="paymax-demo" target="1.5" />
       <module name="persistent_module" target="1.8" />
       <module name="poi" target="1.7" />
       <module name="servlet" target="1.7" />
       <module name="shcema" target="1.8" />
+      <module name="Shiro" target="1.8" />
+      <module name="shirobase" target="1.7" />
+      <module name="shirofirst" target="1.8" />
       <module name="springsourcetest" target="1.5" />
       <module name="tankWar" target="1.8" />
       <module name="Venus" target="1.5" />

@@ -20,6 +20,6 @@ public interface UserMapper {
     @Select("select * from user where id = #{id}")
     User loadUser(int id);
 
-    @SelectKey(statement = "select ")
-    User updateUser(int id);
+//    @SelectKey(statement = "select ")
+//    User updateUser(int id);
 }

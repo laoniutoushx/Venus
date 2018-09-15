@@ -11,7 +11,6 @@
     <modules>
         <module>springsourcetest</module>
         <module>WebService</module>
-        <module>ftp</module>
         <module>http</module>
         <module>poi</module>
         <module>servlet</module>
@@ -20,6 +19,7 @@
         <module>concurrency</module>
         <module>orgnization</module>
         <module>persistent_module</module>
+        <module>Shiro</module>
     </modules>
 
     <dependencies>
@@ -42,6 +42,7 @@
             <artifactId>commons-beanutils</artifactId>
             <version>1.9.3</version>
         </dependency>
+
 
         <!--The Apache Commons IO library contains utility classes, stream implementations,
         file filters, file comparators, endian transformation classes, and much more.-->
@@ -79,7 +80,25 @@
         </dependency>
 
 
-
+        <!-- configure logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.7.25</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.25</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+            <scope>runtime</scope>
+        </dependency>
 
 
         <!-- https://mvnrepository.com/artifact/junit/junit -->

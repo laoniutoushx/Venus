@@ -16,10 +16,10 @@
       <module fileurl="file://$PROJECT_DIR$/Effective-java/Effective-java.iml" filepath="$PROJECT_DIR$/Effective-java/Effective-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hello/Hello.iml" filepath="$PROJECT_DIR$/Hello/Hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shiro/Shiro.iml" filepath="$PROJECT_DIR$/Shiro/Shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/Venus.iml" filepath="$PROJECT_DIR$/Venus.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/XML.iml" filepath="$PROJECT_DIR$/WebService/XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ftp/ftp.iml" filepath="$PROJECT_DIR$/ftp/ftp.iml" />
       <module fileurl="file://$PROJECT_DIR$/greedSnake/greedSnake.iml" filepath="$PROJECT_DIR$/greedSnake/greedSnake.iml" />
       <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
@@ -29,6 +29,8 @@
       <module fileurl="file://$PROJECT_DIR$/poi/poi.iml" filepath="$PROJECT_DIR$/poi/poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/04_shcema/shcema.iml" filepath="$PROJECT_DIR$/WebService/04_shcema/shcema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-base/shirobase.iml" filepath="$PROJECT_DIR$/Shiro/shiro-base/shirobase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-first/shirofirst.iml" filepath="$PROJECT_DIR$/Shiro/shiro-first/shirofirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/springsourcetest/springsourcetest.iml" filepath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/tankWar/tankWar.iml" filepath="$PROJECT_DIR$/tankWar/tankWar.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/02_ws/ws_i.iml" filepath="$PROJECT_DIR$/WebService/02_ws/ws_i.iml" />
