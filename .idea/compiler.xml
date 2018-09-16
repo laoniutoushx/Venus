@@ -21,7 +21,6 @@
         <module name="10_binary" />
         <module name="11_binary" />
         <module name="client-server-test" />
-        <module name="concurrency" />
         <module name="http" />
         <module name="mybatiss" />
         <module name="netpay-demo" />
