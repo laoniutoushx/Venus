@@ -37,7 +37,6 @@ public class TestBase {
 
         factory = new IniSecurityManagerFactory("classpath:shiro-role.ini");
         _manager_authorization = factory.getInstance();
-
     }
 
     public Subject login(String username, String password){

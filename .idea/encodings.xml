@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Concurrency" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shiro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shiro/shiro-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shiro/shiro-first" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WebService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WebService/01_ws" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WebService/02_ws" charset="UTF-8" />
@@ -19,7 +21,6 @@
     <file url="file://$PROJECT_DIR$/WebService/09_soa_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WebService/10_binary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/WebService/11_binary" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/concurrency" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/http" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatiss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orgnization" charset="UTF-8" />

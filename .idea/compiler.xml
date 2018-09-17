@@ -31,6 +31,7 @@
         <module name="shcema" />
         <module name="shirobase" />
         <module name="shirofirst" />
+        <module name="shirosimplewebapp" />
         <module name="springsourcetest" />
         <module name="tankWar" />
         <module name="ws_i" />
@@ -59,6 +60,7 @@
       <module name="Shiro" target="1.8" />
       <module name="shirobase" target="1.7" />
       <module name="shirofirst" target="1.8" />
+      <module name="shirosimplewebapp" target="1.8" />
       <module name="springsourcetest" target="1.5" />
       <module name="tankWar" target="1.8" />
       <module name="Venus" target="1.5" />

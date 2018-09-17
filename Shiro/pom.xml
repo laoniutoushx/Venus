@@ -18,6 +18,7 @@
     <modules>
         <module>shiro-first</module>
         <module>shiro-base</module>
+        <module>shiro-simple-webapp</module>
     </modules>
 
     <properties>

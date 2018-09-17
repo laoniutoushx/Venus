@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/WebService/04_shcema/shcema.iml" filepath="$PROJECT_DIR$/WebService/04_shcema/shcema.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-base/shirobase.iml" filepath="$PROJECT_DIR$/Shiro/shiro-base/shirobase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-first/shirofirst.iml" filepath="$PROJECT_DIR$/Shiro/shiro-first/shirofirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/shirosimplewebapp.iml" filepath="$PROJECT_DIR$/Shiro/shiro-simple-webapp/shirosimplewebapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springsourcetest/springsourcetest.iml" filepath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/tankWar/tankWar.iml" filepath="$PROJECT_DIR$/tankWar/tankWar.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/02_ws/ws_i.iml" filepath="$PROJECT_DIR$/WebService/02_ws/ws_i.iml" />

@@ -41,7 +41,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/alipay-demo" />
     <file type="web" url="file://$PROJECT_DIR$/client-server-tcp-test" />
-    <file type="web" url="file://$PROJECT_DIR$/concurrency" />
+    <file type="web" url="file://$PROJECT_DIR$/Concurrency" />
     <file type="web" url="file://$PROJECT_DIR$/javamail" />
     <file type="web" url="file://$PROJECT_DIR$/minsheng- bank-demo" />
     <file type="web" url="file://$PROJECT_DIR$/mybatis" />
@@ -50,6 +50,7 @@
     <file type="web" url="file://$PROJECT_DIR$/paymax-demo" />
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
     <file type="web" url="file://$PROJECT_DIR$/Shiro/shiro-first" />
+    <file type="web" url="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp" />
     <file type="web" url="file://$PROJECT_DIR$/SPA" />
     <file type="web" url="file://$PROJECT_DIR$/spring-test" />
     <file type="web" url="file://$PROJECT_DIR$/springsourcetest" />
