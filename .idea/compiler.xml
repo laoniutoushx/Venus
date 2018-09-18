@@ -49,7 +49,6 @@
       <module name="09_soa_web" target="1.8" />
       <module name="10_binary" target="1.8" />
       <module name="11_binary" target="1.8" />
-      <module name="concurrency" target="1.8" />
       <module name="http" target="1.5" />
       <module name="mybatiss" target="1.7" />
       <module name="orgnization" target="1.8" />

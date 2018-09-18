@@ -32,6 +32,13 @@
 
     <dependencies>
 
+        <!-- 引入 持久层框架   BaseDao<T> -->
+        <dependency>
+            <groupId>Venus</groupId>
+            <artifactId>persistent_module</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
         <dependency>
             <groupId>org.springframework</groupId>
