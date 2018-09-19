@@ -1,9 +1,6 @@
 package sos.haruhi.shiro.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * @ClassName Res
@@ -13,6 +10,7 @@ import javax.persistence.Id;
  * @Version 10032
  **/
 @Entity
+@Table(name = "t_res")
 public class Res {
     private int id;
     private String resname;
