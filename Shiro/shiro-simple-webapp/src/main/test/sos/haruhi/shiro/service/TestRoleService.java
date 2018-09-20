@@ -10,21 +10,20 @@ import org.springframework.orm.hibernate4.SessionHolder;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.support.TransactionSynchronizationManager;
-import sos.haruhi.shiro.model.User;
+import sos.haruhi.shiro.model.Role;
 
 import javax.annotation.Resource;
 
 /**
- * @ClassName TestUserService
+ * @ClassName TestRoleService
  * @Description TODO
  * @Author Suzumiya Haruhi
- * @Date 2018/9/19 21:10
+ * @Date 2018/9/20 20:07
  * @Version 10032
  **/
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("/spring-core.xml")
-public class TestUserService {
-
+public class TestRoleService {
     @Resource
     private SessionFactory sessionFactory;
 
@@ -45,41 +44,32 @@ public class TestUserService {
     }
 
     @Resource
-    private IUserService userService;
+    private IRoleService roleService;
 
     @Test
     public void testAdd(){
-        User u = new User();
-        u.setUsername("admin");
-        u.setPassword("111111");
-        u.setNickname("管理员");
-        u.setStatus(1);
-        userService.add(u);
-        u = new User();
-        u.setUsername("guest");
-        u.setPassword("000000");
-        u.setNickname("测试人员");
-        u.setStatus(1);
-        userService.add(u);
-        u = new User();
-        u.setUsername("haruhi");
-        u.setPassword("6656200");
-        u.setNickname("春日");
-        u.setStatus(1);
-        userService.add(u);
+        Role r = new Role();
+        r.setRolename("管理员");
+        r.setSn("ADMIN");
+        roleService.add(r);
+
+        r = new Role();
+        r.setRolename("普通用户");
+        r.setSn("CUSTOMER");
+        roleService.add(r);
+
+        r = new Role();
+        r.setRolename("来宾");
+        r.setSn("GUEST");
+        roleService.add(r);
     }
 
     @Test
-    public void testRoleUser(){
-        System.out.println(userService.listUsersByRole(1));
-        System.out.println(userService.listUsersByRole(2));
-        System.out.println(userService.listUsersByRole(3));
+    public void testAddUserRole(){
+        roleService.addUserRole(1, 2);  // 春日     - 普通用户
+        roleService.addUserRole(1, 3);  // 春日     - 来宾
+        roleService.addUserRole(2, 1);  // 管理员   - 管理员
+        roleService.addUserRole(3, 3);  // 测试人员 - 来宾
     }
 
-    @Test
-    public void testUserRes(){
-        System.out.println(userService.listResesByUser(1));
-        System.out.println(userService.listResesByUser(2));
-        System.out.println(userService.listResesByUser(3));
-    }
 }

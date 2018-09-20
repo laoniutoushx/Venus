@@ -7,6 +7,7 @@ import org.apache.shiro.authc.UnknownAccountException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import sos.haruhi.shiro.dao.IRoleDao;
 import sos.haruhi.shiro.dao.IUserDao;
 import sos.haruhi.shiro.kit.ShiroKit;
 import sos.haruhi.shiro.model.Res;
@@ -30,6 +31,9 @@ public class UserService implements IUserService {
     @Resource
     private IUserDao userDao;
 
+    @Resource
+    private IRoleDao roleDao;
+
     @Override
     public void add(User user) {
         if(user == null || StringUtils.isBlank(user.getUsername())){
@@ -38,6 +42,14 @@ public class UserService implements IUserService {
         }
         user.setPassword(ShiroKit.md5(user.getPassword(), user.getUsername()));
         userDao.add(user);
+    }
+
+    @Override
+    public void add(User user, List<Integer> rids) {
+        this.add(user);
+        for(Integer rid:rids) {
+            roleDao.addUserRole(user.getId(), rid);
+        }
     }
 
     @Override

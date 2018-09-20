@@ -8,6 +8,8 @@ import java.util.List;
 public interface IUserService {
     public void add(User user);
 
+    public void add(User user, List<Integer> rids);
+
     public void delete(int id);
 
     public void update(User user);

@@ -50,4 +50,9 @@ public class Res {
     public void setUrl(String url) {
         this.url = url;
     }
+
+    @Override
+    public String toString() {
+        return this.getId() + "|" + this.getUrl() + ": " + this.getResname() + ": " + this.getPermission();
+    }
 }

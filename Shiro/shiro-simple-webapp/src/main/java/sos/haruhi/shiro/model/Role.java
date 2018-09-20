@@ -13,6 +13,8 @@ import javax.persistence.*;
 @Table(name = "t_role")
 public class Role {
     private int id;
+    private String sn;
+
     private String rolename;
 
     @Id
@@ -23,6 +25,14 @@ public class Role {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getSn() {
+        return sn;
+    }
+
+    public void setSn(String sn) {
+        this.sn = sn;
     }
 
     public String getRolename() {
