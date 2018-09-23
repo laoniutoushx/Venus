@@ -12,10 +12,10 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_role")
 public class Role {
-    private int id;
-    private String sn;
+    protected int id;
+    protected String sn;
 
-    private String rolename;
+    protected String rolename;
 
     @Id
     @GeneratedValue
@@ -42,4 +42,6 @@ public class Role {
     public void setRolename(String rolename) {
         this.rolename = rolename;
     }
+
+
 }

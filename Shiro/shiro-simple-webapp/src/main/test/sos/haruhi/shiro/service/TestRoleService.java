@@ -72,4 +72,24 @@ public class TestRoleService {
         roleService.addUserRole(3, 3);  // 测试人员 - 来宾
     }
 
+    @Test
+    public void testEquals(){
+        /***
+         * hibernate load 读取的对象从 hibernate 缓存中读取，为同一个对象的引用
+         */
+        Role r1 = roleService.load(1);
+        Role r2 = roleService.load(1);
+        System.out.println(r1.equals(r2));
+
+        // 打印 对象内存地址
+        System.out.println(System.identityHashCode(r1));
+        System.out.println(System.identityHashCode(r2));
+
+        Role r3 = new Role();
+        r3.setId(5);
+        Role r4 = new Role();
+        r4.setId(5);
+        System.out.println(r3.equals(r4));
+    }
+
 }

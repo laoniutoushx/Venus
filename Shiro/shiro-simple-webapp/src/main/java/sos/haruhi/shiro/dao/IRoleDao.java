@@ -13,6 +13,8 @@ public interface IRoleDao extends IBaseDao<Role> {
 
     public List<Role> listRolesOfUser(int userId);
 
+    public List<Integer> listRoleIdsOfUser(int userId);
+
     public UserRole loadUserRole(int userId, int roleId);
 
     public void addUserRole(int userId, int roleId);

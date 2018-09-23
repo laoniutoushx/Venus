@@ -40,33 +40,33 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="05_java_xml" target="1.8" />
-      <module name="06_soap" target="1.8" />
-      <module name="07_soap_client" target="1.8" />
-      <module name="08_wsdl" target="1.8" />
-      <module name="09_soa" target="1.8" />
-      <module name="09_soa_client" target="1.8" />
-      <module name="09_soa_web" target="1.8" />
-      <module name="10_binary" target="1.8" />
-      <module name="11_binary" target="1.8" />
-      <module name="http" target="1.5" />
-      <module name="mybatiss" target="1.7" />
-      <module name="orgnization" target="1.8" />
-      <module name="persistent_module" target="1.8" />
-      <module name="poi" target="1.7" />
-      <module name="servlet" target="1.7" />
-      <module name="shcema" target="1.8" />
-      <module name="Shiro" target="1.8" />
-      <module name="shirobase" target="1.7" />
-      <module name="shirofirst" target="1.8" />
-      <module name="shirosimplewebapp" target="1.8" />
-      <module name="springsourcetest" target="1.5" />
-      <module name="tankWar" target="1.8" />
-      <module name="Venus" target="1.5" />
-      <module name="ws_i" target="1.8" />
-      <module name="ws_ii" target="1.8" />
-      <module name="xml" target="1.8" />
-      <module name="XML" target="1.8" />
+      <module name="05_java_xml" target="8" />
+      <module name="06_soap" target="8" />
+      <module name="07_soap_client" target="8" />
+      <module name="08_wsdl" target="8" />
+      <module name="09_soa" target="8" />
+      <module name="09_soa_client" target="8" />
+      <module name="09_soa_web" target="8" />
+      <module name="10_binary" target="8" />
+      <module name="11_binary" target="8" />
+      <module name="http" target="8" />
+      <module name="mybatiss" target="8" />
+      <module name="orgnization" target="8" />
+      <module name="persistent_module" target="8" />
+      <module name="poi" target="8" />
+      <module name="servlet" target="8" />
+      <module name="shcema" target="8" />
+      <module name="Shiro" target="8" />
+      <module name="shirobase" target="8" />
+      <module name="shirofirst" target="8" />
+      <module name="shirosimplewebapp" target="8" />
+      <module name="springsourcetest" target="8" />
+      <module name="tankWar" target="8" />
+      <module name="Venus" target="8" />
+      <module name="ws_i" target="8" />
+      <module name="ws_ii" target="8" />
+      <module name="xml" target="8" />
+      <module name="XML" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="EclipseCompilerSettings">

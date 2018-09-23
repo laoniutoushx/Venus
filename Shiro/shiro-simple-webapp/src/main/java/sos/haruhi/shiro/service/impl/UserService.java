@@ -1,5 +1,6 @@
 package sos.haruhi.shiro.service.impl;
 
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.LockedAccountException;
@@ -11,10 +12,13 @@ import sos.haruhi.shiro.dao.IRoleDao;
 import sos.haruhi.shiro.dao.IUserDao;
 import sos.haruhi.shiro.kit.ShiroKit;
 import sos.haruhi.shiro.model.Res;
+import sos.haruhi.shiro.model.Role;
 import sos.haruhi.shiro.model.User;
 import sos.haruhi.shiro.service.IUserService;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -60,6 +64,17 @@ public class UserService implements IUserService {
     @Override
     public void update(User user) {
         userDao.update(user);
+    }
+
+    @Override
+    public void update(User user, List<Integer> rids) {
+        userDao.update(user);
+        List<Integer> oldRids = roleDao.listRoleIdsOfUser(user.getId());
+
+        ((List<Integer>)CollectionUtils.subtract(rids, oldRids))
+                .forEach(rid -> roleDao.addUserRole(user.getId(), rid));
+        ((List<Integer>)CollectionUtils.subtract(oldRids, rids))
+                .forEach(rid -> roleDao.deleteUserRole(user.getId(), rid));
     }
 
     @Override
@@ -110,5 +125,10 @@ public class UserService implements IUserService {
     @Override
     public List<Res> listResesByUser(int userId) {
         return userDao.listResesByUser(userId);
+    }
+
+    @Override
+    public List<String> listRoleSnsByUser(int userId) {
+        return userDao.listRoleSnsByUser(userId);
     }
 }

@@ -15,4 +15,6 @@ public interface IUserDao extends IBaseDao<User> {
 
     public List<Res> listResesByUser(int userId);
 
+    public List<String> listRoleSnsByUser(int userId);
+
 }

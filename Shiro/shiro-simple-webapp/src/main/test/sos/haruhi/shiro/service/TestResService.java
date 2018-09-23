@@ -62,6 +62,16 @@ public class TestResService {
         resService.add(res);
 
         res = new Res();
+        res.setResname("用户更新");
+        res.setUrl("/admin/user/update/*");
+        resService.add(res);
+
+        res = new Res();
+        res.setResname("用户状态变更");
+        res.setUrl("/admin/user/updateStatus/*");
+        resService.add(res);
+
+        res = new Res();
         res.setResname("用户删除");
         res.setUrl("/admin/user/delete");
         resService.add(res);
@@ -91,14 +101,17 @@ public class TestResService {
     public void testAddRoleRes(){
         roleService.addRoleRes(1, 1);   // 管理员 - 系统管理
         roleService.addRoleRes(1, 2);   // 管理员 - 用户添加
-        roleService.addRoleRes(1, 3);   // 管理员 - 用户删除
-        roleService.addRoleRes(1, 4);   // 管理员 - 系统管理
+        roleService.addRoleRes(1, 3);   // 管理员 -
+        roleService.addRoleRes(1, 4);   // 管理员 -
         roleService.addRoleRes(1, 5);
         roleService.addRoleRes(1, 6);
         roleService.addRoleRes(1, 7);
+        roleService.addRoleRes(1, 8);
+        roleService.addRoleRes(1, 9);
 
         roleService.addRoleRes(2, 4);
         roleService.addRoleRes(2, 2);
+
 
     }
 

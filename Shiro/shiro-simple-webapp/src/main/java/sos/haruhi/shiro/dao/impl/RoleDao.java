@@ -31,6 +31,12 @@ public class RoleDao extends BaseDao<Role> implements IRoleDao {
     }
 
     @Override
+    public List<Integer> listRoleIdsOfUser(int userId) {
+        return super.listObj("select r.id from Role r, UserRole ur, User u " +
+                "where r.id = ur.roleId and u.id = ur.userId and u.id = ?", userId);
+    }
+
+    @Override
     public UserRole loadUserRole(int userId, int roleId) {
         return (UserRole) super.queryObject("from UserRole ur where ur.userId = ? and ur.roleId = ?", userId, roleId);
     }

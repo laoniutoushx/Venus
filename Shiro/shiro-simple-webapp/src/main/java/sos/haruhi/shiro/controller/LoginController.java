@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * @ClassName LoginController
- * @Description TODO
+ * @Description 登陆控制
  * @Author Suzumiya Haruhi
  * @Date 2018/9/20 21:28
  * @Version 10032

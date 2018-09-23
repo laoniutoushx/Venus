@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TransferAccountService {
     public boolean transfer(final TransferAccount from, final TransferAccount to, final int amount) throws InterruptedException {
-        final TransferAccount[] accounts = new TransferAccount[]{to, from};
+        final TransferAccount[] accounts = new sos.haruhi.share.transferCashBetweenAccount.TransferAccount[]{to, from};
         //Arrays.sort(accounts);  //  排序账户，确保获取锁的顺序
 
         try {

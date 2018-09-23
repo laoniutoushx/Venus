@@ -14,6 +14,8 @@ public interface IUserService {
 
     public void update(User user);
 
+    public void update(User user, List<Integer> rids);
+
     public User load(int id);
 
     public User loadByUsername(String username);
@@ -25,5 +27,7 @@ public interface IUserService {
     public List<User> listUsersByRole(int roleId);
 
     public List<Res> listResesByUser(int userId);
+
+    public List<String> listRoleSnsByUser(int userId);
 
 }

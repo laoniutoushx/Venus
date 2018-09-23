@@ -39,5 +39,11 @@ public class UserDao extends BaseDao<User> implements IUserDao {
                 "where r.id = rr.resId and rr.roleId = ur.roleId and ur.userId = ?", userId);
     }
 
+    @Override
+    public List<String> listRoleSnsByUser(int userId) {
+        return super.listObj("select r.sn from Role r, UserRole ur " +
+                "where r.id = ur.roleId and ur.userId = ?", userId);
+    }
+
 
 }
