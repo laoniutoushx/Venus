@@ -11,10 +11,19 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="/login" method="post">
-        username:<input type="text" name="username" />
-        password:<input type="password" name="password" />
-        submit:<input type="submit" value="submit" />
+<jsp:include page="${pageContext.request.contextPath}/common.jsp"></jsp:include>
+<div class="container">
+    <form action="${pageContext.request.contextPath}/login" method="post">
+        <div class="mb-3">
+            <label for="username">Username</label>
+            <input id="username" class="form-control" type="text" name="username" />
+        </div>
+        <div class="mb-3">
+            <label for="password">Password</label>
+            <input id="password" class="form-control" type="password" name="password" />
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
+</div>
 </body>
 </html>

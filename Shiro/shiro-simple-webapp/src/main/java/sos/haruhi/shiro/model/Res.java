@@ -12,10 +12,10 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_res")
 public class Res {
-    private int id;
-    private String resname;
-    private String permission;
-    private String url;
+    protected int id;
+    protected String resname;
+    protected String permission;
+    protected String url;
 
     @Id
     @GeneratedValue

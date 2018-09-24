@@ -11,6 +11,9 @@
     <title>unauth</title>
 </head>
 <body>
+<jsp:include page="${pageContext.request.contextPath}/common.jsp"></jsp:include>
+<div class="container">
     <h5>无权访问该功能</h5>
+</div>
 </body>
 </html>

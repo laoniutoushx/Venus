@@ -93,7 +93,22 @@ public class TestResService {
 
         res = new Res();
         res.setResname("角色修改");
-        res.setUrl("/admin/role/update");
+        res.setUrl("/admin/role/update/*");
+        resService.add(res);
+
+        res = new Res();
+        res.setResname("资源添加");
+        res.setUrl("/admin/res/add");
+        resService.add(res);
+
+        res = new Res();
+        res.setResname("资源管理");
+        res.setUrl("/admin/res/*");
+        resService.add(res);
+
+        res = new Res();
+        res.setResname("资源修改");
+        res.setUrl("/admin/res/update/*");
         resService.add(res);
     }
 

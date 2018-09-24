@@ -67,8 +67,8 @@ public class RoleDao extends BaseDao<Role> implements IRoleDao {
 
     @Override
     public List<Res> listResesByRole(int roleId) {
-        return super.listObj("select res from Res res, RoleRes rr, Role role " +
-                "where res.id = rr.resId, and role.id = rr.roleId and rr.id = ?", roleId);
+        return super.listObj("select res from Res res, RoleRes rr " +
+                "where res.id = rr.resId and rr.roleId = ?", roleId);
     }
 
     @Override
@@ -85,7 +85,7 @@ public class RoleDao extends BaseDao<Role> implements IRoleDao {
     @Override
     public void deleteRoleRes(int roleId, int resId) {
         RoleRes roleRes = this.loadRoleRes(roleId, resId);
-        if(roleRes == null) {
+        if(roleRes != null) {
             super.deleteEntity(roleRes);
         }
     }

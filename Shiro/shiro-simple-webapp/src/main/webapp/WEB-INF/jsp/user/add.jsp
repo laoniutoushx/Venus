@@ -11,9 +11,9 @@
 <html>
 <head>
     <title>添加用户</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap/bootstrap-4.0.0.css">
 </head>
 <body>
+<jsp:include page="${pageContext.request.contextPath}/common.jsp"></jsp:include>
 <div class="container">
     <sf:form method="post" modelAttribute="user" id="addForm">
         <div class="mb-3">

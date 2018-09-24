@@ -10,10 +10,10 @@
 <html>
 <head>
     <title>用户列表</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap/bootstrap-4.0.0.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/grid.css">
 </head>
 <body>
+<jsp:include page="${pageContext.request.contextPath}/common.jsp"></jsp:include>
 <div class="container">
     <h3>用户列表</h3>
     <div class="row">
