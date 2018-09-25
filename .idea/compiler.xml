@@ -32,6 +32,7 @@
         <module name="shirobase" />
         <module name="shirofirst" />
         <module name="shirosimplewebapp" />
+        <module name="shirospringwebapp" />
         <module name="springsourcetest" />
         <module name="tankWar" />
         <module name="ws_i" />
@@ -60,6 +61,7 @@
       <module name="shirobase" target="8" />
       <module name="shirofirst" target="8" />
       <module name="shirosimplewebapp" target="8" />
+      <module name="shirospringwebapp" target="8" />
       <module name="springsourcetest" target="8" />
       <module name="tankWar" target="8" />
       <module name="Venus" target="8" />

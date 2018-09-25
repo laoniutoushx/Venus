@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shirospringwebapp:war">
+    <output-path>$PROJECT_DIR$/Shiro/shiro-spring-webapp/target</output-path>
+    <root id="archive" name="shiro-spring-webapp.war">
+      <element id="artifact" artifact-name="shirospringwebapp:war exploded" />
+    </root>
+  </artifact>
+</component>
