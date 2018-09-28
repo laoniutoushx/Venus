@@ -29,6 +29,7 @@
         <module name="poi" />
         <module name="servlet" />
         <module name="shcema" />
+        <module name="shiro-test" />
         <module name="shirobase" />
         <module name="shirofirst" />
         <module name="shirosimplewebapp" />
@@ -58,6 +59,7 @@
       <module name="servlet" target="8" />
       <module name="shcema" target="8" />
       <module name="Shiro" target="8" />
+      <module name="shiro-test" target="8" />
       <module name="shirobase" target="8" />
       <module name="shirofirst" target="8" />
       <module name="shirosimplewebapp" target="8" />

@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="shirosimplewebapp:war exploded" />
+      <artifact name="shirospringwebapp:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebService/11_binary/target/" />
@@ -45,6 +49,8 @@
     <ignored path="$PROJECT_DIR$/Shiro/shiro-first/target/" />
     <ignored path="$PROJECT_DIR$/Shiro/shiro-base/target/" />
     <ignored path="$PROJECT_DIR$/Shiro/shiro-simple-webapp/target/" />
+    <ignored path="$PROJECT_DIR$/Shiro/shiro-spring-webapp/target/" />
+    <ignored path="$PROJECT_DIR$/Shiro/shiro-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +75,11 @@
     <session id="-680892846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="60" />
+          <entry key="project.closed" value="62" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.22" value="5" />
           <entry key="project.open.time.23" value="3" />
           <entry key="project.open.time.24" value="9" />
@@ -84,9 +90,9 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="8" />
-          <entry key="project.open.time.7" value="10" />
+          <entry key="project.open.time.7" value="11" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="65" />
+          <entry key="project.opened" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,18 +109,19 @@
           <entry key="css" value="4" />
           <entry key="html" value="2" />
           <entry key="iml" value="2" />
-          <entry key="ini" value="36" />
-          <entry key="java" value="642" />
+          <entry key="ini" value="37" />
+          <entry key="java" value="658" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="84" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="15" />
+          <entry key="properties" value="16" />
           <entry key="readme" value="4" />
           <entry key="rnc" value="1" />
+          <entry key="sql" value="1" />
           <entry key="ts" value="1" />
           <entry key="web" value="2" />
           <entry key="xhtml" value="2" />
-          <entry key="xml" value="180" />
+          <entry key="xml" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -124,31 +131,32 @@
           <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="642" />
+          <entry key="JAVA" value="658" />
           <entry key="JSP" value="84" />
-          <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Properties" value="15" />
+          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="Properties" value="16" />
           <entry key="RNG Compact" value="1" />
+          <entry key="Scratch" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="UML" value="11" />
           <entry key="XHTML" value="2" />
-          <entry key="XML" value="181" />
+          <entry key="XML" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
           <entry key="css" value="55" />
-          <entry key="dummy" value="49" />
+          <entry key="dummy" value="77" />
           <entry key="ft" value="123" />
           <entry key="html" value="518" />
-          <entry key="ini" value="2442" />
-          <entry key="java" value="42104" />
+          <entry key="ini" value="2538" />
+          <entry key="java" value="43216" />
           <entry key="jsp" value="1684" />
           <entry key="properties" value="87" />
           <entry key="readme" value="19" />
-          <entry key="txt" value="311" />
-          <entry key="xml" value="1482" />
+          <entry key="txt" value="316" />
+          <entry key="xml" value="1562" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -156,114 +164,27 @@
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="55" />
           <entry key="HTML" value="518" />
-          <entry key="JAVA" value="42104" />
+          <entry key="JAVA" value="43216" />
           <entry key="JSP" value="1684" />
-          <entry key="PLAIN_TEXT" value="2821" />
+          <entry key="PLAIN_TEXT" value="2950" />
           <entry key="Pointcut Expression" value="2" />
           <entry key="Properties" value="87" />
           <entry key="VTL" value="123" />
-          <entry key="XML" value="1480" />
+          <entry key="XML" value="1560" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/role/list.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/JdbcReamlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/service/impl/RoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1113">
-              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-              <folding>
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1776#1777#0" expanded="true" />
-                <element signature="e#1962#1963#0" expanded="true" />
-                <element signature="e#2014#2015#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/dao/impl/RoleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1743">
-              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/RoleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1659">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="367">
+              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/ResController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/test/sos/haruhi/shiro/service/TestRoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1281">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/test/sos/haruhi/shiro/service/TestResService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1659">
-              <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/shiro-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/res/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -279,8 +200,8 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -331,14 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/resources/spring-core.xml" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/model/User.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/test/sos/haruhi/shiro/service/TestUserService.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/pom.xml" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/realm/MyRealm.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/shiro-servlet.xml" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/dao/IUserDao.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/dao/impl/UserDao.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/filter/MyPathMatchingFilter.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/filter/MyAccessControlFilter.java" />
@@ -382,6 +295,14 @@
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/list.jsp" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/res/list.jsp" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/test/sos/haruhi/shiro/service/TestResService.java" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-spring-webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/resources/user.ini" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/AuthenticationIniTest.java" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/t.java" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/AuthenticationTest.java" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/IniRealmTest.java" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-test/pom.xml" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/JdbcReamlTest.java" />
       </list>
     </option>
   </component>
@@ -488,132 +409,53 @@
               <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
               <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-spring-webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
               <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
               <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="role" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -625,38 +467,39 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="kong&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537794531648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538141944957" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="S:/MyFramework" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44367817" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp\role" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp\user" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\resources\css\bootstrap" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="sos.haruhi.shiro.dto" />
-      <recent name="sos.haruhi.shiro.controller" />
-      <recent name="sos.haruhi.shiro.web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp" />
       <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp" />
       <recent name="S:\Venus\Shiro\shiro-first\src\main\webapp" />
       <recent name="S:\Venus\orgnization\src\main\webapp\WEB-INF" />
       <recent name="S:\Venus\orgnization\src\main\webapp\WEB-INF\jsp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sos.haruhi.shiro.dto" />
+      <recent name="sos.haruhi.shiro.controller" />
+      <recent name="sos.haruhi.shiro.web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp\role" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp\user" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\resources\css\bootstrap" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -671,30 +514,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestResService.testAdd">
-    <configuration name="UserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.shiro.service.impl.UserService" />
-      <module name="shirosimplewebapp" />
+  <component name="RunManager" selected="JUnit.JdbcReamlTest.authenticationTest">
+    <configuration name="AuthenticationTest.testAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.shiro.service.impl.*" />
+          <option name="PATTERN" value="sos.haruhi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="sos.haruhi.test" />
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.test.AuthenticationTest" />
+      <option name="METHOD_NAME" value="testAuthentication" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestResService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shirosimplewebapp" />
+    <configuration name="IniRealmTest.authentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.shiro.service.*" />
+          <option name="PATTERN" value="sos.haruhi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sos.haruhi.shiro.service" />
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.shiro.service.TestResService" />
+      <option name="PACKAGE_NAME" value="sos.haruhi.test" />
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.test.IniRealmTest" />
+      <option name="METHOD_NAME" value="authentication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcReamlTest.authenticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sos.haruhi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sos.haruhi.test" />
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.test.JdbcReamlTest" />
+      <option name="METHOD_NAME" value="authenticationTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -726,22 +590,6 @@
       <option name="PACKAGE_NAME" value="sos.haruhi.shiro.service" />
       <option name="MAIN_CLASS_NAME" value="sos.haruhi.shiro.service.TestRoleService" />
       <option name="METHOD_NAME" value="testEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUserService.testRoleUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shirosimplewebapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sos.haruhi.shiro.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sos.haruhi.shiro.service" />
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.shiro.service.TestUserService" />
-      <option name="METHOD_NAME" value="testRoleUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1631,6 +1479,443 @@
         </option>
       </method>
     </configuration>
+    <configuration name="shiro-spring-webapp" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 9.3.24.v20180605" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shirospringwebapp:war">
+          <settings DEPLOYMENT_METHOD="contexts">
+            <option name="defaultContextRoot" value="false" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="configFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\alpn.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\annotations.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\apache-jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\apache-jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\client.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\continuation.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\debug.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\debuglog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\deploy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ext.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\fcgi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\flight-recorder.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud-memcached-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud-session-idmgr.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gzip.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\hawtio.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\hazelcast-embedded-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\hazelcast-remote-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\home-base-warning.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http-forwarded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http2c.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\https.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ipaccess.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jaas.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jamon.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jaspi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jdbc-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jminix.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jmx-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jndi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jolokia.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jvm.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\lowresources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\monitor.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\nosql.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\plus.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy-protocol-ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy-protocol.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\quickstart.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\requestlog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\resources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite-compactpath.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite-customizer.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\security.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\server.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\servlet.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\servlets.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\setuid.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\spring.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\stats.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\threadlimit.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\webapp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\websocket.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+          <option name="myConfigFiles">
+            <list>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\alpn.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\annotations.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\apache-jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\apache-jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\cdi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\client.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\continuation.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\debug.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\debuglog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\deploy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ext.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\fcgi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\flight-recorder.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud-memcached-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud-session-idmgr.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gcloud-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\gzip.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\hawtio.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\hazelcast-embedded-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\hazelcast-remote-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\home-base-warning.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http-forwarded.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http2.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\http2c.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\https.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\infinispan.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ipaccess.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jaas.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jamon.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jaspi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jdbc-sessions.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jminix.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jmx-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jndi.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jolokia.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jsp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jstl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\jvm.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\logging.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\lowresources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\monitor.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\nosql.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\plus.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy-protocol-ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy-protocol.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\proxy.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\quickstart.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\requestlog.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\resources.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite-compactpath.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite-customizer.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\rewrite.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\security.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\server.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\servlet.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\servlets.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\setuid.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\spring.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\ssl.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\stats.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\threadlimit.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\webapp.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="path" value="modules\websocket.mod" />
+              </JettyConfigFile>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file id="Jetty" enabled="true" />
+      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shirospringwebapp:war" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="shiro-first" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -1683,22 +1968,23 @@
     </configuration>
     <list>
       <item itemvalue="Jetty Server.shiro-simple-webapp" />
+      <item itemvalue="Jetty Server.shiro-spring-webapp" />
       <item itemvalue="Jetty Server.orginaze" />
       <item itemvalue="Maven.shiro-simple-webapp" />
       <item itemvalue="Maven.shiro-first" />
-      <item itemvalue="Application.UserService" />
-      <item itemvalue="JUnit.TestUserService.testRoleUser" />
       <item itemvalue="JUnit.TestResService.testAdd" />
-      <item itemvalue="JUnit.TestResService" />
       <item itemvalue="JUnit.TestRoleService.testEquals" />
+      <item itemvalue="JUnit.AuthenticationTest.testAuthentication" />
+      <item itemvalue="JUnit.IniRealmTest.authentication" />
+      <item itemvalue="JUnit.JdbcReamlTest.authenticationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JdbcReamlTest.authenticationTest" />
+        <item itemvalue="JUnit.IniRealmTest.authentication" />
+        <item itemvalue="JUnit.AuthenticationTest.testAuthentication" />
         <item itemvalue="JUnit.TestResService.testAdd" />
         <item itemvalue="JUnit.TestRoleService.testEquals" />
-        <item itemvalue="Application.UserService" />
-        <item itemvalue="JUnit.TestResService" />
-        <item itemvalue="JUnit.TestUserService.testRoleUser" />
       </list>
     </recent_temporary>
   </component>
@@ -1776,6 +2062,8 @@
       <workItem from="1537690786214" duration="13863000" />
       <workItem from="1537731387225" duration="13714000" />
       <workItem from="1538048534211" duration="378000" />
+      <workItem from="1538051089995" duration="1416000" />
+      <workItem from="1538134579375" duration="5488000" />
     </task>
     <task id="LOCAL-00001" summary="greedy snake for concurrency program practice">
       <created>1532747906032</created>
@@ -2033,39 +2321,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 25m 57s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="AuthenticationIniTest_authentication - 2018.09.28 at 20h 51m 07s.xml">
+      <configuration name="AuthenticationIniTest.authentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 26m 08s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="AuthenticationIniTest_authentication - 2018.09.28 at 20h 51m 29s.xml">
+      <configuration name="AuthenticationIniTest.authentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 26m 15s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="AuthenticationIniTest_authentication - 2018.09.28 at 20h 52m 06s.xml">
+      <configuration name="AuthenticationIniTest.authentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 26m 35s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="AuthenticationIniTest_authentication - 2018.09.28 at 20h 52m 40s.xml">
+      <configuration name="AuthenticationIniTest.authentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 26m 52s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="AuthenticationIniTest_authentication - 2018.09.28 at 20h 52m 46s.xml">
+      <configuration name="AuthenticationIniTest.authentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 27m 40s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="JdbcReamlTest_authenticationTest - 2018.09.28 at 21h 01m 50s.xml">
+      <configuration name="JdbcReamlTest.authenticationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 28m 25s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="JdbcReamlTest_authenticationTest - 2018.09.28 at 21h 02m 43s.xml">
+      <configuration name="JdbcReamlTest.authenticationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 29m 59s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="JdbcReamlTest_authenticationTest - 2018.09.28 at 21h 23m 45s.xml">
+      <configuration name="JdbcReamlTest.authenticationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRoleService_testEquals - 2018.09.23 at 22h 51m 23s.xml">
-      <configuration name="TestRoleService.testEquals" configurationId="JUnit" />
+    <history-entry file="JdbcReamlTest_authenticationTest - 2018.09.28 at 21h 24m 03s.xml">
+      <configuration name="JdbcReamlTest.authenticationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestResService_testAdd - 2018.09.24 at 14h 59m 21s.xml">
-      <configuration name="TestResService.testAdd" configurationId="JUnit" />
+    <history-entry file="JdbcReamlTest_authenticationTest - 2018.09.28 at 21h 25m 52s.xml">
+      <configuration name="JdbcReamlTest.authenticationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325689000" />
+    <option name="totallyTimeSpent" value="333392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2080,7 +2368,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.22334754" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.22761194" />
       <window_info id="Structure" order="1" sideWeight="0.50628364" side_tool="true" weight="0.26705757" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2090,7 +2378,7 @@
       <window_info id="Web" order="7" sideWeight="0.50139666" side_tool="true" weight="0.2855228" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.32790446" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39522257" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.39522257" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.42996743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2102,7 +2390,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32867134" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32790446" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32867134" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32790446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2180,117 +2468,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/dao/IRoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="607" column="22" selection-start-line="607" selection-start-column="22" selection-end-line="607" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/springframework/spring-aop/4.3.11.RELEASE/spring-aop-4.3.11.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tools/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/CollectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/service/impl/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-first/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-first/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-first/src/main/webapp/user/add.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-first/src/main/webapp/user/list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-first/src/main/webapp/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-first/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/user/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/user/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/logout.jsp" />
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/user/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2330,9 +2507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2347,9 +2521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="36" selection-end-column="14" />
-          <folding>
-            <element signature="e#1437#1443#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2385,9 +2556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="30" column="67" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="67" />
-          <folding>
-            <element signature="e#1297#1303#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2459,12 +2627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1113">
           <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-          <folding>
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1776#1777#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="e#2014#2015#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2479,9 +2641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1659">
           <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2506,10 +2665,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/shiro-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="168">
+          <caret line="8" column="96" selection-start-line="7" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -2520,10 +2686,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/src/main/java/sos/haruhi/shiro/filter/ResCheckFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="441">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1365">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="259" column="45" lean-forward="true" selection-start-line="259" selection-start-column="45" selection-end-line="259" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/mgt/DefaultSecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="273" column="28" selection-start-line="273" selection-start-column="28" selection-end-line="273" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="105" column="38" lean-forward="true" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/authc/AbstractAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="197" column="29" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="179" column="50" selection-start-line="179" selection-start-column="50" selection-end-line="179" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/realm/AuthenticatingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="570" column="36" selection-start-line="570" selection-start-column="36" selection-end-line="570" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/IniRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="41" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/resources/user.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/AuthenticationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="63" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/resources/spring-core.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <element signature="e#1204#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6d2e066e-401c-464b-b8ee-31fad9340f68/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/JdbcReamlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2592,7 +2894,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>servlet</last-edited>
+          <last-edited>shirospringwebapp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

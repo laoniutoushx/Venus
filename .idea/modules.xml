@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/poi/poi.iml" filepath="$PROJECT_DIR$/poi/poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/04_shcema/shcema.iml" filepath="$PROJECT_DIR$/WebService/04_shcema/shcema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-test/shiro-test.iml" filepath="$PROJECT_DIR$/Shiro/shiro-test/shiro-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-base/shirobase.iml" filepath="$PROJECT_DIR$/Shiro/shiro-base/shirobase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-first/shirofirst.iml" filepath="$PROJECT_DIR$/Shiro/shiro-first/shirofirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/shirosimplewebapp.iml" filepath="$PROJECT_DIR$/Shiro/shiro-simple-webapp/shirosimplewebapp.iml" />
