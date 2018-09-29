@@ -21,6 +21,7 @@
         <module>shiro-simple-webapp</module>
         <module>shiro-spring-webapp</module>
         <module>shiro-test</module>
+        <module>shiro-web</module>
     </modules>
 
     <properties>

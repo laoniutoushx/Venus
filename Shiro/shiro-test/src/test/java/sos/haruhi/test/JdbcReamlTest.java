@@ -4,6 +4,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
 import org.apache.shiro.realm.text.IniRealm;
@@ -35,6 +36,13 @@ public class JdbcReamlTest {
         jdbcRealm.setDataSource(druidDataSource);
 
         defaultSecurityManager.setRealm(jdbcRealm);
+
+        // 加密方式
+        HashedCredentialsMatcher hashedCredentialsMatcher = new HashedCredentialsMatcher();
+        hashedCredentialsMatcher.setHashAlgorithmName("md5");
+        hashedCredentialsMatcher.setHashIterations(1);      // 设置加密次数
+        jdbcRealm.setCredentialsMatcher(hashedCredentialsMatcher);
+
 
         SecurityUtils.setSecurityManager(defaultSecurityManager);
 
