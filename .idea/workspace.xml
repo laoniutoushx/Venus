@@ -6,9 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="shiro-simple-webapp">
+    <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shiro_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/shiro_web_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/shiro-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/shiro-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebService/11_binary/target/" />
@@ -73,7 +79,7 @@
     <session id="-680892846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="64" />
+          <entry key="project.closed" value="65" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.20" value="2" />
@@ -81,7 +87,7 @@
           <entry key="project.open.time.22" value="5" />
           <entry key="project.open.time.23" value="3" />
           <entry key="project.open.time.24" value="9" />
-          <entry key="project.open.time.25" value="4" />
+          <entry key="project.open.time.25" value="5" />
           <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.28" value="4" />
@@ -90,7 +96,7 @@
           <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="11" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="70" />
+          <entry key="project.opened" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,18 +114,18 @@
           <entry key="html" value="5" />
           <entry key="iml" value="2" />
           <entry key="ini" value="37" />
-          <entry key="java" value="669" />
+          <entry key="java" value="672" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="84" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="16" />
+          <entry key="properties" value="17" />
           <entry key="readme" value="4" />
           <entry key="rnc" value="1" />
           <entry key="sql" value="1" />
           <entry key="ts" value="1" />
           <entry key="web" value="2" />
           <entry key="xhtml" value="2" />
-          <entry key="xml" value="209" />
+          <entry key="xml" value="216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -129,16 +135,16 @@
           <entry key="HTML" value="5" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="669" />
+          <entry key="JAVA" value="672" />
           <entry key="JSP" value="84" />
           <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Properties" value="16" />
+          <entry key="Properties" value="17" />
           <entry key="RNG Compact" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="UML" value="11" />
           <entry key="XHTML" value="2" />
-          <entry key="XML" value="210" />
+          <entry key="XML" value="217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -149,12 +155,12 @@
           <entry key="ft" value="127" />
           <entry key="html" value="628" />
           <entry key="ini" value="2538" />
-          <entry key="java" value="44898" />
+          <entry key="java" value="46085" />
           <entry key="jsp" value="1684" />
           <entry key="properties" value="87" />
           <entry key="readme" value="19" />
-          <entry key="txt" value="316" />
-          <entry key="xml" value="2319" />
+          <entry key="txt" value="334" />
+          <entry key="xml" value="2638" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -162,24 +168,24 @@
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="55" />
           <entry key="HTML" value="628" />
-          <entry key="JAVA" value="44898" />
+          <entry key="JAVA" value="46085" />
           <entry key="JSP" value="1684" />
-          <entry key="PLAIN_TEXT" value="2950" />
+          <entry key="PLAIN_TEXT" value="2968" />
           <entry key="Pointcut Expression" value="2" />
           <entry key="Properties" value="87" />
           <entry key="VTL" value="127" />
-          <entry key="XML" value="2317" />
+          <entry key="XML" value="2636" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1155">
-              <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -187,8 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="147">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -196,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="101">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,8 +214,65 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="307">
+              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#1757#1758#0" expanded="true" />
+                <element signature="e#1919#1920#0" expanded="true" />
+                <element signature="e#1960#1961#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="77" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/dao/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/dao/impl/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="766">
+              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,7 +284,7 @@
         <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -236,11 +299,11 @@
         <option value="Interface" />
         <option value="CSS File" />
         <option value="Jsp File" />
-        <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="web" />
         <option value="web.xml" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -268,6 +331,7 @@
       <find>private</find>
       <find>角色</find>
       <find>shiroFilter</find>
+      <find>aspectj</find>
     </findStrings>
     <replaceStrings>
       <replace>尚皓玺</replace>
@@ -292,10 +356,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/service/IUserService.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/dao/IRoleDao.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/service/impl/UserService.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/test/sos/haruhi/shiro/service/TestRoleService.java" />
@@ -333,15 +393,19 @@
         <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/JdbcReamlTest.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/CustomRealmTest.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/shiro/CustomRealm.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-web/pom.xml" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/vo/User.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring-core.xml" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/dao/impl/UserDao.java" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java" />
       </list>
     </option>
@@ -397,8 +461,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -410,6 +475,12 @@
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
               <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-simple-webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
@@ -471,6 +542,29 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Venus" type="462c0819:PsiDirectoryNode" />
+              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
               <item name="realm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -515,7 +609,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,7 +617,7 @@
     <property name="SearchEverywhereHistoryKey" value="kong&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539006887100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539093841286" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="S:/MyFramework" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -2570,7 +2663,8 @@
       <workItem from="1538134579375" duration="5488000" />
       <workItem from="1538223791263" duration="6053000" />
       <workItem from="1538230360437" duration="8000" />
-      <workItem from="1538998901438" duration="6521000" />
+      <workItem from="1538998901438" duration="7193000" />
+      <workItem from="1539090491518" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="greedy snake for concurrency program practice">
       <created>1532747906032</created>
@@ -2831,7 +2925,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538230267677</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="shiro-spring-imooc">
+      <created>1539006914479</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1539006914479</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2867,7 +2968,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345974000" />
+    <option name="totallyTimeSpent" value="349967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2882,7 +2983,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.23560767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.23827292" />
       <window_info id="Structure" order="1" sideWeight="0.50628364" side_tool="true" weight="0.26705757" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2893,7 +2994,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.32790446" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39522257" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.42996743" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.42996743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
@@ -2965,7 +3066,8 @@
     <MESSAGE value="shiro-authorization" />
     <MESSAGE value="shiro-project" />
     <MESSAGE value="shiro-simple-webapp" />
-    <option name="LAST_COMMIT_MESSAGE" value="shiro-simple-webapp" />
+    <MESSAGE value="shiro-spring-imooc" />
+    <option name="LAST_COMMIT_MESSAGE" value="shiro-spring-imooc" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -2982,42 +3084,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/dto/ResDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="76" column="29" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/service/IRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/list.jsp" />
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/role/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/service/impl/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1113">
@@ -3158,13 +3224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -3218,13 +3277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/CustomRealmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -3263,20 +3315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -3294,40 +3332,122 @@
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
-          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="63" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/src/main/resources/spring-core.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/dao/impl/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="147">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java">
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/dao/impl/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="766">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="77" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1919#1920#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
           </folding>
         </state>
       </provider>

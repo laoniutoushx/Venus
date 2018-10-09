@@ -10,11 +10,11 @@ import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
+import sos.haruhi.shiro.dao.IUserDao;
+import sos.haruhi.shiro.vo.User;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import javax.annotation.Resource;
+import java.util.*;
 
 /**
  * @ClassName CustomRealm
@@ -25,10 +25,8 @@ import java.util.Set;
  **/
 public class CustomRealm extends AuthorizingRealm {
 
-    Map<String, String> userMap = new HashMap<>();
-    {
-        userMap.put("admin", "efd9d1b8bfb00e8e3647990f7d74d1d8");   // 111111 / admin
-    }
+    @Resource
+    private IUserDao userDao;
 
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
@@ -49,6 +47,8 @@ public class CustomRealm extends AuthorizingRealm {
     }
 
     private Set<String> getPermissionsByUsername(String username) {
+        User user = userDao.getUserByUsername(username);
+
         Set<String> permissions = new HashSet<>();
         permissions.add("user:add");
         permissions.add("user:list");
@@ -56,10 +56,8 @@ public class CustomRealm extends AuthorizingRealm {
     }
 
     private Set<String> getRolesByUsername(String username) {
-        Set<String> roles = new HashSet<>();
-        roles.add("admin");
-        roles.add("custom");
-        return roles;
+        List<String> list = userDao.listRolesByUsername(username);
+        return new HashSet<>(list);
     }
 
     @Override
@@ -81,7 +79,11 @@ public class CustomRealm extends AuthorizingRealm {
     }
 
     private String getPasswordByUsername(String username){
-        return userMap.get(username);
+        User user = userDao.getUserByUsername(username);
+        if(user != null){
+            return user.getPassword();
+        }
+        return null;
     }
 
     public static void main(String[] args) {
