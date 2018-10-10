@@ -2,9 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
     <import resource="spring-dao.xml" />
+    <import resource="spring-redis.xml" />
     <context:component-scan base-package="sos.haruhi.shiro" />
 
     <!-- 配置 Shiro 的 Web 过滤器 -->
@@ -19,6 +21,15 @@
                 /login.html = anon
                 /subLogin = anon
                 /logout = logout
+
+                /testRole1 = rolesOr["ADMIN", "ADMIN1"]
+                /testRole = roles["ADMIN", "ADMIN1"]
+
+                <!--/testRole = roles["ADMIN"]
+                /testRole1 = roles["ADMIN", "ADMIN1"]
+                /testPerms = perms["user:add"]
+                /testPerms1 = perms["user:delete", "user:add"]-->
+
                 <!--
                     设置所有的URL都必须要认证过后才可以登录
                     *：用于匹配零个或多个字符串
@@ -27,12 +38,20 @@
                 /** = authc
             </value>
         </property>
-
+        <property name="filters">
+            <util:map>
+                <entry key="rolesOr" value-ref="rolesOrFilter" />
+            </util:map>
+        </property>
     </bean>
+
+    <!--自定义 filter-->
+    <bean class="sos.haruhi.shiro.filter.RolesOrFilter" id="rolesOrFilter" />
 
     <!-- 创建 DefaultWebSecurityManager 对象-->
     <bean class="org.apache.shiro.web.mgt.DefaultWebSecurityManager" id="securityManager">
         <property name="realm" ref="realm" />
+        <property name="sessionManager" ref="sessionManager" />
     </bean>
 
     <!-- 配置自定义 Realm -->
@@ -45,4 +64,10 @@
         <property name="hashAlgorithmName" value="md5" />
         <property name="hashIterations" value="1" />
     </bean>
+
+    <bean class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager" id="sessionManager">
+        <property name="sessionDAO" ref="redisSessionDao" />
+    </bean>
+
+    <bean class="sos.haruhi.shiro.session.RedisSessionDao" id="redisSessionDao" />
 </beans>

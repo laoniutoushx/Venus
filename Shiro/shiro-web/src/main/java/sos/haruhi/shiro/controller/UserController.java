@@ -45,18 +45,18 @@ public class UserController {
         return "登陆成功";
     }
 
-    @RequiresRoles("ADMIN")
+//    @RequiresRoles("ADMIN")
     @RequestMapping(value = "/testRole", method = RequestMethod.GET)
     @ResponseBody
     public String testRole(){
         return "teatRole_success";
     }
 
-    @RequiresRoles("ADMIN1")
+//    @RequiresRoles("ADMIN1")
     @RequestMapping(value = "/testRole1", method = RequestMethod.GET)
     @ResponseBody
     public String testRole1(){
-        return "teatRole_success";
+        return "teatRole1_success";
     }
 
     @RequiresPermissions("xxx")
@@ -64,6 +64,20 @@ public class UserController {
     @ResponseBody
     public String testPermission(){
         return "testPermission_success";
+    }
+
+
+
+    @RequestMapping(value = "/testPerms", method = RequestMethod.GET)
+    @ResponseBody
+    public String testPerms(){
+        return "teatRole_success";
+    }
+
+    @RequestMapping(value = "/testPerms1", method = RequestMethod.GET)
+    @ResponseBody
+    public String testPerms1(){
+        return "testPerms1_success";
     }
 
 
