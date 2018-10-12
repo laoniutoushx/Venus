@@ -8,13 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="27a465e0-6fbf-4acb-8d48-8091974abaaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/realm/CustomRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/session/RedisSessionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/session/RedisSessionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/vo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/vo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsourcetest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springsourcetest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsourcetest/src/main/resources/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springsourcetest/src/main/resources/spring-context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebService/11_binary/target/" />
@@ -79,7 +75,7 @@
     <session id="-680892846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="67" />
+          <entry key="project.closed" value="68" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.20" value="3" />
@@ -89,14 +85,14 @@
           <entry key="project.open.time.24" value="9" />
           <entry key="project.open.time.25" value="5" />
           <entry key="project.open.time.26" value="5" />
-          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="4" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="11" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="73" />
+          <entry key="project.opened" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,7 +110,7 @@
           <entry key="html" value="6" />
           <entry key="iml" value="2" />
           <entry key="ini" value="37" />
-          <entry key="java" value="702" />
+          <entry key="java" value="707" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="84" />
           <entry key="pom" value="1" />
@@ -125,7 +121,7 @@
           <entry key="ts" value="1" />
           <entry key="web" value="2" />
           <entry key="xhtml" value="2" />
-          <entry key="xml" value="224" />
+          <entry key="xml" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -135,7 +131,7 @@
           <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="702" />
+          <entry key="JAVA" value="707" />
           <entry key="JSP" value="84" />
           <entry key="PLAIN_TEXT" value="41" />
           <entry key="Properties" value="17" />
@@ -144,7 +140,7 @@
           <entry key="TypeScript" value="1" />
           <entry key="UML" value="11" />
           <entry key="XHTML" value="2" />
-          <entry key="XML" value="225" />
+          <entry key="XML" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -160,7 +156,7 @@
           <entry key="properties" value="87" />
           <entry key="readme" value="19" />
           <entry key="txt" value="334" />
-          <entry key="xml" value="3449" />
+          <entry key="xml" value="3452" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -174,66 +170,13 @@
           <entry key="Pointcut Expression" value="2" />
           <entry key="Properties" value="87" />
           <entry key="VTL" value="127" />
-          <entry key="XML" value="3447" />
+          <entry key="XML" value="3450" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/vo/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-              <folding>
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -300,8 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/user/update.jsp" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/user/add.jsp" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/user/list.jsp" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/logout.jsp" />
@@ -351,6 +292,8 @@
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/webapp/login.html" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/vo/User.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springsourcetest/pom.xml" />
+        <option value="$PROJECT_DIR$/springsourcetest/src/main/resources/spring-context.xml" />
       </list>
     </option>
   </component>
@@ -405,7 +348,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -416,34 +360,25 @@
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -451,85 +386,36 @@
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="i" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="realm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -537,18 +423,7 @@
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -556,8 +431,7 @@
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="springsourcetest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -567,8 +441,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -577,7 +450,7 @@
     <property name="SearchEverywhereHistoryKey" value="kong&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539267257313" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539358261648" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="S:/MyFramework" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -587,12 +460,12 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp\role" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp\user" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\resources\css\bootstrap" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\Venus\Shiro\shiro-web\src\main\resources\spring" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp" />
+      <recent name="S:\Venus\Shiro\shiro-first\src\main\webapp" />
+      <recent name="S:\Venus\orgnization\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sos.haruhi.shiro.realm" />
@@ -600,12 +473,12 @@
       <recent name="sos.haruhi.shiro.controller" />
       <recent name="sos.haruhi.shiro.web" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="S:\Venus\Shiro\shiro-web\src\main\resources\spring" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp" />
-      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp" />
-      <recent name="S:\Venus\Shiro\shiro-first\src\main\webapp" />
-      <recent name="S:\Venus\orgnization\src\main\webapp\WEB-INF" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp\role" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF\jsp\user" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\resources\css\bootstrap" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\webapp\WEB-INF" />
+      <recent name="S:\Venus\Shiro\shiro-simple-webapp\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2626,7 +2499,8 @@
       <workItem from="1538998901438" duration="7193000" />
       <workItem from="1539090491518" duration="3403000" />
       <workItem from="1539174212855" duration="4546000" />
-      <workItem from="1539259491821" duration="6488000" />
+      <workItem from="1539259491821" duration="6900000" />
+      <workItem from="1539355933474" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="greedy snake for concurrency program practice">
       <created>1532747906032</created>
@@ -2908,7 +2782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539178751584</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="shiro-spring-imooc">
+      <created>1539267312358</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1539267312359</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2944,7 +2825,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361083000" />
+    <option name="totallyTimeSpent" value="362460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2957,9 +2838,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.24360341" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.24626866" />
       <window_info id="Structure" order="1" sideWeight="0.50628364" side_tool="true" weight="0.26705757" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2970,7 +2850,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.32790446" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39522257" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.42996743" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.42996743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
@@ -3060,45 +2940,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6d2e066e-401c-464b-b8ee-31fad9340f68/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/shiro/CustomRealm.java" />
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/JdbcReamlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/IniRealmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/PrincipalCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/shiro/CustomRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-746">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-test/src/test/java/sos/haruhi/test/CustomRealmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -3396,8 +3237,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/spring-core.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        <state relative-caret-position="1050">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/vo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3408,33 +3261,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/vo/User.java">
+    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="410">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/springsourcetest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsourcetest/src/main/java/sos/haruhi/i/IHaruhi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsourcetest/src/main/java/sos/haruhi/i/IPeople.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsourcetest/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsourcetest/src/main/java/sos/haruhi/test/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsourcetest/src/main/java/sos/haruhi/test/BeginAgain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet/src/main/java/sos/haruhi/servlet/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
