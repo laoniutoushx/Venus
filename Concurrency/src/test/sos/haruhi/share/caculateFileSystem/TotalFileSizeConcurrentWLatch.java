@@ -52,7 +52,7 @@ public class TotalFileSizeConcurrentWLatch {
 
         try {
             updateTotalSizeOfFilesInDir(new File(fileName));
-            latch.await(100, TimeUnit.SECONDS);     // 挂起当前主线程，直到 latch = 0
+            latch.await(10, TimeUnit.SECONDS);     // 挂起当前主线程，直到 latch = 0
             return totalSize.longValue();
         } finally {
             service.shutdown();

@@ -52,8 +52,7 @@ public class TotalFileSizeConcurrentFutureTask {
             final List<File> directories = new ArrayList<>();
             directories.add(file);
             while(!directories.isEmpty()){
-                final List<Future<SubDirectoriesAndSize>> partialResults =
-                        new ArrayList<>();
+                final List<Future<SubDirectoriesAndSize>> partialResults = new ArrayList<>();
                 for(final File directory:directories){
                     partialResults.add(
                             service.submit(new Callable<SubDirectoriesAndSize>() {
