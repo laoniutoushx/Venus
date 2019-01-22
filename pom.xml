@@ -32,6 +32,7 @@
         <module>orgnization</module>
         <module>persistent_module</module>
         <module>Shiro</module>
+        <module>understandJVM</module>
     </modules>
 
     <dependencies>

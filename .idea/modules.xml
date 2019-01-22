@@ -36,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/shirospringwebapp.iml" filepath="$PROJECT_DIR$/Shiro/shiro-spring-webapp/shirospringwebapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springsourcetest/springsourcetest.iml" filepath="$PROJECT_DIR$/springsourcetest/springsourcetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/tankWar/tankWar.iml" filepath="$PROJECT_DIR$/tankWar/tankWar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/understandJVM/understandJVM.iml" filepath="$PROJECT_DIR$/understandJVM/understandJVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/02_ws/ws_i.iml" filepath="$PROJECT_DIR$/WebService/02_ws/ws_i.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/01_ws/ws_ii.iml" filepath="$PROJECT_DIR$/WebService/01_ws/ws_ii.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/03_xml/xml.iml" filepath="$PROJECT_DIR$/WebService/03_xml/xml.iml" />

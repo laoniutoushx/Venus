@@ -79,6 +79,7 @@
     <ignored path="$PROJECT_DIR$/Shiro/shiro-spring-webapp/target/" />
     <ignored path="$PROJECT_DIR$/Shiro/shiro-test/target/" />
     <ignored path="$PROJECT_DIR$/Shiro/shiro-web/target/" />
+    <ignored path="$PROJECT_DIR$/understandJVM/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +104,8 @@
     <session id="-680892846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="71" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="73" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.20" value="3" />
@@ -118,10 +119,10 @@
           <entry key="project.open.time.28" value="4" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="7" />
-          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.6" value="9" />
           <entry key="project.open.time.7" value="11" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="77" />
+          <entry key="project.opened" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -139,7 +140,7 @@
           <entry key="html" value="6" />
           <entry key="iml" value="2" />
           <entry key="ini" value="37" />
-          <entry key="java" value="724" />
+          <entry key="java" value="730" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="84" />
           <entry key="pom" value="1" />
@@ -150,7 +151,7 @@
           <entry key="ts" value="1" />
           <entry key="web" value="2" />
           <entry key="xhtml" value="2" />
-          <entry key="xml" value="226" />
+          <entry key="xml" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -160,7 +161,7 @@
           <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="724" />
+          <entry key="JAVA" value="730" />
           <entry key="JSP" value="84" />
           <entry key="PLAIN_TEXT" value="41" />
           <entry key="Properties" value="17" />
@@ -169,7 +170,7 @@
           <entry key="TypeScript" value="1" />
           <entry key="UML" value="11" />
           <entry key="XHTML" value="2" />
-          <entry key="XML" value="227" />
+          <entry key="XML" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -180,12 +181,12 @@
           <entry key="ft" value="127" />
           <entry key="html" value="668" />
           <entry key="ini" value="2538" />
-          <entry key="java" value="49475" />
+          <entry key="java" value="50540" />
           <entry key="jsp" value="1684" />
           <entry key="properties" value="87" />
           <entry key="readme" value="19" />
           <entry key="txt" value="353" />
-          <entry key="xml" value="3452" />
+          <entry key="xml" value="3463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -193,13 +194,13 @@
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="55" />
           <entry key="HTML" value="668" />
-          <entry key="JAVA" value="49475" />
+          <entry key="JAVA" value="50540" />
           <entry key="JSP" value="1684" />
           <entry key="PLAIN_TEXT" value="2987" />
           <entry key="Pointcut Expression" value="2" />
           <entry key="Properties" value="87" />
           <entry key="VTL" value="127" />
-          <entry key="XML" value="3450" />
+          <entry key="XML" value="3461" />
         </counts>
       </usages-collector>
     </session>
@@ -207,19 +208,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/TotalFileSizeConcurrentFutureTask.java">
+        <entry file="file://$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/JavaMethodAreaOOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="38" column="57" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="38" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/MyFileSizeCaculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+            <state relative-caret-position="435">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,11 +219,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/TotalFileSizeConcurrentWLatch.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/DirectMemory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="286">
+              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -303,15 +298,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/common.jsp" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/role/add.jsp" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/model/Res.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/dto/ResDto.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/role/list.jsp" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/role/update.jsp" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/dao/impl/RoleDao.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/RoleController.java" />
-        <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/java/sos/haruhi/shiro/controller/ResController.java" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/list.jsp" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/webapp/WEB-INF/jsp/res/list.jsp" />
         <option value="$PROJECT_DIR$/Shiro/shiro-simple-webapp/src/main/test/sos/haruhi/shiro/service/TestResService.java" />
@@ -354,6 +340,15 @@
         <option value="$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/TotalFileSizeConcurrentWLatch.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/TotalFileSizeConcurrentForkJoin.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/MyFileSizeCaculator.java" />
+        <option value="$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/outofMemoryError/OutOfMemoryError.java" />
+        <option value="$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/outofMemoryError/HeapOOM.java" />
+        <option value="$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/HeapOOM.java" />
+        <option value="$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/JavaVMStackSOF.java" />
+        <option value="$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/JavaVMStackOOF.java" />
+        <option value="$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/RuntimeConstantPoolOOM.java" />
+        <option value="$PROJECT_DIR$/understandJVM/pom.xml" />
+        <option value="$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/JavaMethodAreaOOM.java" />
+        <option value="$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/DirectMemory.java" />
       </list>
     </option>
   </component>
@@ -366,9 +361,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="S:\apache-maven-3.5.2\responsity" />
-        <option name="mavenHome" value="S:/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="S:\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="localRepository" value="S:\apache-maven-3.6.0\responsity" />
+        <option name="mavenHome" value="S:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="S:\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -408,8 +403,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,53 +416,42 @@
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="understandJVM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="understandJVM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="understandJVM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="understandJVM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="understandJVM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Venus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Venus" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="haruhi" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-              <item name="caculateFileSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,11 +460,11 @@
     <property name="SearchEverywhereHistoryKey" value="kong&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540218286665" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548166325048" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44367817" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -518,13 +503,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyFileSizeCaculator">
-    <configuration name="MyFileSizeCaculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.share.caculateFileSystem.MyFileSizeCaculator" />
-      <module name="Venus" />
+  <component name="RunManager" selected="Application.DirectMemory">
+    <configuration name="DirectMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.oom.DirectMemory" />
+      <module name="understandJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.share.caculateFileSystem.*" />
+          <option name="PATTERN" value="sos.haruhi.oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -532,12 +517,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalFileSizeConcurrentForkJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.share.caculateFileSystem.TotalFileSizeConcurrentForkJoin" />
-      <module name="Venus" />
+    <configuration name="HeapOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.oom.HeapOOM" />
+      <module name="understandJVM" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.share.caculateFileSystem.*" />
+          <option name="PATTERN" value="sos.haruhi.oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -545,12 +531,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalFileSizeConcurrentFutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.share.caculateFileSystem.TotalFileSizeConcurrentFutureTask" />
-      <module name="Venus" />
+    <configuration name="JavaMethodAreaOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.oom.JavaMethodAreaOOM" />
+      <module name="understandJVM" />
+      <option name="VM_PARAMETERS" value="-XX:PermSize=10M -XX:MaxPermSize=10M" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.share.caculateFileSystem.*" />
+          <option name="PATTERN" value="sos.haruhi.oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -558,12 +545,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalFileSizeConcurrentWLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.share.caculateFileSystem.TotalFileSizeConcurrentWLatch" />
-      <module name="Venus" />
+    <configuration name="JavaVMStackOOF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.oom.JavaVMStackOOF" />
+      <module name="understandJVM" />
+      <option name="VM_PARAMETERS" value="-Xss1k" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.share.caculateFileSystem.*" />
+          <option name="PATTERN" value="sos.haruhi.oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -571,12 +559,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalFileSizeConcurrentWQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sos.haruhi.share.caculateFileSystem.TotalFileSizeConcurrentWQueue" />
-      <module name="Venus" />
+    <configuration name="RuntimeConstantPoolOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sos.haruhi.oom.RuntimeConstantPoolOOM" />
+      <module name="understandJVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sos.haruhi.share.caculateFileSystem.*" />
+          <option name="PATTERN" value="sos.haruhi.oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2415,19 +2403,19 @@
       <item itemvalue="Jetty Server.orginaze" />
       <item itemvalue="Maven.shiro-simple-webapp" />
       <item itemvalue="Maven.shiro-first" />
-      <item itemvalue="Application.TotalFileSizeConcurrentFutureTask" />
-      <item itemvalue="Application.TotalFileSizeConcurrentWLatch" />
-      <item itemvalue="Application.TotalFileSizeConcurrentWQueue" />
-      <item itemvalue="Application.TotalFileSizeConcurrentForkJoin" />
-      <item itemvalue="Application.MyFileSizeCaculator" />
+      <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.JavaVMStackOOF" />
+      <item itemvalue="Application.RuntimeConstantPoolOOM" />
+      <item itemvalue="Application.JavaMethodAreaOOM" />
+      <item itemvalue="Application.DirectMemory" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFileSizeCaculator" />
-        <item itemvalue="Application.TotalFileSizeConcurrentFutureTask" />
-        <item itemvalue="Application.TotalFileSizeConcurrentForkJoin" />
-        <item itemvalue="Application.TotalFileSizeConcurrentWQueue" />
-        <item itemvalue="Application.TotalFileSizeConcurrentWLatch" />
+        <item itemvalue="Application.DirectMemory" />
+        <item itemvalue="Application.JavaMethodAreaOOM" />
+        <item itemvalue="Application.RuntimeConstantPoolOOM" />
+        <item itemvalue="Application.JavaVMStackOOF" />
+        <item itemvalue="Application.HeapOOM" />
       </list>
     </recent_temporary>
   </component>
@@ -2517,6 +2505,8 @@
       <workItem from="1539398892244" duration="65000" />
       <workItem from="1540008229039" duration="1874000" />
       <workItem from="1540211318457" duration="6756000" />
+      <workItem from="1548160140978" duration="3279000" />
+      <workItem from="1548163626669" duration="2737000" />
     </task>
     <task id="LOCAL-00001" summary="greedy snake for concurrency program practice">
       <created>1532747906032</created>
@@ -2848,7 +2838,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371237000" />
+    <option name="totallyTimeSpent" value="377253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2860,10 +2850,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" weight="0.25426438" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.25737265" />
       <window_info id="Structure" order="1" sideWeight="0.50628364" side_tool="true" weight="0.26705757" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2873,7 +2862,7 @@
       <window_info id="Web" order="7" sideWeight="0.50139666" side_tool="true" weight="0.2855228" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.32790446" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39522257" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3944056" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.42996743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2881,7 +2870,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32867134" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.42888165" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32790446" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32587412" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32867134" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3275488" />
@@ -2965,76 +2954,9 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-simple-webapp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/dao/impl/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="369" selection-start-line="369" selection-end-line="369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="388" selection-start-line="388" selection-end-line="388" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/support/SubjectCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/servlet/AdviceFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="152" column="67" selection-start-line="152" selection-start-column="67" selection-end-line="152" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/PathMatchingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.java" />
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/PathMatchingFilter.java" />
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java" />
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-spring-webapp/src/main/java/sos/haruhi/shiro/filter/MyPathMatchingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -3084,41 +3006,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/session/mgt/DefaultWebSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/session/mgt/eis/SessionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="235" column="34" lean-forward="true" selection-start-line="235" selection-start-column="34" selection-end-line="235" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/session/mgt/eis/AbstractSessionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="166" column="19" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/session/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/session/mgt/DefaultWebSessionManager.java" />
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/session/mgt/eis/SessionDAO.java" />
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.java" />
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/session/mgt/eis/AbstractSessionDAO.java" />
+    <entry file="jar://S:/apache-maven-3.5.2/responsity/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/session/Session.java" />
     <entry file="file://$PROJECT_DIR$/Shiro/shiro-web/src/main/java/sos/haruhi/shiro/session/RedisSessionDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -3294,13 +3186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/TotalFileSizeConcurrentWLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://G:/tools/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -3310,15 +3195,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/TotalFileSizeConcurrentFutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" column="57" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="38" selection-end-column="57" />
+        <state relative-caret-position="748">
+          <caret line="38" column="57" selection-start-line="26" selection-start-column="8" selection-end-line="38" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/TotalFileSizeConcurrentWLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrency/src/test/sos/haruhi/share/caculateFileSystem/MyFileSizeCaculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        <state relative-caret-position="396">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/HeapOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/JavaVMStackSOF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/JavaVMStackOOF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understandJVM/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/RuntimeConstantPoolOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/JavaMethodAreaOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/understandJVM/src/main/java/sos/haruhi/oom/DirectMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3390,7 +3337,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>shiro-web</last-edited>
+          <last-edited>xml</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -3403,7 +3350,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: org.apache.commons:commons-lang3:3.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

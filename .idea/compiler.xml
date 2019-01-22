@@ -37,6 +37,7 @@
         <module name="shirospringwebapp" />
         <module name="springsourcetest" />
         <module name="tankWar" />
+        <module name="understandJVM" />
         <module name="ws_i" />
         <module name="ws_ii" />
         <module name="xml" />
@@ -68,6 +69,7 @@
       <module name="shirospringwebapp" target="8" />
       <module name="springsourcetest" target="8" />
       <module name="tankWar" target="8" />
+      <module name="understandJVM" target="8" />
       <module name="Venus" target="8" />
       <module name="ws_i" target="8" />
       <module name="ws_ii" target="8" />
